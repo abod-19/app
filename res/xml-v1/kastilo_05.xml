@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.800005%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="ﺑــاﺂݪــﻋــࢪﺑــي : اﺣَﺣَـﺑـِڪك⁽⇣ِ̀🥺💗🔐،!)''۽" android:keyLabel="عربي" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪاﺂﻧـﺟـݪـﯾـزي :اﺂﯾــي ݪـو٘ꪆف ﯾـو٘ꪆ⁽⇣̀🙊🤤💞،!)''۽" android:keyLabel="انجليزي" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪـﻓـࢪﻧـﺳـي : ﺟـﺟــي ﺗـﯾﯾـ۾⁽⇣̀🧸💜‘💜🔗،!)''۽" android:keyLabel="فرنسي" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪـﺗـࢪڪـي : ﺳﺳـﯾـﻧـي ﺳﺳـﯾـﻓـﯾـو٘ࢪ۾⁽⇣̀😻َِ❤َِ🔐،!)''۽" android:keyLabel="التركي" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪـهـهـﻧـدي : ﻣـي ﺗـو٘ﻣـﺳس ﺑـﯾـاﺂࢪ ڪـاﺂࢪﺗـاﺂ هـهـو٘ꪆ⁽⇣̀💞😞،!)''۽" android:keyLabel="الهندي" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪاﺂݪـﻣـاﺂﻧـي : اﺂﯾـﺷش ݪـﯾـبـي دﯾـﺷش⁽⇣َِ̀🥺💗🔐،!)''۽" android:keyLabel="الماني" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪاﺂﺳـﺑـاﺂﻧـي : ﺗــي ڪـﯾـࢪو٘ꪆ⁽⇣̀👻💛‘🌸.!)''۽" android:keyLabel="اسباني" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪاﺂﯾـﻃـاﺂݪـي : ﺗــي اﺂﻣـو٘ꪆ⁽⇣̀🐇💞🥢.!)''۽" android:keyLabel="ايطالي" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪاﺂو٘ردو٘ : ﻣـو٘ﺟـﯾـهـهـۂ ﺗـو٘ﻣـﺳـس ﻣـو٘ꪆهـهـاﺂب هــي⁽⇣̀💛🌱.!)''۽" android:keyLabel="اوردو" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪـڪـࢪدي : ﺷﺷـﺗـﺣَﺣَـزدڪـﻣـ۾⁽⇣̀🧸💛🥢.!)''۽" android:keyLabel="الكردي" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآـآݪْعـ؏ـدني :آـآححببڪ مـۧـملݪآـآنن؍.َِ🤤 َِ♥ َِ😻ۥَِ،!" android:keyLabel="عدني" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪصصننْعـ؏ـآـآنني :آـآح͡حبٰـۦـڪك قوꪆي قوꪆي⁽⇣̀😍َِ💗َِ💋،!)  ۽" android:keyLabel="صنعاني" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآلݪتْعـ؏ོـزي :إاِٰ٘حِ٘ــبِ٘كِ٘ڪِٰ ڪكثيرࢪ ڪكثيرࢪ🤤 ٍْ💞ٌٍ🐱 ٍْ﴾ۗ.۽" android:keyLabel="تعزي" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآـآݪجزائري : حبـۦٕـۦـڪك ههلݪــۦٕـببآـآﻟ!⁽ؔؔ َِ🙊♥💫 ِؔؔ!٘₎!ﭑ۽" android:keyLabel="جزائري" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآـآݪمـۧغرࢪبۗبي : آـآححببڪك ببزآـآفﻟ!⁽ؔؔ َِ🙊🧡💫 ِؔؔ!٘₎!ﭑ۽" android:keyLabel="مغربي" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآـآݪتوꪆننسي : ااحببڪك ببرࢪشـآـآ ببرࢪشـآـآﻟ!⁽ؔؔ َِ🤤💗 ِؔؔ!٘₎!ﭑ۽" android:keyLabel="تونسي" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآـآݪسؔسؔوꪆري٘ : ببححببڪك ڪكتيرࢪ⁽⇣̀😍َِ🤤❤،!)''۽" android:keyLabel="سوري" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآآـآݪخـݪي٘ـجٰي٘ : آــآححببڪك وꪇآــآيدﻟ!⁽ؔؔ َِ🙈♥✨ ِؔؔ!٘₎!ﭑ۽" android:keyLabel="خليجي" />
+        <Key android:codes="50" android:keyOutputText="بٰآـآݪآـآݪمـۭمص͜صري٘ :ببححببڪك آـآوꪆي ااوꪆي⁽⇣̀😻َِ❤َِ🔐،!)''۽" android:keyLabel="مصري" />
+        <Key android:codes="50" android:keyOutputText="ﺑـاﺂݪـﻋـࢪاﺂﻗـي : آــآححببڪك آــآۿوꪇآــآي🤤♥‘💋،!)''۽" android:keyLabel="عراقي" />
+    </Row>
+</Keyboard>

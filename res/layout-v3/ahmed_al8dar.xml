@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:ahmed_al8dar="http://schemas.android.com/apk/res/android">
+    <item ahmed_al8dar:state_pressed="true">
+        <shape>
+            <gradient ahmed_al8dar:startColor="#ffd81b60" ahmed_al8dar:endColor="#ffd81b60" ahmed_al8dar:angle="270.0" />
+            <stroke ahmed_al8dar:width="0.0dip" ahmed_al8dar:color="#ffffff00" />
+            <corners ahmed_al8dar:radius="12.0dip" />
+            <padding ahmed_al8dar:left="10.0dip" ahmed_al8dar:top="4.0dip" ahmed_al8dar:right="10.0dip" ahmed_al8dar:bottom="4.0dip" />
+        </shape>
+    </item>
+    <item ahmed_al8dar:state_focused="true">
+        <shape>
+            <gradient ahmed_al8dar:startColor="#ffd81b60" ahmed_al8dar:endColor="#ffd81b60" ahmed_al8dar:angle="270.0" />
+            <stroke ahmed_al8dar:width="0.0dip" ahmed_al8dar:color="#ffffff00" />
+            <corners ahmed_al8dar:radius="12.0dip" />
+            <padding ahmed_al8dar:left="10.0dip" ahmed_al8dar:top="4.0dip" ahmed_al8dar:right="10.0dip" ahmed_al8dar:bottom="4.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient ahmed_al8dar:startColor="#ff424242" ahmed_al8dar:endColor="#ff000000" ahmed_al8dar:angle="270.0" />
+            <stroke ahmed_al8dar:width="0.0dip" ahmed_al8dar:color="#ffffffff" />
+            <corners ahmed_al8dar:radius="15.0dip" />
+            <padding ahmed_al8dar:left="10.0dip" ahmed_al8dar:top="4.0dip" ahmed_al8dar:right="10.0dip" ahmed_al8dar:bottom="4.0dip" />
+        </shape>
+    </item>
+</selector>

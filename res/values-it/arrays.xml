@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prediction_modes">
+        <item>Nessuno</item>
+        <item>Base</item>
+        <item>Avanzata</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>Sulla tastiera principale</item>
+        <item>Sulla tastiera simboli</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>Mic su tastiera principale</item>
+        <item>Mic su tastiera simboli</item>
+        <item>"L'input vocale è disattivato"</item>
+    </string-array>
+    <string-array name="settings_key_modes_values">
+        <item>@string/settings_key_mode_auto</item>
+        <item>@string/settings_key_mode_always_show</item>
+        <item>@string/settings_key_mode_always_hide</item>
+    </string-array>
+    <string-array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </string-array>
+    <string-array name="keyboard_hint_font_color_summary">
+        <item>Nero</item>
+        <item>Bianco</item>
+    </string-array>
+    <string-array name="gesture_options_modes">
+        <item>@string/g_do_nothing</item>
+        <item>@string/g_delete_last_word</item>
+        <item>@string/g_launch_settings</item>
+        <item>@string/g_close_keyboard</item>
+        <item>@string/g_paste_from_clipboard</item>
+        <item>@string/g_pickup_suggestion</item>
+        <item>@string/g_next_Language</item>
+        <item>@string/g_previous_language</item>
+        <item>@string/g_arrow_right</item>
+        <item>@string/g_arrow_left</item>
+        <item>@string/g_arrow_up</item>
+        <item>@string/g_arrow_down</item>
+        <item>@string/g_toggle_T9</item>
+        <item>@string/g_toggle_Compact</item>
+        <item>@string/g_toggle_T9_Compact</item>
+        <item>@string/g_toggle_symbols</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_values">
+        <item>@string/enable_cursors_never</item>
+        <item>@string/enable_cursors_on_swipe</item>
+        <item>@string/enable_cursors_always</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_summary">
+        <item>Mai</item>
+        <item>Su swipe su sullo spazio</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="enable_cursors_modes">
+        <item>Non visualizzare mai cursori sulla tastiera</item>
+        <item>Su swipe su sullo spazio</item>
+        <item>Sempre</item>
+    </string-array>
+</resources>

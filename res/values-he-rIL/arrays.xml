@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_input_modes">
+        <item>במקלדת רגילה</item>
+        <item>במקלדת סימנים</item>
+        <item>מבוטל</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>מופעל במקלדת רגילה</item>
+        <item>מופעל במקלדת סימנים</item>
+        <item>מבוטל</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_values">
+        <item>@string/enable_cursors_never</item>
+        <item>@string/enable_cursors_on_swipe</item>
+        <item>@string/enable_cursors_always</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_summary">
+        <item>Never</item>
+        <item>On Swipe up on space</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="enable_cursors_modes">
+        <item>אל תציג אף פעם</item>
+        <item>הפעל על ידי מחווה על מקש הרווח</item>
+        <item>הצג תמיד</item>
+    </string-array>
+</resources>

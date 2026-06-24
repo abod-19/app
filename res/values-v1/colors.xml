@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="AHcolorPrimary">#ff1565c0</color>
+    <color name="AHcolorPrimaryDark">#ff1565c0</color>
+    <color name="AHcolorAccent">#ff1565c0</color>
+    <color name="AHcolorControlHighlight">#ff1565c0</color>
+    <color name="AHcolorControlNormal">#ff1565c0</color>
+</resources>

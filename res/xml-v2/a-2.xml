@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="80.9%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="1.0px" android:verticalGap="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top" />
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـﺸِـوّ໑يُ وِ໑بّـﺮِﺟُـعِ ؛ 💕ٌ . ." android:keyLabel="وبرجع" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـشِـﯿّﯿـِﺮ و̲୭بّـﺂإگگِ ؛ 🤍🌹ٌ . ." android:keyLabel="شير" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـﺘِـﺴّﺠـِﯿّـࢦ خِـرُو̲୭جّ ، ⧣ 🤍🤌🏻ً . ." android:keyLabel="خروج" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="ۦـﺘِـﺴّﺠـِﯿّـࢦ دُخِـْو̲୭ࢦ ، ⧣ 🤍🫰 ؛" android:keyLabel="دخول" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="أو̲୭فـﻶِيـﻦ ، 𝑜𝘧𝘧𝑙𝑖ꪀꫀ ؛ 🖤👍🏻ꪹ ." android:keyLabel="اوفلاين" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="أو̲୭ﻧـﻶِيـﻦ ، 𝑜ꪀ𝘭𝑖ꪀꫀ ؛ 🖤👍🏻ꪹ ." android:keyLabel="اونلاين" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". . ٌ 🤎🥺 ، ʊ̤ʅɹ̈ᓘȊ" android:keyLabel="اختي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". . ٌ ❤‍🩹 ، ʟ̤ɾʅgᓘȊ" android:keyLabel="اخوي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـﺨِـﺂﻓِـﮧيُ مِـﺸُﺂهِـدّهِـﮧُ اﻟِـسّتِو̲୭رِيُ زتِ ﻧِـﻘﻄُـﮭِـۃُ ،، ע تِـﻄُـﻨِـﺶِ ؛ 🤍✔️ً . ." android:keyLabel="مشاهده" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="؏ـِيدّڪِـمُ مِـبّـارگگِ ؛ ♡゙🌹ٌ . ." android:keyLabel="عيدكم" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ﮪِﮭُـِࢦ أنِـﺖُ ﺑِـﺨﯿّﯿـِﺮ ً 🫠  ؛" android:keyLabel="بخير؟؟" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="ﻏِْﻏِْۦـَِيَـِۦـَِاِﺐ ࢦـﮧﭬِـۦﺘِۦـࢪَاِآ ، 🌸⸰." android:keyLabel="غياب" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". . ٌ 🤎😌 ، ʊ̤ʅɹ̈ɹ̇gɹ̇ᓗ̥ᓄ" android:keyLabel="محنونتي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". . ٌ 💖🫢 ، ʟ̤ɾʅ᎗ɹ̇ᒪᓄↄІ͛" android:keyLabel="ادماني" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". . ٌ ❤‍🔥🥹 ، ʊ̤ʅɹ̈ᓆgɹɹ̈̇ɹɕᓄ" android:keyLabel="معشوقتي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". . ٌ ❤‍🔥🥹 ، ʟ̤ɾʅᓆgɹɹ̈̇ɹɕᓄ" android:keyLabel="معشوقي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". . ٌ 💗🫂 ، ʊ̤ʅɹ̣ᒧᓆ ᘓɹ̈Łᓆנ" android:keyLabel="قلبي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". . ٌ ❤‍🔥🫣 ، ᓚ۶ᒧ᎗ɹ̣᎗ᓗȊ" android:keyLabel="احبك" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="- افضل كيبورد تم تطويره لسنة 2023 🔥. \n - يحتوي هذا الكيبورد على تطبيق إضافي مخصص لصناعة ثيم خاص بك بالشكل اللذي يناسبك والخلفية اللتي تريدها ⤸  😍❤‍🔥. \n\n - تم إضافة الكثير من الرموز والايموجي الثنائي وتم اضافة ايموجي الايفون الجديد 🫀.  \n\n - تم اضافة اكثر من 2000 اختصار اساسي داخل هذا الكيبورد وتم اضافة اكثر من 80 زخرفة جديدة 💕.  \n\n  - شـارڪـو مـع اصـدقـائڪـم لـحتـى انشـر اصـدارات اڪـثـر 😍❤️.  \n\n - قـنـاتي بنـشـر فيـهـا ڪـل شـي جـديد \n https://t.me/Z_7_1_7 \n \n - للتواصل + تابعني لتحميل احدث الاصدارات ❤‍🩹.  \n\n - تيليجرام : \n https://t.me/Abode774 \n\n - قـنـاة ڪيبوردات \n https://t.me/jnssghb \n\n *- بـتشـرف بـالجـمـييـع 😌🤎.*" android:keyLabel="حمل" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـشِـوْ̲୭گگِ إيّـﺶِ وُ໑آإرِ ، ⧣ 💔👌🏻ً . ." android:keyLabel="ايش" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـسّـينِـيُ ۦـسِـيُڤيِـوْ̲୭ر۾ ، ⧣ 🏷💕ً . ." android:keyLabel="سفيورم" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="نِـآبّـيِوْ̲୭سِـوْ̲୭ن ، ⧣ 🏷💕ً . ." android:keyLabel="نابيوسن" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ڪِـوْ̲୭زِآإࢦ ، ⧣ 🏷💕ً . ." android:keyLabel="كوزال" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="ۦـمُـصِدّر ﺳِـﻊّـﺂدﺗِـﮧ۫ﻱُ ، ⧣ 🤍🫀ٌ . ." android:keyLabel="سعادتي" />
+    </Row>
+</Keyboard>

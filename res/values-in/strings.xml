@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="english_ime_input_options">Opsi masukan</string>
+    <string name="vibrate_on_keypress">Getar jika tombol ditekan</string>
+    <string name="sound_on_keypress">Berbunyi jika tombol ditekan</string>
+    <string name="popup_on_keypress">Muncul saat tombol ditekan</string>
+    <string name="hit_correction">Perbaiki kesalahan ketik</string>
+    <string name="hit_correction_summary">Aktifkan perbaikan galat masukan</string>
+    <string name="hit_correction_land">Galat masukan lanskap</string>
+    <string name="hit_correction_land_summary">Aktifkan perbaikan galat masukan</string>
+    <string name="auto_correction">Saran kata</string>
+    <string name="auto_correction_summary">Perbaiki kata sebelumnya secara otomatis</string>
+    <string name="prediction">Saran kata</string>
+    <string name="prediction_category">Setelan saran kata</string>
+    <string name="prediction_summary">Aktifkan pengisian otomatis saat mengetik</string>
+    <string name="auto_complete_dialog_title">Pengisian otomatis</string>
+    <string name="prediction_landscape">Tambah ukuran bidang teks</string>
+    <string name="prediction_landscape_summary">Sembunyikan saran kata dalam tampilan melintang</string>
+    <string name="auto_cap">Kapitalisasi otomatis</string>
+    <string name="auto_cap_summary">Kapitalisasi awal kalimat</string>
+    <string name="auto_punctuate">Beri tanda baca otomatis</string>
+    <string name="auto_punctuate_summary" />
+    <string name="quick_fixes">Perbaikan cepat</string>
+    <string name="quick_fixes_summary">Memperbaiki kesalahan ketik umum</string>
+    <string name="show_suggestions">Perlihatkan saran</string>
+    <string name="show_suggestions_summary">Tampilkan kata yang disarankan ketika mengetik</string>
+    <string name="auto_complete">Pengisian otomatis</string>
+    <string name="auto_complete_summary">Bilah spasi dan tanda baca secara otomatis memasukkan kata yang disorot</string>
+    <string name="prefs_settings_key">Lihat tombol setelan</string>
+    <string name="settings_key_mode_auto_name">Otomatis</string>
+    <string name="settings_key_mode_always_show_name">Selalu tampilkan</string>
+    <string name="settings_key_mode_always_hide_name">Selalu sembunyikan</string>
+    <string name="bigram_suggestion">Saran Bigram</string>
+    <string name="bigram_suggestion_summary">Gunakan kata sebelumnya untuk meningkatkan sara</string>
+    <string name="added_word">%s : Telah disimpan</string>
+    <string name="tip_long_press">Tahan tombol untuk melihat aksen (ø, ö, dll.)</string>
+    <string name="tip_dismiss">Tekan tombol kembali ↶ untuk menutup keyboard kapan saja</string>
+    <string name="tip_access_symbols">Akses angka dan simbol</string>
+    <string name="tip_add_to_dictionary">Tekan terus kata yang paling kiri untuk menambahkannya ke kamus</string>
+    <string name="touch_to_continue">Sentuh petunjuk ini untuk melanjutkan »</string>
+    <string name="touch_to_finish">Sentuh di sini untuk menutup petunjuk dan mulailah mengetik!</string>
+    <string name="tip_to_open_keyboard"><b>Keyboard terbuka setiap kali Anda menyentuh bidang teks</b></string>
+    <string name="tip_to_view_accents"><b>"Sentuh &amp; tahan tombol untuk melihat aksen
+(ø, ö, ô, ó, dan seterusnya)"</b></string>
+    <string name="tip_to_open_symbols"><b>Beralih ke angka dan simbol dengan menekan tombol ini</b></string>
+    <string name="tip_to_close_symbols"><b>Kembali ke huruf dengan menekan tombol ini lagi</b></string>
+    <string name="tip_to_launch_settings"><b>Sentuh &amp; tahan tombol ini untuk mengubah setelan keyboard, seperti lengkapi otomatis</b></string>
+    <string name="tip_to_start_typing"><b>Cobalah!</b></string>
+    <string name="label_go_key">Buka</string>
+    <string name="label_next_key">Berikutnya</string>
+    <string name="label_done_key">Selesai</string>
+    <string name="label_send_key">Kirimkan</string>
+    <string name="label_symbol_key">\?123</string>
+    <string name="label_phone_key">123</string>
+    <string name="label_alpha_key">ABC</string>
+    <string name="label_alt_key">ALT</string>
+    <string name="voice_warning_title">Masukan suara</string>
+    <string name="voice_warning_locale_not_supported">Masukan suara saat ini tidak didukung untuk bahasa Anda, tetapi bekerja dalam Bahasa Inggris.</string>
+    <string name="voice_warning_may_not_understand">Masukan suara adalah fitur eksperimental yang menggunakan pengenal suara berjaringan Google.</string>
+    <string name="voice_warning_how_to_turn_off">Untuk mematikan masukan suara, buka setelan keyboard.</string>
+    <string name="voice_hint_dialog_message">Untuk menggunakan masukan suara, tekan tombol mikrofon atau geser jari Anda di sepanjang keyboard pada layar.</string>
+    <string name="voice_listening">Ucapkan sekarang</string>
+    <string name="voice_working">Bekerja</string>
+    <string name="voice_initializing" />
+    <string name="voice_error">Galat: Coba lagi.</string>
+    <string name="voice_network_error">Tidak dapat menyambung</string>
+    <string name="voice_too_much_speech">Galat, terlalu banyak ucapan.</string>
+    <string name="voice_audio_error">Masalah audio</string>
+    <string name="voice_server_error">Galat server</string>
+    <string name="voice_speech_timeout">Tidak terdengar ucapan</string>
+    <string name="voice_no_match">Tak ditemukan yang cocok</string>
+    <string name="voice_not_installed">Penelusuran suara tidak terpasang</string>
+    <string name="voice_swipe_hint"><b>Petunjuk:</b> Gesek keyboard untuk berbicara</string>
+    <string name="voice_punctuation_hint"><b>Petunjuk:</b> Selanjutnya, coba ucapkan tanda baca seperti \"titik\", \"koma\", atau \"tanda tanya\".</string>
+    <string name="cancel">Batal</string>
+    <string name="ok">OK</string>
+    <string name="voice_input">Masukan suara</string>
+    <string name="auto_submit">Kirim otomatis setelah suara</string>
+    <string name="auto_submit_summary">Tekan enter secara otomatis saat menelusuri atau menuju ke bidang berikutnya.</string>
+    <string name="open_the_keyboard"><font size="17"><b>"Buka keyboard
+"</b></font><font size="3">"
+"</font>Sentuh bidang teks mana pun.</string>
+    <string name="close_the_keyboard"><font size="17"><b>"Tutup keyboard
+"</b></font><font size="3">"
+"</font>Tekan tombol Kembali.</string>
+    <string name="touch_and_hold"><font size="17"><b>"Sentuh &amp; tahan tombol tertentu untuk opsi
+"</b></font><font size="3">"
+"</font>Akses tanda baca dan aksen.</string>
+    <string name="keyboard_settings"><font size="17"><b>"Setelan keyboard
+"</b></font><font size="3">"
+"</font>Sentuh &amp; tahan tombol <b>?123</b>.</string>
+    <string name="popular_domain_0">.com</string>
+    <string name="popular_domain_1">.net</string>
+    <string name="popular_domain_2">.org</string>
+    <string name="popular_domain_3">.gov</string>
+    <string name="popular_domain_4">.edu</string>
+    <string name="selectInputMethod">Pilih metode masukan</string>
+    <string name="language_selection_title">Bahasa masukan</string>
+    <string name="language_selection_summary">Geser jari pada bilah spasi untuk mengubah bahasa</string>
+    <string name="hint_add_to_dictionary">← Sentuh sekali lagi untuk menyimpan</string>
+    <string name="has_dictionary">Kamus yang tersedia</string>
+    <string name="prefs_enable_log">Aktifkan umpan balik pengguna</string>
+    <string name="prefs_description_log">Bantu tingkatkan metode editor masukan dengan mengirim statistik penggunaan dan laporan kerusakan ke Google secara otomatis.</string>
+    <string name="prefs_enable_recorrection">Sentuh untuk memperbaiki kata</string>
+    <string name="prefs_enable_recorrection_summary">Sentuh kata yang dimasukkan untuk memperbaikinya</string>
+    <string name="keyboard_layout">Tema Keyboard</string>
+    <string name="subtype_mode_keyboard">keyboard</string>
+    <string name="subtype_mode_voice">suara</string>
+</resources>

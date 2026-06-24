@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prediction_modes">
+        <item>Nenhum</item>
+        <item>Básico</item>
+        <item>Avançado</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>No teclado principal</item>
+        <item>No teclado de símbolos</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>Microfone no teclado principal</item>
+        <item>Microfone no teclado de símbolos</item>
+        <item>Entrada por voz desligada</item>
+    </string-array>
+    <string-array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </string-array>
+    <string-array name="keyboard_hint_font_color_summary">
+        <item>Preto</item>
+        <item>Branco</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_summary">
+        <item>Nunca</item>
+        <item>Ao deslizar para cima no espaço</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="enable_cursors_modes">
+        <item>Nunca mostrar setas de navegação no teclado</item>
+        <item>Ao deslizar para cima no espaço</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="keyboard_font_and_symbol_color_summary">
+        <item>Branco</item>
+        <item>Preto</item>
+    </string-array>
+</resources>

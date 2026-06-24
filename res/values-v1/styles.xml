@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AHTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily">@font/al8dar_font3</item>
+        <item name="android:colorControlNormal">@color/AHcolorControlNormal</item>
+        <item name="android:colorControlHighlight">@color/AHcolorControlHighlight</item>
+        <item name="android:colorPrimary">@color/AHcolorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/AHcolorPrimaryDark</item>
+        <item name="android:colorAccent">@color/AHcolorAccent</item>
+        <item name="settingsDividerColor">#ffffffff</item>
+    </style>
+    <style name="NoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

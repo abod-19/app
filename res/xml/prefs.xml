@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true" android:title="اعدادات الڪٰٖيبورد" android:key="english_ime_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+    <Preference android:layout="@layout/default_settings" android:selectable="false" />
+    <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+    <PreferenceScreen android:layout="@layout/AH_WO" android:key="prediction_settings">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/prefs_enable_recorrection" android:key="recorrection_enabled" android:summary="@string/prefs_enable_recorrection_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/quick_fixes" android:key="quick_fixes" android:summary="@string/quick_fixes_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/show_suggestions" android:key="show_suggestions" android:summary="@string/show_suggestions_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/auto_complete" android:key="auto_complete" android:summary="@string/auto_complete_summary" android:dependency="show_suggestions" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/auto_space" android:key="auto_space" android:summary="@string/auto_space_summary" android:dependency="show_suggestions" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/always_suggest" android:key="always_suggest" android:summary="@string/always_suggest_summary" android:dependency="show_suggestions" android:defaultValue="@bool/always_suggest" />
+        <SwitchPreference android:persistent="true" android:title="@string/use_contact" android:key="use_contact_dictionary" android:summary="@string/use_contact_summary" android:dependency="show_suggestions" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/next_word_prediction" android:key="bigram_suggestion" android:summary="@string/next_word_prediction_summary" android:dependency="show_suggestions" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/double_space_to_period" android:key="double_space_to_period" android:summary="@string/double_space_to_period_summary" android:dependency="show_suggestions" android:defaultValue="@bool/double_space_to_period" />
+        <SwitchPreference android:persistent="true" android:title="@string/suggest_words_with_missing_space_character_title" android:key="suggest_words_with_missing_space_character" android:summary="@string/suggest_words_with_missing_space_character_summary" android:dependency="show_suggestions" android:defaultValue="false" />
+        <PreferenceScreen android:enabled="true" android:title="@string/user_dictionary_title" android:selectable="true" android:summary="@string/user_dictionary_summary">
+            <intent android:action="com.android.inputmethod.latin.CUSTOM_DICTIONARY_EDITOR" />
+        </PreferenceScreen>
+        <PreferenceScreen android:enabled="true" android:title="@string/custom_shortcuts" android:selectable="true" android:summary="@string/custom_shortcuts_summary">
+            <intent android:action="com.android.inputmethod.latin.INPUT_AUTOTEXT_EDITOR" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/smileys_editor_title" android:key="smileys_editor" android:summary="@string/smileys_editor_summmary">
+            <EditTextPreference android:persistent="true" android:title="@string/sm0" android:key="sm0" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm1" android:key="sm1" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm2" android:key="sm2" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm3" android:key="sm3" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm4" android:key="sm4" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm5" android:key="sm5" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm6" android:key="sm6" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm7" android:key="sm7" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm8" android:key="sm8" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm9" android:key="sm9" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm10" android:key="sm10" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm11" android:key="sm11" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm12" android:key="sm12" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm13" android:key="sm13" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm14" android:key="sm14" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm15" android:key="sm15" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm16" android:key="sm16" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm17" android:key="sm17" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm18" android:key="sm18" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm19" android:key="sm19" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm20" android:key="sm20" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm21" android:key="sm21" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm22" android:key="sm22" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm23" android:key="sm23" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm24" android:key="sm24" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm25" android:key="sm25" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm26" android:key="sm26" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm27" android:key="sm27" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm28" android:key="sm28" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm29" android:key="sm29" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm30" android:key="sm30" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm31" android:key="sm31" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm32" android:key="sm32" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm33" android:key="sm33" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm34" android:key="sm34" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm35" android:key="sm35" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm36" android:key="sm36" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm37" android:key="sm37" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm38" android:key="sm38" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm39" android:key="sm39" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm40" android:key="sm40" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm41" android:key="sm41" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm42" android:key="sm42" />
+            <EditTextPreference android:persistent="true" android:title="@string/sm43" android:key="sm43" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_VI" android:key="Vibrate_sound_menu"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_sound" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/vibrate_on_keypress" android:key="vibrate_on" android:defaultValue="true" />
+        <com.android.inputmethod.latin.DialogSeekBarPreference android:persistent="true" android:title="@string/vibration_length" android:key="vibration_length" android:dependency="vibrate_on" android:defaultValue="@string/vibration_default_duration_in_ms" min="0" max="100" step="1" />
+        <SwitchPreference android:persistent="true" android:title="@string/sound_on_keypress" android:key="sound_on" android:defaultValue="true" />
+        <com.android.inputmethod.latin.DialogSeekBarPreference android:persistent="true" android:title="@string/sound_volume_title" android:key="sound_volume" android:summary="@string/sound_volume_summary" android:dependency="sound_on" android:defaultValue="@integer/config_defalut_sound_volume" step="1" max="100" min="0" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/tap_sound_style_values" android:title="@string/tap_sound_style_pref_title" android:selectable="true" android:key="tap_sound_style_pref" android:dependency="sound_on" android:defaultValue="@string/sound_android" android:entryValues="@array/tap_sound_style_values" />
+        <SwitchPreference android:persistent="true" android:title="@string/popup_on_keypress" android:key="popup_on" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_GE">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_ges" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/gesture_options_modes" android:title="@string/swipe_right" android:selectable="true" android:key="swipe_right" android:defaultValue="0" android:entryValues="@array/gesture_options_values" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/gesture_options_modes" android:title="@string/swipe_left" android:selectable="true" android:key="swipe_left" android:defaultValue="0" android:entryValues="@array/gesture_options_values" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/gesture_options_modes" android:title="@string/swipe_up" android:selectable="true" android:key="swipe_up" android:defaultValue="0" android:entryValues="@array/gesture_options_values" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/gesture_options_modes" android:title="@string/swipe_down" android:selectable="true" android:key="swipe_down" android:defaultValue="0" android:entryValues="@array/gesture_options_values" />
+        <com.android.inputmethod.latin.DialogSeekBarPreference android:persistent="true" android:title="@string/gesture_sensitivity" android:key="gesture_sensitivity" android:summary="@string/gesture_sensitivity_summary" android:defaultValue="@integer/gesture_sesitivity" step="1" min="0" max="80" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_LA" android:key="layout_menu">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_layout" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <EditTextPreference android:persistent="false" android:lines="3" android:singleLine="false" android:capitalize="sentences" android:autoText="true" android:title="@string/keyboard_sandbox" android:key="keyboards_sandbox_2" android:dialogTitle="@string/keyboard_sandbox_title" />
+        <PreferenceCategory android:enabled="true" android:title="@string/keyboard_button_layout" android:selectable="true" android:key="keyboard_button_layout" />
+        <com.android.inputmethod.latin.DialogSeekBarPreference4val android:persistent="true" android:title="@string/keyboard_layout_horizontal" android:key="key_hight" max1="1000" defaultValue1="100" step4="1" title2="@string/row_gap" title1="@string/key_hight" step3="1" max2="300" max4="300" title3="@string/text_size" max3="200" defaultValue2="100" defaultValue4="100" step1="1" min4="0" min2="0" title4="@string/bottom_padding" defaultValue3="100" step2="1" min1="0" key4="@string/bottom_padding_horizontal" key1="@string/key_hight_horizontal" min3="0" key2="@string/row_gap_horizontal" key3="@string/text_size_horizontal" min5="0" max5="200" defaultValue5="100" step5="1" title5="@string/arrows_keys_hight" key5="@string/arrows_keys_hight_horizontal" />
+        <com.android.inputmethod.latin.DialogSeekBarPreference4val android:persistent="true" android:title="@string/keyboard_layout_vertical" android:key="key_hight" defaultValue3="130" step2="1" min3="0" step4="1" max3="200" min1="0" step1="1" title3="@string/text_size" max1="200" key4="@string/bottom_padding_vertical" min2="0" defaultValue2="150" step3="1" defaultValue1="130" max4="300" key1="@string/key_hight_vertical" defaultValue4="20" title4="@string/bottom_padding" max2="300" min4="0" title1="@string/key_hight" title2="@string/row_gap" key3="@string/text_size_vertical" key2="@string/row_gap_vertical" min5="0" max5="200" defaultValue5="90" step5="1" title5="@string/arrows_keys_hight" key5="@string/arrows_keys_hight_vertical" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/portrait_layout_modes" android:title="@string/portrait_layout" android:selectable="true" android:key="pref_portrait_layout" android:summary="@string/portrait_layout_summary" android:defaultValue="@string/layout_default_mode_normal" android:entryValues="@array/portrait_layout_values" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/landscape_layout_modes" android:title="@string/landscape_layout" android:selectable="true" android:key="pref_landscape_layout" android:summary="@string/landscape_layout_summary" android:defaultValue="@string/layout_landscape_default_mode_normal" android:entryValues="@array/landscape_layout_values" />
+        <ListPreference android:persistent="true" android:entries="@array/settings_key_modes" android:title="@string/prefs_settings_key" android:key="settings_key" android:defaultValue="@string/settings_key_mode_always_hide" android:entryValues="@array/settings_key_modes_values" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/enable_cursors_modes" android:title="@string/enable_cursors" android:selectable="true" android:key="enable_cursors" android:defaultValue="@string/enable_cursors_on_swipe" android:entryValues="@array/enable_cursors_modes_values" />
+        <ListPreference android:persistent="true" android:entries="@array/voice_input_modes" android:title="@string/voice_input" android:key="voice_mode" android:defaultValue="@string/voice_mode_main" android:entryValues="@array/voice_input_modes_values" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_FO" android:key="appearance_advance_menu">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_fc" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <SwitchPreference android:persistent="true" android:enabled="true" android:title="@string/use_custom_image" android:selectable="true" android:key="use_custom_image" android:summary="@string/use_custom_image_summary" android:defaultValue="false" />
+        <Preference android:enabled="true" android:title="@string/pref_select_background_title" android:selectable="true" android:key="pref_select_background" android:summary="@string/pref_select_background_summary" android:dependency="use_custom_image" />
+        <SwitchPreference android:persistent="true" android:title="@string/background_custom" android:key="background_custom_key" android:summary="@string/background_custom_summary" android:defaultValue="@bool/pref_background_custom" />
+        <Preference android:enabled="true" android:title="@string/button_color" android:selectable="true" android:key="button_color" android:summary="@string/button_color_summery" android:dependency="background_custom_key" android:defaultValue="0xFFFFFFFF" />
+        <Preference android:enabled="true" android:title="@string/keyboard_background_color" android:selectable="true" android:key="keyboard_background_color" android:summary="@string/keyboard_background_color_summery" android:dependency="background_custom_key" android:defaultValue="0xFF000000" />
+        <Preference android:enabled="true" android:title="@string/keyboard_font_and_symbol_color" android:selectable="true" android:key="keyboard_font_symbol_color_new" android:summary="@string/keyboard_font_and_symbol_color_summary" android:dependency="background_custom_key" android:defaultValue="0xFFFFFFFF" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/keyboard_hint_font_color_values" android:title="@string/keyboard_hint_font_color_color" android:selectable="true" android:key="keyboard_hint_font_color_color" android:dependency="background_custom_key" android:defaultValue="@string/hint_symbol_white" android:entryValues="@array/keyboard_hint_font_color_summary" />
+        <SwitchPreference android:persistent="true" android:title="@string/suggestion_custom" android:key="background_suggestion_key" android:summary="@string/suggestion_custom_summary" android:defaultValue="@bool/pref_suggestion_custom" />
+        <Preference android:enabled="true" android:title="@string/suggestion_font_color" android:selectable="true" android:key="suggestion_font_color" android:summary="@string/suggestion_font_color_summery" android:dependency="background_suggestion_key" android:defaultValue="@color/candidate_recommended" />
+        <Preference android:enabled="true" android:title="@string/suggestion_bar_color" android:selectable="true" android:key="suggestion_bar_color" android:summary="@string/suggestion_bar_color_summery" android:dependency="background_suggestion_key" android:defaultValue="0xFF000000" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_TH">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_themes" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <EditTextPreference android:icon="@drawable/test_themes" android:persistent="false" android:lines="3" android:singleLine="false" android:capitalize="sentences" android:autoText="true" android:title="اضغط لتجربة الثيم" android:key="keyboards_sandbox_1" android:summary="لرؤية الثيم المختار" android:dialogTitle="@string/keyboard_sandbox_title" />
+        <PreferenceScreen android:icon="@drawable/themes2" android:title="ثيمات الكيبورد" android:summary="لتغير ثيم الكيبورد">
+            <intent android:action="com.android.inputmethod.latin.INPUT_SKIN_SELECTOR" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_BA">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_backup" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <Preference android:enabled="true" android:title="@string/backup_title" android:selectable="true" android:key="backup_files" android:summary="restore" />
+        <Preference android:enabled="true" android:title="@string/restore_title" android:selectable="true" android:key="restore_files" android:summary="@string/restore_summary" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_LG">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/setting_lang" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <PreferenceScreen android:title="@string/language_selection_title" android:summary="@string/language_selection_summary">
+            <intent android:action="com.android.inputmethod.latin.INPUT_LANGUAGE_SELECTIONP" />
+        </PreferenceScreen>
+        <SwitchPreference android:persistent="true" android:title="@string/enable_rtl" android:key="enable_rtl" android:summary="@string/enable_rtl_summery" android:defaultValue="@bool/enable_rtl" />
+        <SwitchPreference android:persistent="true" android:title="@string/hebrew_alt_layout" android:key="hebrew_alt_layout" android:defaultValue="@bool/bool_hebrew_alt_layout" />
+        <SwitchPreference android:persistent="true" android:title="@string/czech_full_layout" android:key="czech_full_layout" android:summary="@string/czech_full_layout_summary" android:defaultValue="@bool/bool_czech_full_layout" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_TW" android:key="Tweaks_menu">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <PreferenceScreen android:title="@string/edit_popular_domains" android:key="edit_popular_domains">
+            <EditTextPreference android:persistent="true" android:title="@string/popular_domain_0" android:key="popular_domain_0" />
+            <EditTextPreference android:persistent="true" android:title="@string/popular_domain_1" android:key="popular_domain_1" />
+            <EditTextPreference android:persistent="true" android:title="@string/popular_domain_2" android:key="popular_domain_2" />
+            <EditTextPreference android:persistent="true" android:title="@string/popular_domain_3" android:key="popular_domain_3" />
+            <EditTextPreference android:persistent="true" android:title="@string/popular_domain_4" android:key="popular_domain_4" />
+            <EditTextPreference android:persistent="true" android:title="@string/popular_domain_5" android:key="popular_domain_5" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/punctuation_editor_title" android:key="punctuation__popup_editor" android:summary="@string/punctuation_editor_summmary">
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation0" android:key="punctuation0" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation1" android:key="punctuation1" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation2" android:key="punctuation2" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation3" android:key="punctuation3" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation4" android:key="punctuation4" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation5" android:key="punctuation5" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation6" android:key="punctuation6" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation7" android:key="punctuation7" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation8" android:key="punctuation8" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation9" android:key="punctuation9" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation10" android:key="punctuation10" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation11" android:key="punctuation11" />
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation12" android:key="punctuation12" />
+            <Preference android:persistent="true" android:title="@string/punctuation13" android:key="punctuation13" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/punctuation_editor" android:key="edit_popular_domains" android:summary="@string/punctuation_editor_summary">
+            <EditTextPreference android:persistent="true" android:title="@string/punctuation_editor" android:key="punctuation_editor" />
+        </PreferenceScreen>
+        <SwitchPreference android:persistent="true" android:title="@string/show_touch_points" android:key="show_touch_points" />
+        <SwitchPreference android:title="@string/debug_logs" android:key="debug_pref" />
+        <com.android.inputmethod.latin.DialogSeekBarPreference android:persistent="true" android:title="@string/long_press_delay" android:key="long_press_delay" android:defaultValue="@integer/config_long_press_key_timeout" step="25" min="100" max="1000" />
+        <SwitchPreference android:persistent="true" android:title="@string/full_screen_landscape" android:key="full_screen_landscape" android:summary="@string/full_screen_landscape_summery" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/full_screen_portrait" android:key="full_screen_portrait" android:summary="@string/full_screen_portrait_summery" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/enable_number_keypad" android:key="enable_number_keypad" android:summary="@string/enable_number_keypad_summary" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/dispaly_alt_labels" android:key="dispaly_alt_labels" android:summary="@string/dispaly_alt_labels_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/display_BackupPro_icon" android:key="display_BackupPro_icon" android:summary="@string/display_BackupPro_icon_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/no_popup_on_space" android:key="no_popup_on_space" android:summary="@string/no_popup_on_space_summery" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:enabled="true" android:title="@string/volume_key_for_left_right_support" android:selectable="true" android:key="volume_key_for_left_right_support" android:summary="@string/volume_key_for_left_right_support_summary" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:enabled="true" android:title="@string/auto_switch_to_qwerty" android:selectable="true" android:key="auto_swithch_to_qwerty" android:summary="@string/auto_switch_to_qwerty_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/long_press_on_123_to_settings" android:key="long_press_on_123_to_settings" android:summary="@string/long_press_on_123_to_settings_summary" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/voice_input_best_choice_title" android:key="voice_input_best_choice" android:summary="@string/voice_input_best_choice_summery" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/AH_AA" android:key="help_screen">
+        <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
+        <Preference android:layout="@layout/about_developer" android:selectable="false" />
+        <Preference android:layout="@layout/ah_kb" android:selectable="false" />
+        <Preference android:icon="@drawable/al8dar_fo2" android:enabled="true" android:title="🇾🇪⃤𓆩 كيبورد ؏ـبود الفخم 𓆪" android:selectable="true" android:key="name_version" android:summary=" V9.0" />
+        <PreferenceCategory android:title="ـ 𓆪 حول المطٖور 𓆩" />
+        <Preference android:icon="@drawable/al8dar_tele" android:enabled="true" android:title="Telegram Channel" android:selectable="true" android:key="go_website" android:summary="تابع قناتي علي التيليجرام للمزيد من التطبيقات" />
+        <Preference android:icon="@drawable/youtube" android:enabled="true" android:title="YouTube Channel" android:selectable="true" android:key="name_version" android:summary="تابع قناتي علي اليوتيوب للمزيد من الشروحات" />
+        <Preference android:icon="@drawable/version" android:enabled="true" android:title="device version" android:selectable="true" android:key="send_feedback" android:summary="اصدار الجهاز" />
+        <PreferenceCategory android:title="ـ𓆪 معلومات التطبيق 𓆩" />
+        <com.Abood.html.ActionP android:icon="@drawable/changelog" android:title="ChangeLogs" android:key="clogs" android:summary="التغيرات الخاصة بهذا التحديث" />
+        <com.Abood.html.ActionP android:icon="@drawable/thanks_you" android:title="Special Thanks" android:key="credits" android:summary="قائمة الشكر" />
+        <Preference android:icon="@drawable/infooo" android:enabled="true" android:title="Download Last Version" android:selectable="true" android:key="full_version" android:summary="اضغط هنا لمتابعة تحديثات التطبيق" />
+        <Preference android:selectable="true" android:key="rate_application" />
+    </PreferenceScreen>
+    <Preference android:layout="@layout/ah_banner" android:selectable="false" />
+</PreferenceScreen>

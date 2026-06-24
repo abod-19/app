@@ -1,0 +1,623 @@
+.class public Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;
+.super Ljava/lang/Object;
+.source "SpellCheckerProximityInfo.java"
+
+
+# static fields
+.field private static final INDICES:Ljava/util/TreeMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/TreeMap",
+            "<",
+            "Ljava/lang/Integer;",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final NUL:I = -0x1
+
+.field public static final PROXIMITY:[I
+
+.field public static final ROW_SIZE:I = 0x10
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .prologue
+    .line 36
+    new-instance v1, Ljava/util/TreeMap;
+
+    invoke-direct {v1}, Ljava/util/TreeMap;-><init>()V
+
+    sput-object v1, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->INDICES:Ljava/util/TreeMap;
+
+    .line 48
+    const/16 v1, 0x1e0
+
+    new-array v1, v1, [I
+
+    fill-array-data v1, :array_0
+
+    sput-object v1, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->PROXIMITY:[I
+
+    .line 83
+    const/4 v0, 0x0
+
+    .local v0, "i":I
+    :goto_0
+    sget-object v1, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->PROXIMITY:[I
+
+    array-length v1, v1
+
+    if-lt v0, v1, :cond_0
+
+    .line 23
+    return-void
+
+    .line 84
+    :cond_0
+    const/4 v1, -0x1
+
+    sget-object v2, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->PROXIMITY:[I
+
+    aget v2, v2, v0
+
+    if-eq v1, v2, :cond_1
+
+    sget-object v1, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->INDICES:Ljava/util/TreeMap;
+
+    sget-object v2, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->PROXIMITY:[I
+
+    aget v2, v2, v0
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    invoke-virtual {v1, v2, v3}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 83
+    :cond_1
+    add-int/lit8 v0, v0, 0x10
+
+    goto :goto_0
+
+    .line 48
+    :array_0
+    .array-data 4
+        0x71
+        0x77
+        0x73
+        0x61
+        0x7a
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x77
+        0x71
+        0x61
+        0x73
+        0x64
+        0x65
+        0x78
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x65
+        0x77
+        0x73
+        0x64
+        0x66
+        0x72
+        0x61
+        0x69
+        0x6f
+        0x75
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x72
+        0x65
+        0x64
+        0x66
+        0x67
+        0x74
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x74
+        0x72
+        0x66
+        0x67
+        0x68
+        0x79
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x79
+        0x74
+        0x67
+        0x68
+        0x6a
+        0x75
+        0x61
+        0x73
+        0x64
+        0x78
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x75
+        0x79
+        0x68
+        0x6a
+        0x6b
+        0x69
+        0x61
+        0x65
+        0x6f
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x69
+        0x75
+        0x6a
+        0x6b
+        0x6c
+        0x6f
+        0x61
+        0x65
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x6f
+        0x69
+        0x6b
+        0x6c
+        0x70
+        0x61
+        0x65
+        0x75
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x70
+        0x6f
+        0x6c
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x61
+        0x7a
+        0x78
+        0x73
+        0x77
+        0x71
+        0x65
+        0x69
+        0x6f
+        0x75
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x73
+        0x71
+        0x61
+        0x7a
+        0x78
+        0x63
+        0x64
+        0x65
+        0x77
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x64
+        0x77
+        0x73
+        0x78
+        0x63
+        0x76
+        0x66
+        0x72
+        0x65
+        0x77
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x66
+        0x65
+        0x64
+        0x63
+        0x76
+        0x62
+        0x67
+        0x74
+        0x72
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x67
+        0x72
+        0x66
+        0x76
+        0x62
+        0x6e
+        0x68
+        0x79
+        0x74
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x68
+        0x74
+        0x67
+        0x62
+        0x6e
+        0x6d
+        0x6a
+        0x75
+        0x79
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x6a
+        0x79
+        0x68
+        0x6e
+        0x6d
+        0x6b
+        0x69
+        0x75
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x6b
+        0x75
+        0x6a
+        0x6d
+        0x6c
+        0x6f
+        0x69
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x6c
+        0x69
+        0x6b
+        0x70
+        0x6f
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x7a
+        0x61
+        0x73
+        0x64
+        0x78
+        0x74
+        0x67
+        0x68
+        0x6a
+        0x75
+        0x71
+        0x65
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x78
+        0x7a
+        0x61
+        0x73
+        0x64
+        0x63
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x63
+        0x78
+        0x73
+        0x64
+        0x66
+        0x76
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x76
+        0x63
+        0x64
+        0x66
+        0x67
+        0x62
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x62
+        0x76
+        0x66
+        0x67
+        0x68
+        0x6e
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x6e
+        0x62
+        0x67
+        0x68
+        0x6a
+        0x6d
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        0x6d
+        0x6e
+        0x68
+        0x6a
+        0x6b
+        0x6c
+        0x6f
+        0x70
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+        -0x1
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 23
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static getIndexOf(I)I
+    .locals 3
+    .param p0, "characterCode"    # I
+
+    .prologue
+    .line 88
+    sget-object v1, Lcom/android/inputmethod/latin/spellcheck/SpellCheckerProximityInfo;->INDICES:Ljava/util/TreeMap;
+
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/util/TreeMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Integer;
+
+    .line 89
+    .local v0, "result":Ljava/lang/Integer;
+    if-nez v0, :cond_0
+
+    const/4 v1, -0x1
+
+    .line 90
+    :goto_0
+    return v1
+
+    :cond_0
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    goto :goto_0
+.end method
