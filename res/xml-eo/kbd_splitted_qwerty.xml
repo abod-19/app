@@ -42,10 +42,10 @@
         <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="هِـﮭُـډِوْ̲୭۽۽ ، ⧣ 🍂ٌ . ." android:keyLabel="هدوء" />
     </Row>
     <Row>
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a-1" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل²" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a-2" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مـشڪـل" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a-3" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a-4" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="؟؟؟" />
+        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a_1" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل²" />
+        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a_2" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مـشڪـل" />
+        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a_3" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل" />
+        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/a_4" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="؟؟؟" />
         <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/ENG" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="اجنبي" />
         <Key android:keyWidth="14.999998%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
     </Row>

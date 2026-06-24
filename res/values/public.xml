@@ -1143,10 +1143,10 @@
     <public type="xml" name="kastilo_08" id="0x7f050047" />
     <public type="xml" name="Ekastilo_3" id="0x7f05004a" />
     <public type="xml" name="Ekastilo_2" id="0x7f05004c" />
-    <public type="xml" name="a-1" id="0x7f05004d" />
-    <public type="xml" name="a-2" id="0x7f05004e" />
-    <public type="xml" name="a-3" id="0x7f05004f" />
-    <public type="xml" name="a-4" id="0x7f050050" />
+    <public type="xml" name="a_1" id="0x7f05004d" />
+    <public type="xml" name="a_2" id="0x7f05004e" />
+    <public type="xml" name="a_3" id="0x7f05004f" />
+    <public type="xml" name="a_4" id="0x7f050050" />
     <public type="xml" name="ENG" id="0x7f050051" />
     <public type="xml" name="abod_01" id="0x7f050052" />
     <public type="xml" name="abod_02" id="0x7f050053" />
