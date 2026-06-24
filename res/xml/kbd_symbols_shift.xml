@@ -2,16 +2,16 @@
 <Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <Row android:keyHeight="7.0000052%p" android:rowEdgeFlags="top" android:keyboardMode="@id/mode_arrows">
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="`" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel=">" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="×" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="ᵛ" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="›" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="~" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="^" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="∝" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="〞" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyLabel="⇣️" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="`" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel=">" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="×" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="ᵛ" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="›" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="~" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="^" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="∝" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="〞" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyLabel="⇣️" />
     </Row>
     <Row>
         <Key android:keyLabel="1" />

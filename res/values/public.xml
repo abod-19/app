@@ -1026,16 +1026,16 @@
     <public type="layout" name="input_ics_popup" id="0x7f030010" />
     <public type="layout" name="input_iphone" id="0x7f030011" />
     <public type="layout" name="input_stone_normal" id="0x7f030013" />
-    <public type="layout" name="AH_AA" id="0x7f030027" />
-    <public type="layout" name="AH_BA" id="0x7f030028" />
-    <public type="layout" name="AH_FO" id="0x7f030029" />
-    <public type="layout" name="AH_GE" id="0x7f03002a" />
-    <public type="layout" name="AH_LA" id="0x7f03002b" />
-    <public type="layout" name="AH_LG" id="0x7f03002c" />
-    <public type="layout" name="AH_TH" id="0x7f03002d" />
-    <public type="layout" name="AH_TW" id="0x7f03002e" />
-    <public type="layout" name="AH_VI" id="0x7f03002f" />
-    <public type="layout" name="AH_WO" id="0x7f030030" />
+    <public type="layout" name="ah_aa" id="0x7f030027" />
+    <public type="layout" name="ah_ba" id="0x7f030028" />
+    <public type="layout" name="ah_fo" id="0x7f030029" />
+    <public type="layout" name="ah_ge" id="0x7f03002a" />
+    <public type="layout" name="ah_la" id="0x7f03002b" />
+    <public type="layout" name="ah_lg" id="0x7f03002c" />
+    <public type="layout" name="ah_th" id="0x7f03002d" />
+    <public type="layout" name="ah_tw" id="0x7f03002e" />
+    <public type="layout" name="ah_vi" id="0x7f03002f" />
+    <public type="layout" name="ah_wo" id="0x7f030030" />
     <public type="layout" name="about_dev" id="0x7f030031" />
     <public type="layout" name="ah_about" id="0x7f030033" />
     <public type="layout" name="ah_change" id="0x7f030036" />
@@ -1141,13 +1141,13 @@
     <public type="xml" name="kastilo_06" id="0x7f050045" />
     <public type="xml" name="kastilo_07" id="0x7f050046" />
     <public type="xml" name="kastilo_08" id="0x7f050047" />
-    <public type="xml" name="Ekastilo_3" id="0x7f05004a" />
-    <public type="xml" name="Ekastilo_2" id="0x7f05004c" />
+    <public type="xml" name="ekastilo_3" id="0x7f05004a" />
+    <public type="xml" name="ekastilo_2" id="0x7f05004c" />
     <public type="xml" name="a_1" id="0x7f05004d" />
     <public type="xml" name="a_2" id="0x7f05004e" />
     <public type="xml" name="a_3" id="0x7f05004f" />
     <public type="xml" name="a_4" id="0x7f050050" />
-    <public type="xml" name="ENG" id="0x7f050051" />
+    <public type="xml" name="eng" id="0x7f050051" />
     <public type="xml" name="abod_01" id="0x7f050052" />
     <public type="xml" name="abod_02" id="0x7f050053" />
     <public type="xml" name="abod_03" id="0x7f050054" />

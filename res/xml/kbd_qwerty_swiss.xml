@@ -14,16 +14,16 @@
         <Key android:keyLabel="⁰" />
     </Row>
     <Row>
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𓆩" android:keyLabel="𓆩" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𓆪" android:keyLabel="𓆪" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𓃠" android:keyLabel="𓃠" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𖥂" android:keyLabel="𖥂" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𓅓" android:keyLabel="𓅓" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𓇢" android:keyLabel="𓇢" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="‏ঌ̸" android:keyLabel="‏ঌ̸" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𖤍" android:keyLabel="𖤍" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="𓃚" android:keyLabel="​​​​𓃚" />
-        <Key android:popupKeyboard="@xml/Ekastilo_3" android:keyOutputText="あ⃝" android:keyLabel="あ⃝" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𓆩" android:keyLabel="𓆩" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𓆪" android:keyLabel="𓆪" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𓃠" android:keyLabel="𓃠" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𖥂" android:keyLabel="𖥂" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𓅓" android:keyLabel="𓅓" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𓇢" android:keyLabel="𓇢" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="‏ঌ̸" android:keyLabel="‏ঌ̸" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𖤍" android:keyLabel="𖤍" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="𓃚" android:keyLabel="​​​​𓃚" />
+        <Key android:popupKeyboard="@xml/ekastilo_3" android:keyOutputText="あ⃝" android:keyLabel="あ⃝" />
     </Row>
     <Row>
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="" android:keyEdgeFlags="left" android:keyOutputText="𝐐" android:keyLabel="𝐐" />
@@ -49,7 +49,7 @@
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="" android:keyEdgeFlags="right" android:keyOutputText="𝐋" android:keyLabel="𝐋" />
     </Row>
     <Row>
-        <Key android:keyWidth="14.999998%p" android:popupKeyboard="@xml/ENG" android:isModifier="true" android:keyOutputText="𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝗨 🫂🫀." android:keyLabel="𝐋𝐎𝐕𝐄" />
+        <Key android:keyWidth="14.999998%p" android:popupKeyboard="@xml/eng" android:isModifier="true" android:keyOutputText="𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝗨 🫂🫀." android:keyLabel="𝐋𝐎𝐕𝐄" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="" android:keyOutputText="𝐙" android:keyLabel="𝐙" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="" android:keyOutputText="𝐗" android:keyLabel="𝐗" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="" android:keyOutputText="𝐂" android:keyLabel="𝐂" />

@@ -46,7 +46,7 @@
         <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_02" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مـشڪـل²" />
         <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_03" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل¹" />
         <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_04" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="غزل²" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/ENG" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="اجنبي" />
+        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/eng" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="اجنبي" />
         <Key android:keyWidth="14.999998%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
