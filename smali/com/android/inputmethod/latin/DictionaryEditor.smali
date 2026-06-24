@@ -17855,7 +17855,22 @@
     .local v2, "filter":Landroid/content/IntentFilter;
     iget-object v7, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mReceiver:Landroid/content/BroadcastReceiver;
 
+    sget v8, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v9, 0x21
+
+    if-lt v8, v9, :cond_register_receiver_legacy
+
+    const/4 v8, 0x4
+
+    invoke-virtual {p0, v7, v2, v8}, Lcom/android/inputmethod/latin/DictionaryEditor;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+
+    goto :goto_register_receiver_done
+
+    :cond_register_receiver_legacy
     invoke-virtual {p0, v7, v2}, Lcom/android/inputmethod/latin/DictionaryEditor;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+
+    :goto_register_receiver_done
 
     .line 602
     new-instance v7, Lcom/android/inputmethod/voice/VoiceInput;
