@@ -82,35 +82,21 @@
     .line 589
     iget-object v0, p0, Lcom/abdullah/ahmed/SettingsActivity$10;->this$0:Lcom/abdullah/ahmed/SettingsActivity;
 
-    invoke-static {v0}, Lcom/abdullah/ahmed/SettingsActivity;->access$8(Lcom/abdullah/ahmed/SettingsActivity;)Landroid/content/Intent;
+    const-string v1, "input_method"
+
+    invoke-virtual {v0, v1}, Lcom/abdullah/ahmed/SettingsActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/abdullah/ahmed/SettingsActivity$10;->this$0:Lcom/abdullah/ahmed/SettingsActivity;
-
-    invoke-virtual {v1}, Lcom/abdullah/ahmed/SettingsActivity;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    const-class v2, Lcom/spha/Leo/MainActivity;
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
+    check-cast v0, Landroid/view/inputmethod/InputMethodManager;
 
     .line 590
-    iget-object v0, p0, Lcom/abdullah/ahmed/SettingsActivity$10;->this$0:Lcom/abdullah/ahmed/SettingsActivity;
+    if-eqz v0, :cond_0
 
-    iget-object v1, p0, Lcom/abdullah/ahmed/SettingsActivity$10;->this$0:Lcom/abdullah/ahmed/SettingsActivity;
-
-    invoke-static {v1}, Lcom/abdullah/ahmed/SettingsActivity;->access$8(Lcom/abdullah/ahmed/SettingsActivity;)Landroid/content/Intent;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/abdullah/ahmed/SettingsActivity;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v0}, Landroid/view/inputmethod/InputMethodManager;->showInputMethodPicker()V
 
     .line 591
-    iget-object v0, p0, Lcom/abdullah/ahmed/SettingsActivity$10;->this$0:Lcom/abdullah/ahmed/SettingsActivity;
-
-    invoke-virtual {v0}, Lcom/abdullah/ahmed/SettingsActivity;->getApplicationContext()Landroid/content/Context;
+    :cond_0
 
     .line 592
     return-void
