@@ -4,7 +4,7 @@
     <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
     <Preference android:layout="@layout/default_settings" android:selectable="false" />
     <Preference android:layout="@layout/ah_kb" android:selectable="false" />
-    <PreferenceScreen android:layout="@layout/AH_WO" android:key="prediction_settings">
+    <PreferenceScreen android:layout="@layout/ah_wo" android:key="prediction_settings">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <SwitchPreference android:persistent="true" android:title="@string/prefs_enable_recorrection" android:key="recorrection_enabled" android:summary="@string/prefs_enable_recorrection_summary" android:defaultValue="true" />
         <SwitchPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="true" />
@@ -70,7 +70,7 @@
             <EditTextPreference android:persistent="true" android:title="@string/sm43" android:key="sm43" />
         </PreferenceScreen>
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_VI" android:key="Vibrate_sound_menu"
+    <PreferenceScreen android:layout="@layout/ah_vi" android:key="Vibrate_sound_menu"
       xmlns:android="http://schemas.android.com/apk/res/android">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_sound" android:selectable="false" />
@@ -82,7 +82,7 @@
         <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/tap_sound_style_values" android:title="@string/tap_sound_style_pref_title" android:selectable="true" android:key="tap_sound_style_pref" android:dependency="sound_on" android:defaultValue="@string/sound_android" android:entryValues="@array/tap_sound_style_values" />
         <SwitchPreference android:persistent="true" android:title="@string/popup_on_keypress" android:key="popup_on" android:defaultValue="true" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_GE">
+    <PreferenceScreen android:layout="@layout/ah_ge">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_ges" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
@@ -92,7 +92,7 @@
         <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/gesture_options_modes" android:title="@string/swipe_down" android:selectable="true" android:key="swipe_down" android:defaultValue="0" android:entryValues="@array/gesture_options_values" />
         <com.android.inputmethod.latin.DialogSeekBarPreference android:persistent="true" android:title="@string/gesture_sensitivity" android:key="gesture_sensitivity" android:summary="@string/gesture_sensitivity_summary" android:defaultValue="@integer/gesture_sesitivity" step="1" min="0" max="80" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_LA" android:key="layout_menu">
+    <PreferenceScreen android:layout="@layout/ah_la" android:key="layout_menu">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_layout" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
@@ -106,7 +106,7 @@
         <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/enable_cursors_modes" android:title="@string/enable_cursors" android:selectable="true" android:key="enable_cursors" android:defaultValue="@string/enable_cursors_on_swipe" android:entryValues="@array/enable_cursors_modes_values" />
         <ListPreference android:persistent="true" android:entries="@array/voice_input_modes" android:title="@string/voice_input" android:key="voice_mode" android:defaultValue="@string/voice_mode_main" android:entryValues="@array/voice_input_modes_values" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_FO" android:key="appearance_advance_menu">
+    <PreferenceScreen android:layout="@layout/ah_fo" android:key="appearance_advance_menu">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_fc" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
@@ -121,7 +121,7 @@
         <Preference android:enabled="true" android:title="@string/suggestion_font_color" android:selectable="true" android:key="suggestion_font_color" android:summary="@string/suggestion_font_color_summery" android:dependency="background_suggestion_key" android:defaultValue="@color/candidate_recommended" />
         <Preference android:enabled="true" android:title="@string/suggestion_bar_color" android:selectable="true" android:key="suggestion_bar_color" android:summary="@string/suggestion_bar_color_summery" android:dependency="background_suggestion_key" android:defaultValue="0xFF000000" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_TH">
+    <PreferenceScreen android:layout="@layout/ah_th">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_themes" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
@@ -130,14 +130,14 @@
             <intent android:action="com.android.inputmethod.latin.INPUT_SKIN_SELECTOR" />
         </PreferenceScreen>
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_BA">
+    <PreferenceScreen android:layout="@layout/ah_ba">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_backup" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
         <Preference android:enabled="true" android:title="@string/backup_title" android:selectable="true" android:key="backup_files" android:summary="restore" />
         <Preference android:enabled="true" android:title="@string/restore_title" android:selectable="true" android:key="restore_files" android:summary="@string/restore_summary" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_LG">
+    <PreferenceScreen android:layout="@layout/ah_lg">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/setting_lang" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
@@ -148,7 +148,7 @@
         <SwitchPreference android:persistent="true" android:title="@string/hebrew_alt_layout" android:key="hebrew_alt_layout" android:defaultValue="@bool/bool_hebrew_alt_layout" />
         <SwitchPreference android:persistent="true" android:title="@string/czech_full_layout" android:key="czech_full_layout" android:summary="@string/czech_full_layout_summary" android:defaultValue="@bool/bool_czech_full_layout" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_TW" android:key="Tweaks_menu">
+    <PreferenceScreen android:layout="@layout/ah_tw" android:key="Tweaks_menu">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <PreferenceScreen android:title="@string/edit_popular_domains" android:key="edit_popular_domains">
             <EditTextPreference android:persistent="true" android:title="@string/popular_domain_0" android:key="popular_domain_0" />
@@ -191,7 +191,7 @@
         <SwitchPreference android:persistent="true" android:title="@string/long_press_on_123_to_settings" android:key="long_press_on_123_to_settings" android:summary="@string/long_press_on_123_to_settings_summary" android:defaultValue="true" />
         <SwitchPreference android:persistent="true" android:title="@string/voice_input_best_choice_title" android:key="voice_input_best_choice" android:summary="@string/voice_input_best_choice_summery" android:defaultValue="true" />
     </PreferenceScreen>
-    <PreferenceScreen android:layout="@layout/AH_AA" android:key="help_screen">
+    <PreferenceScreen android:layout="@layout/ah_aa" android:key="help_screen">
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/about_developer" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
