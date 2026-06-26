@@ -260,16 +260,34 @@
     return-void
 .end method
 
-.method private native closeNative(I)V
+.method private closeNative(I)V
+    .locals 0
+
+    return-void
 .end method
 
-.method private native getBigramsNative(I[CI[II[C[IIII)I
+.method private getBigramsNative(I[CI[II[C[IIII)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
-.method private native getSuggestionsNative(II[I[I[III[C[I)I
+.method private getSuggestionsNative(II[I[I[III[C[I)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
-.method private native isValidWordNative(I[CI)Z
+.method private isValidWordNative(I[CI)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method private final loadDictionary(Ljava/lang/String;JJ)V
@@ -311,7 +329,12 @@
     return-void
 .end method
 
-.method private native openNative(Ljava/lang/String;JJIIIII)I
+.method private openNative(Ljava/lang/String;JJIIIII)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 

@@ -707,7 +707,10 @@
     return-object v0
 .end method
 
-.method private native releaseProximityInfoNative(I)V
+.method private releaseProximityInfoNative(I)V
+    .locals 0
+
+    return-void
 .end method
 
 .method private final setProximityInfo([[IIILjava/util/List;Lcom/android/inputmethod/latin/LatinKeyboard$TouchPositionCorrection;)V
@@ -1019,7 +1022,12 @@
     goto/16 :goto_1
 .end method
 
-.method private native setProximityInfoNative(IIIII[II[I[I[I[I[I[F[F[F)I
+.method private setProximityInfoNative(IIIII[II[I[I[I[I[I[F[F[F)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 

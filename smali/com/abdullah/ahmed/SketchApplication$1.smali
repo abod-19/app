@@ -81,7 +81,7 @@
 
     const/16 v2, 0x2b67
 
-    const/high16 v3, 0x40000000    # 2.0f
+    const v3, 0x44000000    # FLAG_UPDATE_CURRENT | FLAG_IMMUTABLE
 
     invoke-static {v1, v2, v0, v3}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
