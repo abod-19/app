@@ -2675,7 +2675,7 @@
     .line 4446
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v6, 0xe
+    const/16 v6, 0x23
 
     if-lt v5, v6, :cond_0
 
@@ -10063,7 +10063,7 @@
     .line 3909
     sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v7, 0xe
+    const/16 v7, 0x23
 
     if-lt v6, v7, :cond_0
 
@@ -10655,7 +10655,7 @@
     .line 2464
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v6, 0xe
+    const/16 v6, 0x23
 
     if-lt v5, v6, :cond_0
 
@@ -10920,7 +10920,7 @@
     :cond_1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v1, 0xe
+    const/16 v1, 0x23
 
     if-lt v0, v1, :cond_2
 
@@ -17857,7 +17857,7 @@
 
     sget v8, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v9, 0x21
+    const/16 v9, 0x23
 
     if-lt v8, v9, :cond_register_receiver_legacy
 

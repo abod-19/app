@@ -1049,7 +1049,7 @@
 
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v4, 0x15
+    const/16 v4, 0x23
 
     if-lt v3, v4, :cond_0
 
@@ -1090,7 +1090,7 @@
 
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v4, 0x12
+    const/16 v4, 0x23
 
     if-ge v3, v4, :cond_4
 
@@ -2917,7 +2917,7 @@
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v1, 0x15
+    const/16 v1, 0x23
 
     if-lt v0, v1, :cond_0
 
