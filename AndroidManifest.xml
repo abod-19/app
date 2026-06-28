@@ -1,94 +1,185 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="35" package="inputmethod.latin.perfectkeyboard" platformBuildVersionCode="35" platformBuildVersionName="35">
-    <original-package android:name="com.android.inputmethod.latin"/>
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="35"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <!-- Limit legacy dictionary/contact/storage permissions to older Android versions for Android 15 (API 35) compatibility. -->
-    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
-    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
-    <application android:allowBackup="true" android:dataExtractionRules="@xml/data_extraction_rules" android:extractNativeLibs="true" android:backupAgent="com.android.inputmethod.latin.DictionaryEditorBackupAgent" android:icon="@drawable/ic_application" android:killAfterRestore="false" android:label="@string/english_ime_name" android:theme="@style/AHTheme">
-        <service android:exported="true" android:label="@string/spell_checker_service_name" android:name="com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService" android:permission="android.permission.BIND_TEXT_SERVICE">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:compileSdkVersion="35"
+    android:compileSdkVersionCodename="35"
+    package="inputmethod.latin.perfectkeyboard"
+    platformBuildVersionCode="35"
+    platformBuildVersionName="35">
+
+    <original-package android:name="com.android.inputmethod.latin" />
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="35" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:extractNativeLibs="true"
+        android:backupAgent="com.android.inputmethod.latin.DictionaryEditorBackupAgent"
+        android:icon="@drawable/ic_application"
+        android:killAfterRestore="false"
+        android:label="@string/english_ime_name"
+        android:theme="@style/AHTheme">
+
+        <service
+            android:exported="true"
+            android:label="@string/spell_checker_service_name"
+            android:name="com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService"
+            android:permission="android.permission.BIND_TEXT_SERVICE">
             <intent-filter>
-                <action android:name="android.service.textservice.SpellCheckerService"/>
+                <action android:name="android.service.textservice.SpellCheckerService" />
             </intent-filter>
-            <meta-data android:name="android.view.textservice.scs" android:resource="@xml/spellchecker"/>
+            <meta-data
+                android:name="android.view.textservice.scs"
+                android:resource="@xml/spellchecker" />
         </service>
-        <activity android:exported="true" android:label="@string/android_spell_checker_settings" android:name="com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity">
+
+        <activity
+            android:exported="true"
+            android:label="@string/android_spell_checker_settings"
+            android:name="com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <service android:name="com.google.android.voiceime.ServiceHelper"/>
-        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation" android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:name="com.google.android.voiceime.ActivityHelper" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
-        <service android:exported="true" android:label="@string/english_ime_name" android:name="com.android.inputmethod.latin.DictionaryEditor" android:permission="android.permission.BIND_INPUT_METHOD">
+
+        <service
+            android:name="com.google.android.voiceime.ServiceHelper"
+            android:foregroundServiceType="microphone" />
+
+        <activity
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:name="com.google.android.voiceime.ActivityHelper"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service
+            android:exported="true"
+            android:label="@string/english_ime_name"
+            android:name="com.android.inputmethod.latin.DictionaryEditor"
+            android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
-                <action android:name="android.view.InputMethod"/>
+                <action android:name="android.view.InputMethod" />
             </intent-filter>
-            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
         </service>
-        <activity android:exported="true" android:label="@string/english_ime_settings" android:name="com.android.inputmethod.latin.DomainEditor">
+
+        <activity
+            android:exported="true"
+            android:label="@string/english_ime_settings"
+            android:name="com.android.inputmethod.latin.DomainEditor">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:label="@string/english_ime_debug_settings" android:name="com.android.inputmethod.latin.DictionaryEditorDebugSettings">
+
+        <activity
+            android:exported="true"
+            android:label="@string/english_ime_debug_settings"
+            android:name="com.android.inputmethod.latin.DictionaryEditorDebugSettings">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:label="@string/language_selection_title" android:name="com.android.inputmethod.latin.PerfectInputLanguageSelection">
+
+        <activity
+            android:exported="true"
+            android:label="@string/language_selection_title"
+            android:name="com.android.inputmethod.latin.PerfectInputLanguageSelection">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="com.android.inputmethod.latin.INPUT_LANGUAGE_SELECTIONP"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <activity android:exported="true" android:label="@string/shortcuts_title" android:name="com.android.inputmethod.latin.AutoTextEditor">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="com.android.inputmethod.latin.INPUT_AUTOTEXT_EDITOR"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.inputmethod.latin.INPUT_LANGUAGE_SELECTIONP" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:label="@string/user_dictionary_title" android:name="com.android.inputmethod.latin.CustomDitctionaryEditor">
+
+        <activity
+            android:exported="true"
+            android:label="@string/shortcuts_title"
+            android:name="com.android.inputmethod.latin.AutoTextEditor">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="com.android.inputmethod.latin.CUSTOM_DICTIONARY_EDITOR"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-        <activity android:exported="true" android:label="@string/skins_title" android:name="com.android.inputmethod.latin.SkinSelector">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="com.android.inputmethod.latin.INPUT_SKIN_SELECTOR"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.inputmethod.latin.INPUT_AUTOTEXT_EDITOR" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:label="@string/english_ime_name" android:name="com.android.inputmethod.latin.BackupPro">
+
+        <activity
+            android:exported="true"
+            android:label="@string/user_dictionary_title"
+            android:name="com.android.inputmethod.latin.CustomDitctionaryEditor">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.inputmethod.latin.CUSTOM_DICTIONARY_EDITOR" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.abdullah.ahmed.MainActivity" android:theme="@style/NoActionBar"/>
-        <activity android:name="com.abdullah.ahmed.EnableActivity" android:theme="@style/NoActionBar"/>
-        <activity android:name="com.abdullah.ahmed.AboutDevActivity" android:theme="@style/NoActionBar"/>
-        <activity android:name="com.abdullah.ahmed.SettingsActivity" android:theme="@style/NoActionBar"/>
+
+        <activity
+            android:exported="true"
+            android:label="@string/skins_title"
+            android:name="com.android.inputmethod.latin.SkinSelector">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.inputmethod.latin.INPUT_SKIN_SELECTOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:exported="true"
+            android:label="@string/english_ime_name"
+            android:name="com.android.inputmethod.latin.BackupPro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.abdullah.ahmed.MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.abdullah.ahmed.EnableActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.abdullah.ahmed.AboutDevActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.abdullah.ahmed.SettingsActivity"
+            android:theme="@style/NoActionBar" />
     </application>
 </manifest>
