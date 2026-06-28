@@ -267,7 +267,7 @@
 .end method
 
 .method public register(Lcom/google/android/voiceime/VoiceRecognitionTrigger$Listener;)V
-    .locals 3
+    .locals 4
     .param p1, "listener"    # Lcom/google/android/voiceime/VoiceRecognitionTrigger$Listener;
 
     .prologue
@@ -294,8 +294,22 @@
 
     iget-object v2, p0, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mReceiver:Landroid/content/BroadcastReceiver;
 
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 p1, 0x21
+
+    if-lt v3, p1, :cond_register_receiver_legacy
+
+    const/4 v3, 0x4
+
+    invoke-virtual {v1, v2, v0, v3}, Landroid/inputmethodservice/InputMethodService;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+
+    goto :goto_register_receiver_done
+
+    :cond_register_receiver_legacy
     invoke-virtual {v1, v2, v0}, Landroid/inputmethodservice/InputMethodService;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
+    :goto_register_receiver_done
     .line 148
     return-void
 .end method
