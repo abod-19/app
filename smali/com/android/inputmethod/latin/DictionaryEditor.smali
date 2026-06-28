@@ -17857,7 +17857,7 @@
 
     sget v8, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v9, 0x23
+    const/16 v9, 0x21
 
     if-lt v8, v9, :cond_register_receiver_legacy
 
