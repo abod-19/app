@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/the_shortcut" android:layout_alignParentLeft="true" />
+    <EditText android:id="@id/key" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repalcement_word" android:layout_alignParentLeft="true" />
+    <EditText android:id="@id/value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</LinearLayout>

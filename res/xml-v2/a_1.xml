@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="80.9%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="1.0px" android:verticalGap="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top" />
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـمِـمّـتِـࢦڪّـآإتِـﮧيُﻱ ، ⧣ 😌❤‍🩹 ؛" android:keyLabel="ممتلكاتي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـﻊّـآإࢦِـمّـِﮧﻱُ ؛ 💙🌎̣؍ً̣؍ ." android:keyLabel="عالمي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـضِـحّـڪِـتَـﮧِيُﻱ ، ⧣ 🤭❤‍🩹 ؛" android:keyLabel="ضحكتي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="قِـۦْـمِۛـۦْـرِيّـِﮧيُ ، ⧣ 💚🌙ً . ." android:keyLabel="قمري" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ڪِـوْ̲୭ڪِـبّـِﮧيُﻱ ، ⧣ 💙🪐̣؍ً̣؍ ." android:keyLabel="كوكبي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="جِـوْ̲୭هـِرّتِـﮧيُﻱ ، ⧣ 🤍💍ٌ . ." android:keyLabel="جوهرتي" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـجّـمِيُـࢦِـﮭُـِۃ قِـࢦبّـِﮧيُﻱ ، ⧣ 🥹🫂❤‍🔥 ؛" android:keyLabel="جميلة" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـﻊّـرِقُ ۦـﻊّـينِـﮧْيُ ؛ 👀🤎̣؍ً̣؍ ." android:keyLabel="عرق" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="فِـࢦّـذِهُـِۃ ڪِـبّـدِيُ ؛ 🤍🫀ٌ . ." android:keyLabel="فلذة" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="أمُـآِإنْ قِـࢦبّـِﮧيُ ، ⧣ 🥹❤‍🔥 ؛" android:keyLabel="اماان" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="۽ أڪُـتفِـآئِـﮧ۫يُ ۽ أࢦِـوْ̲୭حِـييّـدِ ۽ ، ⧣ 💘 ." android:keyLabel="اكتفائي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="جّـنـتِـﮧيُ ؛ 🤎🫀ٌ . ." android:keyLabel="جنتي" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="رفِـيّقِـﮭُﮭِـۃْ دِربّـِﮧيُﻱ ؛ ❤‍🩹❤‍🩹🫂ٌ . ." android:keyLabel="رفيقة" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="حُـڪِآيّـﮭِﮭُـِۃ قِـࢦبّـِﮧيُ ، ⧣ 🫶💗 ؛" android:keyLabel="حڪاية" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="فِـرّحِـﮭُﮭِـۃْ حِـيّآتِـﮧيُ ؛ 💙🫂ٌ̣؍̣؍ ." android:keyLabel="فرحةة" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="حِـوْ̲୭بّ حِـيّآتِـﮧيُ ، ⧣ 😍❤️ ؛" android:keyLabel="حووب" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ڪِـﺢّـࢦِـﮭُـِۃ عِـيّنـِﮧيُ ؛ 👀💖̣؍ً̣؍ ." android:keyLabel="ڪحلة" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="دقِـﮭُﮭِـۃّ قِـࢦبّـِﮧيُ ، ⧣ 🫶💗 ؛" android:keyLabel="دقة" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="جُـمِـيّࢦ ڪِـوْ̲୭ردِهُـِۃ أࢦـتِوْ̲୭ࢦِـيّيـِبُ ؛ 💚🌷ٌ̣؍̣؍ ." android:keyLabel="التوليب" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـنِـآمّـِﮧيُ بِـﮧْ قِـࢦبّـِﮧيُ ، ⧣ 🤍🫀 ؛" android:keyLabel="نامي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـتِـسّو̲୭يِيّـِن قِـࢦـبّـِﮧيُ ، ⧣ 🤭♥ ؛" android:keyLabel="تسويين" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="۽ أࢦِـﻊّـشِـقُ ۦـمّـآࢦِـتَـِﮧيُ ؛ 🫂💕ً . ." android:keyLabel="العشق" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="ۦـمِـمُنـِوْ̲୭ع ۽ ألِـࢦـمّـسِ ؛ 🖤🌸̣؍ٌ̣؍ ." android:keyLabel="اللمس" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText="ذڪِـريّـآتِـﮧيُ ۽ أࢦِـﺢّـࢦِـوْ̲୭هِـۃُ ، ⧣ 🥲❤‍🩹 ؛" android:keyLabel="زڪرياتي" />
+    </Row>
+</Keyboard>

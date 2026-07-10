@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_single="true" android:state_pressed="true" android:drawable="@drawable/abod1_t" />
+    <item android:state_single="true" android:drawable="@drawable/abod1_rl" />
+    <item android:state_checkable="true" android:state_checked="true" android:drawable="@drawable/abod1_b" />
+    <item android:state_checkable="true" android:state_pressed="true" android:drawable="@drawable/abod1_b1" />
+    <item android:state_checkable="true" android:state_checked="true" android:drawable="@drawable/abod1_rl" />
+    <item android:state_checkable="true" android:drawable="@drawable/abod1_b" />
+    <item android:state_pressed="true" android:drawable="@drawable/abod1_rl" />
+    <item android:drawable="@drawable/abod1_t" />
+</selector>

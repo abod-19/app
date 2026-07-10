@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.800005%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="حِبٰ͢يبـْٰﮧـ͡ي،(😻💙ֆء˝" android:keyLabel="حبيبي" />
+        <Key android:codes="50" android:keyOutputText="فِٰ͒ـِۢدﯛ̲୭ۿۿہ لِٰـِۢقِٰـِۢلِٰـِۢبِٰـِۢڪِٰـِۢ ⁞♩⁽🌞🌩₎⇣✿" android:keyLabel="فدوه" />
+        <Key android:codes="50" android:keyOutputText="؏ۤـہيِٰہوِنَِٰہيِٰہ ₎❁😻🌸" android:keyLabel="عيوني" />
+        <Key android:codes="50" android:keyOutputText="ﻋمـٰ̲ﮧ̷ۛۛــري ،﴿😻💙ֆ˝" android:keyLabel="عمري" />
+        <Key android:codes="50" android:keyOutputText="حـۧياتـۧيٌ ،😍❤️⇣˝" android:keyLabel="حياتي" />
+        <Key android:codes="50" android:keyOutputText="قـٰ̲ﮧ̷ۛۛــڵبَي ،﴿🙊💓ֆ˝" android:keyLabel="قلبي" />
+        <Key android:codes="50" android:keyOutputText="😻💗ᓚ۶ᒧ᎗ɹ̣ᓗĨ" android:keyLabel="احبك" />
+        <Key android:codes="50" android:keyOutputText="ﺂِعشـﹷٰﹻـقٰڪك 😻💛⇣˝" android:keyLabel="اعشقك" />
+        <Key android:codes="50" android:keyOutputText="ٱٳٱممَِٰمَِٰحــۿﮧهۦ❥😽😻˝" android:keyLabel="امح" />
+        <Key android:codes="50" android:keyOutputText="آوكــٓسجيـنٰ̲̐ـي • 💛" android:keyLabel="اوكسجيني" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="ابـٰٰ̲ﮧّٰـوسڪَك (🌚♥️," android:keyLabel="ابوسك" />
+        <Key android:codes="50" android:keyOutputText="أحًہٰبّہٰڪ ٰۦ˛⁽💚₎⇣˝ 𖤍 ℡ ‏⠀❥‏⠀" android:keyLabel="احبك" />
+        <Key android:codes="50" android:keyOutputText="ف᷃᷁ـــᮢ້ࣵؔـديـ᷌ـتڪك،⁽😉♥₎⇣.؟" android:keyLabel="فديتك" />
+        <Key android:codes="50" android:keyOutputText="هـوٰ୭ٰايٓهـہ ة َ(♥️😻⇣˝" android:keyLabel="هواي" />
+        <Key android:codes="50" android:keyOutputText="ﺭْﯢحہٰٰيٰۧ ┊“😍💖) ℡" android:keyLabel="روحي" />
+        <Key android:codes="50" android:keyOutputText="آِتٌۙنْۛفـﮩ๋͜‏ـسـﮩ๋͜‏ـڪٌۘ “👄🌺) ℡" android:keyLabel="اتنفسك" />
+        <Key android:codes="50" android:keyOutputText="اًٰرَٰٓيـَٰـَٰٓـۣۛ﴿😻﴾ۣۣۙـٌَّــَُْدكَٰٓۦ˛⁽❥₎⇣" android:keyLabel="اريدك" />
+        <Key android:codes="50" android:keyOutputText="- بٰـہٰٖوٰسٰـہٰٖهٰـہٰٖ ⋮❖💋💋" android:keyLabel="بوسه" />
+        <Key android:codes="50" android:keyOutputText="ﯢٰ୭̷͒ردتہيَ ،🥀💭⇣˝" android:keyLabel="وردتي" />
+        <Key android:codes="50" android:keyOutputText="• يعمـرٰيَ ،🤤💕😻 ء˝" android:keyLabel="يعمري" />
+    </Row>
+</Keyboard>

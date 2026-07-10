@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.800005%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="!ََِِ⇣⁽ۥ💙 !َِ🔐₎ َِ⇡!" android:keyLabel="💙🔐" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ💔 َِ😒 َِ🔪ۥَِ،!" android:keyLabel="😒🔪" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ☹️ َِ😹 َِ❤ۥَِ،!" android:keyLabel="😹❤" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ😃 َِ♥️ َِ👻ۥَِ،!" android:keyLabel="♥️👻" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ🥱 َِ💕 َِ👋ۥَِ،!" android:keyLabel="🥱👋" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ🤭 َِ💜ۥَِ،!" android:keyLabel="🤭💜" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ☹ َِ🖤 َِ🖤ۥَِ،!" android:keyLabel="☹🖤" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ😔 َِ😴 َِ💔ۥَِ،!" android:keyLabel="😴💔" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ😴 َِِ🖤 َِ🖖ۥَِ،!" android:keyLabel="🖤🖖" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ🖤 َِ😴 َِ✋🏻.َِ🥀ۥَِ،!" android:keyLabel="😴🥀" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="..!َِ!َََِِ!؟ََِِ😒ٍََُ😒َِ✋ْۥَِ،!" android:keyLabel="😒✋" />
+        <Key android:codes="50" android:keyOutputText="🙂 َِ💚ۥَِ،!" android:keyLabel="🙂💚" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ🙂 َِ💔ًًٍٍٍ₎ֆ!''۽" android:keyLabel="🙂💔ً" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ🙂 َِ💔 َِ👏ۥَِ،!" android:keyLabel="💔👏" />
+        <Key android:codes="50" android:keyOutputText="!ََِِ⇣⁽ۥ🐥!َِ🍭₎⇡َِ !" android:keyLabel="🐥🍭" />
+        <Key android:codes="50" android:keyOutputText="!ۥَِ⇣⁽🎻!َِ 🎶₎⇡َِ !" android:keyLabel="🎻🎶" />
+        <Key android:codes="50" android:keyOutputText="🤭 َِ😻 َِ💜 ِؔؔ!٘₎!ﭑ۽" android:keyLabel="😻💜" />
+        <Key android:codes="50" android:keyOutputText="ِ؍.َِ🤦‍♂ َِ😂 َِ❤ۥَِ،ِ!" android:keyLabel="🤦‍♂😂" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ😂 َِ♥َِ!🙅🏻‍♀ۥَِ،!" android:keyLabel="😂🙅🏻‍♀" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ😽 َِ🖤 َِ💦ۥَِ،!" android:keyLabel="😽💦" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText=",؍.َِ🤫 َِ😂 َِ💙!؍؍." android:keyLabel="🤫💙" />
+        <Key android:codes="50" android:keyOutputText="ّ؍.َِ🤢 َِ😂 َِ🔪ۥَِ،!" android:keyLabel="🤢😂" />
+        <Key android:codes="50" android:keyOutputText="ًٍ؍.َِ😍 َِ❤️ َِ🙈ۥَِ،!" android:keyLabel="❤️🙈" />
+        <Key android:codes="50" android:keyOutputText="؍.َِ😂 َِِ💚 َِ🍃ۥَِ،!" android:keyLabel="💚🍃" />
+        <Key android:codes="50" android:keyOutputText="؍.َََِِོ😒َِ؍َِ😂َِ♡َِ؍٭َِ" android:keyLabel="😒😂" />
+        <Key android:codes="50" android:keyOutputText="؍.‍😂‍ َِ💔 َِ🖕ۥَِ،!" android:keyLabel="😂‍🖕" />
+        <Key android:codes="50" android:keyOutputText="؍😂 َِ🖕 َِ✋ َِ)⇡⇣۽" android:keyLabel="😂✋" />
+        <Key android:codes="50" android:keyOutputText="⁽⇣̀💞🌚😹،!)''" android:keyLabel="🌚😹" />
+        <Key android:codes="50" android:keyOutputText="؍📎 َِ🎀 َِ💭 َِ)⇡⇣۽" android:keyLabel="📎🎀" />
+        <Key android:codes="50" android:keyOutputText=" َِ🤤 َِ♥ َِ💋..!''ء" android:keyLabel="♥💋" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="☻ َِ🎻 َِ🖤 َِ!)" android:keyLabel="☻🖤" />
+        <Key android:codes="50" android:keyOutputText="،😴💔🩹!َ''))" android:keyLabel="😴🩹" />
+        <Key android:codes="50" android:keyOutputText="،😒😂👊!َ''))" android:keyLabel="😂👊" />
+        <Key android:codes="50" android:keyOutputText="،🤤💛🍯!َ''))" android:keyLabel="🤤🍯" />
+        <Key android:codes="50" android:keyOutputText="،🦦💙‘،🍃!َ''))" android:keyLabel="🦦💙" />
+        <Key android:codes="50" android:keyOutputText="،🙇‍♂️🖤‘🍃!َ''))" android:keyLabel="🙇‍♂️🖤" />
+        <Key android:codes="50" android:keyOutputText="،🙇‍♀🖤‘🍃!َ''))" android:keyLabel="🙇‍♀🖤" />
+        <Key android:codes="50" android:keyOutputText="،🖤🚶‍♂️!َ''))۽" android:keyLabel="🖤🚶‍♂️" />
+        <Key android:codes="50" android:keyOutputText="،🖤🚶‍♀!َ''))۽" android:keyLabel="🖤🚶‍♀" />
+        <Key android:codes="50" android:keyOutputText="،💃💃♥!َ''))" android:keyLabel="💃♥" />
+    </Row>
+</Keyboard>

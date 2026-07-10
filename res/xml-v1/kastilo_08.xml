@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.800004%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="إاِٰ٘يِ٘ ࢦإاِٰ٘زِ٘طِ٘ يِ٘ـَِـوٌٍِ٘😞 ٍْ😹 ٍْ💗 ٍْ√!﴾ۗ.۽" android:keyLabel="لازط" />
+        <Key android:codes="50" android:keyOutputText="ۿٰٕـــَِﮯَـَِععع..!َِ!َََِِ!؟َِ ََِِِ ََِِِ😂🤘🏽" android:keyLabel="هع" />
+        <Key android:codes="50" android:keyOutputText="تِ٘عِ٘ـَِـإاِٰ٘ࢦ نِ٘شِ٘ـَِـوِ٘فٌٍِ٘😹 ٍْ🥱 ٍْ🖕 ٍْ√!﴾ۗ.۽" android:keyLabel="تعال" />
+        <Key android:codes="50" android:keyOutputText="بِ٘دِ٘عِ٘سِ٘ إاِٰ٘مِ٘كِ٘ ࢦإاِٰ٘تِ٘هِـٰ٘هِإاِٰ٘يِ٘طٌٍِ٘🧐 ٍْ😹 ٍْ✋ ٍْ√!﴾ۗ.۽" android:keyLabel="دعس" />
+        <Key android:codes="50" android:keyOutputText="إاِٰ٘رِ٘ضِ٘ـَِـعِ٘ يِ٘إاِٰ٘عِ٘ـَِـإاِٰ٘هِـٰ٘هِرٌٍَِِ٘👻 ٍْ😂 ٍْ🖕 ٍْ√!﴾ۗ." android:keyLabel="ارضع" />
+        <Key android:codes="50" android:keyOutputText="عِ٘ࢦـَِـى زِ٘بِ٘ـَِــَِـيِ٘ﻟ!⁽⇣ؔ🤤ٌٍ😹 ٍْ ٍْ🖕 ٍْ√!﴾ۗ" android:keyLabel="على" />
+        <Key android:codes="50" android:keyOutputText="اﭑِنـَِـا اﭑِآﺂزِْۧغِٰبٰٖـَِـڪِٰﻟ!⁽⇣ؔ😏😹!٘₎!ﭑ۽" android:keyLabel="ازغبك" />
+        <Key android:codes="50" android:keyOutputText="خخِٕٓـَِـطِٛ اِ٘ﭑِحۧحِٕٓـَِـمًِࢪٌٍٛ😴 ٌٍٍْ😒 ٍْ✋ ٍْ√!﴾ۗ.۽" android:keyLabel="لاتقترب" />
+        <Key android:codes="50" android:keyOutputText="إاِٰ٘قِ٘ـَِـࢦبِ٘ وِ٘جِ٘ـَِـهِـٰ٘هِكٌٍَِِ٘😴ٌٍ😹 ٍْ🖕 ٍْ√!﴾ۗ.۽" android:keyLabel="اقلب" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="تِ٘نِ٘ـإاِٰ٘مِ٘ مِ٘عِ٘ـَِـيِ٘ إاِٰ٘ࢦيِ٘ـَِـوِ٘مِ٘!؟ٌٌٍٍ😞 ٍْ😹 ٍْ💔ٍْ√!﴾ۗ.۽" android:keyLabel="تنام" />
+        <Key android:codes="50" android:keyOutputText="مِ٘مِ٘كِ٘نِ٘ إاِٰ٘شِ٘فِ٘شِ٘فِ٘كِ٘☹ ٌٍَِ😹 ْ َِۥ!).۽" android:keyLabel="ممكن" />
+        <Key android:codes="50" android:keyOutputText="يِ٘ـَِــَِـإاِٰ٘ࢦوِ٘طِ٘ـَِــَِــَِـيٌٍِ٘😞 ٍْ😹 ٍْ ٍْ√!﴾ۗ.۽" android:keyLabel="لوطي" />
+        <Key android:codes="50" android:keyOutputText="فِؔاِ٘ﭑِڪَِيَِـِيَِو̲୭ ََِِِ😂 ََِِِ💔 َِ🖐️َِۥ..!َِ!َََِِ!؟َِ" android:keyLabel="فاك" />
+        <Key android:codes="50" android:keyOutputText="مٰٰཻ̯ض̯غــوٰ୭̯ط،ﻟ!⁽⇣ؔؔ😒ؔ😂ًٍؔ🤞⇣˝" android:keyLabel="مضغوط" />
+        <Key android:codes="50" android:keyOutputText="ڜـَِـࢪَِࢪَِمَِٰهٰـَِــِهِۘآﺂٌٍ😂 ٍْ😳 ٍْ🖕 ٍْ√!﴾۽" android:keyLabel=" شرمها" />
+        <Key android:codes="50" android:keyOutputText="آﺂࢪَِڪِٰبٰٖ عٰٖݪِيهٰـَِهِ يڜنِۧبٌٍٰٖ😹 ٍْ😒 ٍْ🖕 ٍْ√!﴾ۗ.۽" android:keyLabel="اركب" />
+        <Key android:codes="50" android:keyOutputText="آـآص͜صۿ ݪآـآ آـآقݪعٓـ؏ـۿآـآ ݪآـآي٘دي٘.؛(:😹🖕''،" android:keyLabel="اص" />
+        <Key android:codes="50" android:keyOutputText="إاِٰ٘ࢦحِ٘كِ٘وِ٘مِ٘هِـٰ٘هِ حِ٘كِ٘وِ٘مِ٘تِ٘يِ٘ يِ٘إاِٰ٘صِ٘إاِٰ٘عِ٘ࢦيِ٘كٌٍِ٘😹 ٍْ😌 ٍْ✋🏻 ٍْ√!﴾ۗ.۽" android:keyLabel="حكومتي" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="قِؔيَِـِيَِقٌٍَِ👻 ٍْ😂 ٍْ✋🏻 ٍْ√!﴾ۗ.۽" android:keyLabel="قيق" />
+        <Key android:codes="50" android:keyOutputText="حِ٘ــشِ٘هِـــٰ٘هِإا٘😹 ٍْ😳 ٍْ🖕 ٍْ√!﴾ۗ.۽" android:keyLabel="حشها" />
+        <Key android:codes="50" android:keyOutputText="مـَِﮯَـَِـَِﮯَـَِص⁽⇣َِ😭َِ😂َِ،!)''۽" android:keyLabel="مص" />
+        <Key android:codes="50" android:keyOutputText="ڪــَِﮯَـَِلزبـَِﮯَـَِي🤧🤤😂،!)''۽" android:keyLabel="كلزب" />
+        <Key android:codes="50" android:keyOutputText="فـَِﮯَـَِرخ لاتـَِﮯَـَِهوڪ؍.َِ🐥 َِ َِ🐾ۥَِ،!" android:keyLabel="فرخ" />
+        <Key android:codes="50" android:keyOutputText="لاتهايـَِﮯَـَِط ونـَِﮯَـَِت مدعـَِﮯَـَِوس.َِ😹 َِ َِ🖕ۥَِ،!" android:keyLabel="لاتهايط" />
+        <Key android:codes="50" android:keyOutputText="كٍ٘كَٰـَِـسِܴ٘ـسِ٘ممِٛكٍ٘كَٰ ﻟ!⁽⇣ؔ😏😹!٘₎!ﭑ۽" android:keyLabel="كسمك" />
+        <Key android:codes="50" android:keyOutputText="كٍ٘كَٰسِܴ٘ـسِ٘ـَِـخِٛـَِـتُِكٍ٘كَٰ ﻟ!⁽⇣ؔ😏😹!٘₎!ﭑ۽" android:keyLabel="كسخ" />
+        <Key android:codes="50" android:keyOutputText="اخـَِﮯَـَِرڪ طيـَِﮯَـَِط؍.َِ💨 َِ🤥ۥَِ،!" android:keyLabel="ٰطيط" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="• ٰكلــُـٰـَِﮯَـَِـَِﮯَـَِخـَِﮯَـَِرا  َ،😂😒ֆ ۦٰ،" android:keyLabel="كلخرا" />
+        <Key android:codes="50" android:keyOutputText="مَِٰمَِٰڪِٰڪِٰنَٖ تِٰڂِٰلٖينَٖي؍.َِ ِ😒 َِ 😹 َِ🖕 َِ!ء" android:keyLabel="تخليني" />
+        <Key android:codes="50" android:keyOutputText="ڜنَٖعٰٖعٰٖث طيزڪِٰ 😒 َِ😂 َِ🖕!.۽" android:keyLabel="طيز" />
+        <Key android:codes="50" android:keyOutputText="مَِٰعٰٖڪِٰ ڂِٰاٚلٖهٰۃٖ رٖطبٰٖ⁽›😳َِ😂َِ 💔َِ!)" android:keyLabel="خاله" />
+    </Row>
+</Keyboard>

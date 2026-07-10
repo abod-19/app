@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:background="#ff323232" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button1" android:layout_width="110.0dip" android:layout_height="45.0dip" android:text="@string/c3" android:layout_x="160.0dip" android:layout_y="133.0dip" />
+    <CheckBox android:id="@id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="240.0dip" android:layout_y="10.0dip" />
+    <CheckBox android:id="@id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="240.0dip" android:layout_y="45.0dip" />
+    <CheckBox android:id="@id/checkBox3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="240.0dip" android:layout_y="80.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="210.0dip" android:layout_height="wrap_content" android:text="@string/c4" android:layout_x="25.0dip" android:layout_y="15.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="210.0dip" android:layout_height="wrap_content" android:text="@string/c5" android:layout_x="25.0dip" android:layout_y="50.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="210.0dip" android:layout_height="wrap_content" android:text="@string/c6" android:layout_x="25.0dip" android:layout_y="85.0dip" />
+</AbsoluteLayout>

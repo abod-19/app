@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PhysicalTranslation QwertyTranslation="йцукенгшщзфывапролдячсмить">
+    <SequenceMapping keySequence="43,43" targetChar="х" />
+    <SequenceMapping keySequence="44,44" targetChar="ь" />
+    <SequenceMapping keySequence="39,39" targetChar="ж" />
+    <SequenceMapping keySequence="40,40" targetChar="э" />
+    <SequenceMapping keySequence="41,41" targetChar="б" />
+    <SequenceMapping keySequence="55,55" targetChar="ю" />
+</PhysicalTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.800005%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="ﺧـﺩﯙﺩڪك اﭑطـﯾـب ﻣـن طـﺑـﺦﺦ اﭑﻣـي‘ي،🐣💙🤤̢ !)  ۽" android:keyLabel="خدود" />
+        <Key android:codes="50" android:keyOutputText="اسـﻣـڪك عـم يـمـشـي بـ وريـدي،😻💗🤙!َ  ))" android:keyLabel="اسمك" />
+        <Key android:codes="50" android:keyOutputText="ﯾـﺧـࢪﺑـﯾـﺗـڪك ﺷـو٘ꪆ ﺣـﺑـﯾـﺗـڪك،🥺♥️🍓̢ !)  ۽" android:keyLabel="بيتك" />
+        <Key android:codes="50" android:keyOutputText="ﻧـو٘ࢪڪك ﻋـﻋـﻣـاﺂﻧـﻱ و٘ﺣَـﺣَـࢪق ﺑـﯾـت ﺟـﯾـࢪاﺂﻧـي،🙈🖤🌸!)  ۽" android:keyLabel="نورك" />
+        <Key android:codes="50" android:keyOutputText="ﻣـﺳـﺳـاﺂ اﺂݪـࢪﻃـو٘ﺑـهـهـۂ ﻧـﺗـﻋـࢪف و٘ݪاﺂ ﻣـﺧـﻃـو٘ﺑـهـۂ،😉💞🥢.!)  ۽" android:keyLabel="رطوبة" />
+        <Key android:codes="50" android:keyOutputText="ݪـݪاﺂز۾ اﺂﺳـو٘ي ﻋـﻣـݪـﯾـهـۂ ﺗـڪـﺑـﯾـړﺮ ݪـ ﻗـݪـﺑـﻱ ،، اﺂݪـﺣَـﺣَـݪـو٘ﯾـن ڪـﺛـࢪو٘ꪆ،😍😂‘📿.!)  ۽" android:keyLabel="عمليه" />
+        <Key android:codes="50" android:keyOutputText="حـبـﻱﻱ الـڪك لـوꪆ يـنـتـهـهـي ارجـعﻊ احـبـڪك مـن جـديـد،🤭💛💛!َ  ))" android:keyLabel="حبي" />
+        <Key android:codes="50" android:keyOutputText="ﺂِعشـﹷٰﹻـقٰڪك 😻💛⇣˝" android:keyLabel="اعشقك" />
+        <Key android:codes="50" android:keyOutputText="ٱٳٱممَِٰمَِٰحــۿﮧهۦ❥😽😻˝" android:keyLabel="امح" />
+        <Key android:codes="50" android:keyOutputText="آوكــٓسجيـنٰ̲̐ـي • 💛" android:keyLabel="اوكسجيني" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="أإممـِّﮧْٰٖـووح🤤💋₎⇣˝" android:keyLabel="امح" />
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="اﭑنَٖتِٰ ¸ حٰٖظي ¸ اﭑلٖحٰٖلٖٚٓٚٓوٛ  ٰ̐˛› (😻💙ֆء˝" android:keyLabel="انت حظي" />
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="ٲﭑنَٖتِٰ دِنَٖيتِٰي وعٰٖالٖمَِٰي اﭑلٖجُٖمَِٰيلٖ ٰ̐˛›،﴿🙊💓ֆ˝" android:keyLabel="انت دنيتي" />
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="ٲﭑنَٖتِٰ سٖنَٖدِي وꪆمَِٰلٖجُٖئي ٰ̐˛›˛⁽💚❥‏₎⇣˝" android:keyLabel="انت سندي" />
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="اﭑنَٖتِٰ دِاﭑئي ٚٓوٛ دٚٓوٛاﭑئي ٰ̐˛› ⁽🥺ـَ❥₎⇣" android:keyLabel="انت دوائي" />
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="اﭑنَٖتِٰ ڪِٰونَٖي وڪِٰياﭑنَٖي ٰ̐˛›- ⁽🤤🙊₎⇣⋮" android:keyLabel="انت كوني" />
+        <Key android:keyWidth="14.0000105%p" android:codes="50" android:keyOutputText="اﭑنَٖتِٰ حٰبٰٖي اﭑلٖاﭑوꪆݪ واﭑلٖاﭑڂِٰيرٖ ٰ̐˛› ⁽☹️💙₎ֆء˝" android:keyLabel="انت حبي" />
+    </Row>
+</Keyboard>

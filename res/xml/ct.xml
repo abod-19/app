@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="20.000004%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="5" android:keyLabel="@string/c7" />
+        <Key android:codes="4" android:keyLabel="@string/c2" />
+        <Key android:codes="3" android:keyLabel="@string/c1" />
+    </Row>
+    <Row>
+        <Key android:codes="11" android:keyLabel="@string/c10" />
+        <Key android:codes="8" android:keyLabel="@string/c9" />
+        <Key android:codes="9" android:keyLabel="@string/c8" />
+    </Row>
+</Keyboard>

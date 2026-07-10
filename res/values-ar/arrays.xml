@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prediction_modes">
+        <item>بدون</item>
+        <item>أساسي</item>
+        <item>متقدم</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>على اللوحة الرئيسية</item>
+        <item>على لوحة الرموز</item>
+        <item>معطل</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>اللاقط على لوحة المفاتيح الرئيسية</item>
+        <item>اللاقط على لوحة مفاتيح الرموز</item>
+        <item>الإدخال الصوتي معطل</item>
+    </string-array>
+    <string-array name="keyboard_hint_font_color_values">
+        <item>اسود</item>
+        <item>ابيض</item>
+    </string-array>
+    <string-array name="enable_cursors_modes">
+        <item>لاتعرضها ابدا</item>
+        <item>عند سحب مفتاح المسافة لاعلى</item>
+        <item>العرض دائما</item>
+    </string-array>
+</resources>

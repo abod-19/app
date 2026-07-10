@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_e">3èéêëē</string>
+    <string name="alternates_for_i">ìíîïī8</string>
+    <string name="alternates_for_o">òóôõöōœø9</string>
+    <string name="alternates_for_u">ùúûüū7</string>
+    <string name="alternates_for_y">ýÿ6</string>
+</resources>

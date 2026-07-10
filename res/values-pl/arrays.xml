@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prediction_modes">
+        <item>Brak</item>
+        <item>Podstawowy</item>
+        <item>Zaawansowany</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>Na klawiaturze głównej</item>
+        <item>Na klawiaturze z symbolami</item>
+        <item>Wyłączone</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>Mikrofon na klawiaturze głównej</item>
+        <item>Mikrofon na klawiaturze z symbolami</item>
+        <item>prowadzanie głosowe jest wyłączone</item>
+    </string-array>
+    <string-array name="settings_key_modes_values">
+        <item>@string/settings_key_mode_auto</item>
+        <item>@string/settings_key_mode_always_show</item>
+        <item>@string/settings_key_mode_always_hide</item>
+    </string-array>
+    <string-array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </string-array>
+    <string-array name="prediction_modes_values">
+        <item>@string/prediction_none</item>
+        <item>@string/prediction_basic</item>
+        <item>@string/prediction_full</item>
+    </string-array>
+    <string-array name="voice_input_modes_values">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </string-array>
+    <string-array name="keyboard_layout_modes">
+        <item>@string/layout_basic</item>
+        <item>@string/layout_high_contrast</item>
+        <item>@string/layout_stone_bold</item>
+        <item>@string/layout_stone_normal</item>
+        <item>@string/layout_gingerbread</item>
+        <item>@string/layout_silicon_light</item>
+        <item>@string/layout_silicon_dark</item>
+        <item>@string/layout_iphone</item>
+    </string-array>
+    <string-array name="keyboard_layout_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="keyboard_hint_font_color_values">
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="keyboard_hint_font_color_summary">
+        <item>Czarny</item>
+        <item>Biały</item>
+    </string-array>
+    <string-array name="tap_sound_style_values">
+        <item>Android</item>
+        <item>Samsung</item>
+        <item>iPhone</item>
+        <item>WinPhone</item>
+    </string-array>
+    <string-array name="gesture_options_modes">
+        <item>@string/g_do_nothing</item>
+        <item>@string/g_delete_last_word</item>
+        <item>@string/g_launch_settings</item>
+        <item>@string/g_close_keyboard</item>
+        <item>@string/g_paste_from_clipboard</item>
+        <item>@string/g_pickup_suggestion</item>
+        <item>@string/g_next_Language</item>
+        <item>@string/g_previous_language</item>
+        <item>@string/g_arrow_right</item>
+        <item>@string/g_arrow_left</item>
+        <item>@string/g_arrow_up</item>
+        <item>@string/g_arrow_down</item>
+        <item>@string/g_toggle_T9</item>
+        <item>@string/g_toggle_Compact</item>
+        <item>@string/g_toggle_T9_Compact</item>
+        <item>@string/g_toggle_symbols</item>
+        <item>@string/g_launch_user_dic</item>
+        <item>@string/g_launch_start_voice</item>
+        <item>@string/g_gesture_toggle_normal_splited</item>
+    </string-array>
+    <string-array name="gesture_options_values">
+        <item>@string/gesture_do_nothing</item>
+        <item>@string/gesture_delete_word</item>
+        <item>@string/gesture_go_setting</item>
+        <item>@string/gesture_close_keyboard</item>
+        <item>@string/gesture_paste_from_clipboard</item>
+        <item>@string/gesture_pickup_suggestion</item>
+        <item>@string/gesture_next_lang</item>
+        <item>@string/gesture_prev_lang</item>
+        <item>@string/gesture_key_right</item>
+        <item>@string/gesture_key_left</item>
+        <item>@string/gesture_key_up</item>
+        <item>@string/gesture_key_down</item>
+        <item>@string/gesture_toggle_t9</item>
+        <item>@string/gesture_toggle_compact</item>
+        <item>@string/gesture_toggle_t9compact</item>
+        <item>@string/gesture_toggle_symbols</item>
+        <item>@string/gesture_launch_user_dic</item>
+        <item>@string/gesture_start_voice</item>
+        <item>@string/gesture_toggle_normal_splited</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_values">
+        <item>@string/enable_cursors_never</item>
+        <item>@string/enable_cursors_on_swipe</item>
+        <item>@string/enable_cursors_always</item>
+    </string-array>
+    <string-array name="enable_cursors_modes_summary">
+        <item>Nigdy</item>
+        <item>Po przesunięciu w górę na spacji</item>
+        <item>Zawsze</item>
+    </string-array>
+    <string-array name="enable_cursors_modes">
+        <item>Nigdy nie wyświetlaj kursorów na klawiaturze</item>
+        <item>Po przesunięciu w górę na spacji</item>
+        <item>Zawsze</item>
+    </string-array>
+    <string-array name="portrait_layout_modes">
+        <item>@string/l_normal</item>
+        <item>@string/l_T9</item>
+        <item>@string/l_compact</item>
+        <item>@string/l_split</item>
+    </string-array>
+    <string-array name="portrait_layout_values">
+        <item>@string/layout_default_mode_normal</item>
+        <item>@string/layout_default_mode_t9</item>
+        <item>@string/layout_default_mode_compact</item>
+        <item>@string/layout_default_mode_split</item>
+    </string-array>
+    <string-array name="landscape_layout_modes">
+        <item>@string/landsapce_normal</item>
+        <item>@string/landsapce_split</item>
+    </string-array>
+    <string-array name="landscape_layout_values">
+        <item>@string/layout_landscape_default_mode_normal</item>
+        <item>@string/layout_landscape_default_mode_split</item>
+    </string-array>
+</resources>

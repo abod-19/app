@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layoutAnimation="@anim/mua_icon_on" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="1.0dip" android:src="#ff1565c0" android:layout_weight="1.0" />
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip">
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="1.0dip" android:src="#ff1565c0" android:layout_weight="1.0" />
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+            <TextView android:textStyle="bold" android:textColor="#ff1565c0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="🇾🇪⃤𓆩 Abdullah ١9 𓆪" android:fontFamily="@font/al8dar_font" />
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="1.0dip" android:src="#ff1565c0" android:layout_weight="1.0" />
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="1.0dip" android:src="#ff1565c0" android:layout_weight="1.0" />
+            <ImageView android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/ah_cric" android:tint="#ff1565c0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

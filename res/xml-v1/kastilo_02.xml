@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="12.199998%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="م͜ــ๋͜ـ͜ـ💋ـح¦😻₎‹واحدهٰۃٖ\n\nم͜ــ๋͜ـ͜ـ💋💋ـح¦😻₎‹فانيهہ\n\nم͜ــ๋͜ـ͜ـ💋💋💋ح¦😻₎‹فلاف\n\n​​م͜ــ๋͜ـ͜💋💋💋💋ـح¦😻₎‹كفيٰر" android:keyLabel="مَِٰحٰٖ" />
+        <Key android:codes="50" android:keyOutputText=".‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏            🌚\n.   ‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​         \\||​🍺​\n.‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏           ┃ />\n _*صِصّــۦـٖٓٚ͡ـــب صِصّــۦـٖٓٚ͡ـــب ۙشكڰلنٖــۦـٖٓٚ͡ـــاﺂ͘ مۧۘطوۥليــۦـٖٓٚ͡ـــنٖ*_ \n🍹   _*يتِهہٌمۧۘوۥنــۦـٖٓٚ͡ـــٖي   باﺂ͘لٰفٖس̫ـســــٓٚــاﺂ͘دِ   وۥاﺂ͘نٖــۦـٖٓٚ͡ـــــۦـٖٓٚ͡ـــاﺂ͘.tt مۧۘطــۦـٖٓٚ͡ـــوۥعٰ🍺 🌚*_" android:keyLabel="مَِٰطوꪆعٰٖ" />
+        <Key android:codes="50" android:keyOutputText=".ـ            😌\n.ـ         &lt;[📷]>\n.ـ             |||\n.ـ             ​/\\ \n*لحظة. اعملك. صـ📷ـــوره ونت خجـ🙈ــول كـذا*" android:keyLabel="صٖوꪆرٖهٰ" />
+        <Key android:codes="50" android:keyOutputText="*#نــــآﮪــــي✘;* \nـ ‏​‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​     😏\nـ ‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​   _|~🍺\nـ    ┃ />" android:keyLabel="نَٖاﭑهٰي" />
+        <Key android:codes="50" android:keyOutputText="انا مصكــ😿ـين\n\n*.ـ   ┋ 🙀>*\n*.ـ   ┋(/(*\n*.ـ   ┋   />*\n*ـ¯¯¯¯¯¯¯¯¯*" android:keyLabel="مَِٰسٖكينَٖ" />
+        <Key android:codes="50" android:keyOutputText="*جي قرح اصابع ارجلي*\n\nـ&lt;😹>\nـ  👣" android:keyLabel="جُٖي" />
+        <Key android:codes="50" android:keyOutputText="​​​​-   &lt;😸__☜زبج.زبج.tt​​\n​​​​ـ    ▒ //\\/_.tt​​​​\n​​​​ـ    ▒▒▒|_.tt​​​​\n\n​​اعطوه الفين م͡لط͡آم͡ يْ͡ع͜ق͜لل 😹💔" android:keyLabel="زبٰجُ" />
+        <Key android:codes="50" android:keyOutputText="​​​ـ. ​=☹\\​ \nـ.    ​&lt;//\\/_\n​ـ     ​_\\     ▒​  \n\n\n ​قسسســًـــّ «ــــًًـًًً(😿)ـًًـًـّ «ـــًًـًًًـًًـًـــّسم انك تشتي واحد يخفعك ويندعك بالجبهة حقك الي هي مثل مغراف الفووول انت والـزبج هولا الــحامضات👌🏿😹😹😹😹💔" android:keyLabel="زبٰاﭑجُ" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="*ي̗شتيلك ملطام*  \n\nء             👋 \nـ      ☹ *\\*     \n ـ   *&lt;// ـ*        \nـ    _*\\\\*_ \n\n*•﴿ لوما اساوي عيونك ﴾•*" android:keyLabel="مَِٰلطاﭑمَِٰ" />
+        <Key android:codes="50" android:keyOutputText="ـ 😉  \nـ 🎸>  \nـ 👖 \n\n  *ﺑـيـ😘ـن #ٱأحـبٍّـ💋ٍـٍـُـِՀօvεٍـٍـٍك*\n*وشٱٱغــَْْ🎤ــْٰٔنَــ🎻ــي ْٓ  وشـٱٱقـول*\n*😌✌اُعـٌّْشًّْـَّقــْـ😍ّــℓْٔσًٓνًْєًـٍّـكْْ*🙊" android:keyLabel="اﭑحٰٖبٰٖڪِٰ" />
+        <Key android:codes="50" android:keyOutputText="*ولـــــع. ولـــــع لعنبوعشرتهم*😏\n\n\n*هــفـفـفـف*\n.ـ💨😗\n.ـ   ┋(/(/🚬\n.ـ   ┋   />" android:keyLabel="وꪆلعٰٖ" />
+        <Key android:codes="50" android:keyOutputText="ـ عٰــ&lt;😝>ـــ͢ـ̐ــــآإعٰ\nـ    ▒ //\\/_\nـ    ▒▒▒" android:keyLabel="اﭑعٰٖ" />
+        <Key android:codes="50" android:keyOutputText="*شفقش راسك بالبانه قر*\nـ     ☹   \nـ     &lt;//~🔧👦🏿\nـ       \\\\" android:keyLabel="قٰٖرٖ" />
+        <Key android:codes="50" android:keyOutputText="​*صصبــــــٰ̡ـٲﺂٖحګڪ ¸〝 ـٲﺂٖنـ ㎖ ـــٰ̡ـٲﺂٖ*\n*ـ.   ☺__🍺*\n*ـ    ▒ //_*\n*ـ    ▒▒▒|_ 🙈💗*\n\n*صصصبــــــٰ̡ـٲﺂٖح* ¸〝 \n*🌺الْــَِــ﴿🎀﴾ــَِوَرْدْ❋🌹*" android:keyLabel="صٖبٰٖاﭑحٰٖك" />
+        <Key android:codes="50" android:keyOutputText="*# - سأشرب اﺄلخمر،ֆء*✘;∝🤣* \nـ ‏​‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​  😂\nـ ‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​‏​_\\||~🍺\nـ ┃ /> .. ‏ \n\nونت ا؏ـــعملي فيهاℓ ٰمطو؏ـــع  ۅنلتقي بجهنم" android:keyLabel="اﭑلخمَِٰرٖ" />
+        <Key android:codes="50" android:keyOutputText="ـ   *&lt;☹️__☜سـلفني شـنبك الـوردي* \nـ   *▒ //\\/_*\nـ   *▒▒▒|_*" android:keyLabel="شِنبڪ" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PhysicalTranslation QwertyTranslation="ץףקראטוןםפשדגכעיחלךזסבהנמצ">
+    <SequenceMapping keySequence="55" targetChar="ת" />
+    <SequenceMapping keySequence="55" shiftModifier="true" targetChar="," />
+    <SequenceMapping keySequence="55" altModifier="true" targetCharCode="63" />
+    <SequenceMapping keySequence="29" altModifier="true" targetChar="₪" />
+</PhysicalTranslation>

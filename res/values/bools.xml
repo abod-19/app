@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_autocorrect">true</bool>
+    <bool name="im_is_default">false</bool>
+    <bool name="voice_input_default">true</bool>
+    <bool name="config_swipeDisambiguation">true</bool>
+    <bool name="default_popup_preview">false</bool>
+    <bool name="default_recorrection_enabled">true</bool>
+    <bool name="enable_rtl">false</bool>
+    <bool name="config_long_press_comma_for_settings_enabled">true</bool>
+    <bool name="always_suggest">true</bool>
+    <bool name="double_space_to_period">true</bool>
+    <bool name="bool_hebrew_alt_layout">true</bool>
+    <bool name="bool_czech_full_layout">false</bool>
+    <bool name="pref_background_custom">false</bool>
+    <bool name="pref_suggestion_custom">false</bool>
+    <bool name="auto_space_after_punc">true</bool>
+    <bool name="config_require_umlaut_processing">false</bool>
+    <bool name="config_require_hebrew_processing">false</bool>
+</resources>

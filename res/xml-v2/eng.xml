@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="80.9%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="1.0px" android:verticalGap="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top" />
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪑꪗ 𝑆𝑜𝑢𝑙 🦋🤍، ّ .." android:keyLabel="روحي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪑꪗ 𝘭𝑖𝑓𝑒٫ 🫶🏻💗َ⧣ ." android:keyLabel="حياتي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". i ᥣ᥆᥎ᥱ ყ᥆ᥙ ؛ 💙🫂َ ⧣ ." android:keyLabel="بحبك" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". ꪑꪗ 𝘱𝒖𝑙𝘴ꫀ ،َ🫰🏻💗₎𖥨." android:keyLabel="نبضي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". 𝑗𝑢𝑠𝑡 𝑡𝑜𝑟 𝑚𝑒 ،َ 🤍✨ᝰ͎ ." android:keyLabel="فقط لي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". ᥣَ᥆᥎ᥱ𝖽 𝘮َᥱ ؛ 🫶🏻💗َ ⧣ ." android:keyLabel="أحبني" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪑꪗ 𝐶𝘩𝑖𝑙𝑑 💞، ّ .." android:keyLabel="طفلي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". 𝑝𝑟𝑖𝑛𝑐𝑒𝑙𝑦 ؛ 💛🤴🏻، ٌ .." android:keyLabel="اميري" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪑꪗ ρ𝘳𝘪𝖺ꪀᥴꫀ𝘴𝘴 ، 🤍👸🏻، ّ .." android:keyLabel="اميرتي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". ꪑꪗ ᥴ𝑢𝘵ꫀ ، 🦋🤍، ٌ .." android:keyLabel="صغيرتي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪑꪗ ᥴ𝑜𝑚𝑓𝑜𝘳𝘵 ، 🤍🫀َ؛)" android:keyLabel="راحتي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". ꪑꪗ ℎ𝑎𝑝𝑝𝑖ꪀꫀ𝘴𝘴 ٫💗🌸، ّ .." android:keyLabel="سعادتي" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". 𝑖'𝑚 𝘴𝑖ꪀ𝘨𝑙ꫀ •⤹💔🌸، ّ .." android:keyLabel="سنكل" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". 𝑘𝑖𝑠𝑠 𝑦𝑜𝑢 .💋❤️، ّ .." android:keyLabel="ابوسك" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪑꪗ 𝐵ꫀ𝑎𝑢𝑡𝑖𝘧𝑢𝑙 𝐹𝘳𝑖ꫀꪀ𝘥 ، 🫶🏻💗، ّ .." android:keyLabel="صديقتي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". 𝘪𝘵 𝘪𝘴 ꪑ𝘪ꪀꫀ ؛💗😌، ّ .." android:keyLabel="انها لي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". 𝘐 ꪀꫀꫀ𝑑 𝑦𝑜𝑢 ❤‍🔥، ّ .." android:keyLabel="احتاجك" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". 𝑆𝑜𝑢𝑙 ꪑ𝑎𝘵ꫀ ؛ 🫂🫀، ّ .." android:keyLabel="ﺗ روحي" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪔᥡ ᥉ꪝᥱᥱƚᎥᥱ ، 🍬🫀َ؛)" android:keyLabel="حلوتي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪔᥡ ɦᥱᥲᥣƚɦ ، 😩🫀َ؛)" android:keyLabel="عافيتي" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText=". ꪔᥡ ꪝ᥆ᖇᥣძ ، 🌍🫀َ؛)" android:keyLabel="عالمي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". 𝘸𝑒𝑙ᥴ𝑜𝑚ꫀ ⧣ 🤎✨، ّ .." android:keyLabel="اهلاً" />
+        <Key android:keyWidth="17.000008%p" android:keyOutputText="𝐵𝑜𝑛𝑤𝑖 ؛ 💞، ّ .." android:keyLabel="بونوي" />
+        <Key android:keyWidth="16.000008%p" android:keyOutputText=". 𝑇𝑜 𝑆𝑙ꫀꫀ𝘱 ꪹ💙، ّ .." android:keyLabel="علنوم" />
+    </Row>
+</Keyboard>

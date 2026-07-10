@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.800005%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50" android:keyOutputText="*هـٍْـٍْـــــــــ﴿😸﴾ـٌٍْـــــــٍْـٍٍْْلا« ☻➚💕↯☂*\n\nٰ   *هَــْـِْـْْـِلاّ بشاحن قَلبـ♡ــيے😘❤*\nٰ    *ونضارت عِنۋۋۋ♡̷̴̬̩̃ نيّے😘♥*\nٰ         *وسماعت اذاني❤😘*\nٰ          *وكمامت انفي♥😘*\nٰ            *والاتريك حقي🔦*\nٰ             *ونبض بطني😂*\nٰ               *ويش ازيد😅*\nٰ                *أقۈل😌😍*" android:keyLabel="هلاﭑ" />
+        <Key android:codes="50" android:keyOutputText="*~طفـٍّـٰஅ็ٍّูـ(💔😿)ــــٍّـٰஅ็ٍّูـشان⁽❥₎⇣~*" android:keyLabel="طفش" />
+        <Key android:codes="50" android:keyOutputText="ههههه تصفيقــٖٖـ͝ـ͚ــھ لقــٖٖ͝ـ͚ــد زبــٖٖٖ͝ـ͚ــج ههههه" android:keyLabel="زبج" />
+        <Key android:codes="50" android:keyOutputText="يـ̮ــ͞ـ̮ـ͞طنن«حتٱٰٱٰٱٰلمـ̮ــ͞ـ̮ـ͞ۄت(!‹☹₎ٰٰٰٰٰٰٖٖٖٖٖٖٖـٰٰٰٰٰٖٖٖٖٖٖٖ͜͡↝" android:keyLabel="يطنن2" />
+        <Key android:codes="50" android:keyOutputText="يـ̮ــ͞ـ̮ـ͞طنن(!‹☹₎ٰٰٰٰٰٰٖٖٖٖٖٖٖـٰٰٰٰٰٖٖٖٖٖٖٖ͜͡↝" android:keyLabel="يطنن" />
+        <Key android:codes="50" android:keyOutputText="ٱاٰشتـــ͝ـ͚ــقت(!‹☹₎ٰٰٰٰٰٰٖٖٖٖٖٖٖـٰٰٰٰٰٖٖٖٖٖٖٖ͜͡↝" android:keyLabel="اشتقت" />
+        <Key android:codes="50" android:keyOutputText="ۄربـ͕ـــ͕ـــــ͠ـ͕ـــ͕ـــي أشـ͕ـــ͕ـــــ͠ـ͕ـــ͕ـــتقت لـ͕ـــ͕ـــــ͠ـ͕ـــ͕ـــك ❥┋⁽✋☹️₎" android:keyLabel="شتقت2" />
+        <Key android:codes="50" android:keyOutputText="ھـــ͝ـ͚ـــــ͝ع ياضـــ͝ـ͚ــريف↱↰" android:keyLabel="هع" />
+        <Key android:codes="50" android:keyOutputText="حِبٰ͢يبـْٰﮧـ͡تي ٲن͜ــ̷ۛۛــ͢ـ(🍿)ـٌِـٌٌِِـُِـٌِـٌِتيۡ😻🍭،(😻💙ֆء˝" android:keyLabel="اﭑنتي" />
+        <Key android:codes="50" android:keyOutputText="حِبٰ͢يبـْٰﮧـ͡ي ٲنـ(😌)ـت،(😻💙ֆء˝" android:keyLabel="اﭑنت" />
+    </Row>
+    <Row>
+        <Key android:codes="50" android:keyOutputText="فــ͢ـ̐ــــدـﺂلڪ مــ͢ـ̐ـــــﺂلي وـﺂلظمـــ͢ـ̐ــــﺂر" android:keyLabel="فداﭑڪ" />
+        <Key android:codes="50" android:keyOutputText="مــ̮͂ـــ͞ـٱدخل جــ̮͂ـــ͞ـدتمڪ ‹↝😸😹💔⁴,‹" android:keyLabel="مادخل" />
+        <Key android:codes="50" android:keyOutputText="جُٖـــ͡ــــٰٚـدِتِٰمَِٰـــ͡ــــٰٚـڪِٰ ¸ ​​​​​​​​​​​​​​​​​​​​​⁽›👌😂😂💔‹ۦٰٖۙۦْٰٖٓ" android:keyLabel="جدتمك" />
+        <Key android:codes="50" android:keyOutputText="اﺂﺗـاٰﭑ اﺂݪـﺷﺷـاﺂب اﺂݪـݪـذي ﯾـﺣَﺣَـﺑـهـۂ اﺂݪـﺟﺟـﻣـﯾـعﻊ😌👌!)  ۽" android:keyLabel="اتِٰـــاﭑ" />
+        <Key android:codes="50" android:keyOutputText="اﺂﻧـاﺂ ﺟـﺟـﯾـت⁽⇣̀👻😂💛‘🌸.!)  ۽" android:keyLabel="جُٖيتِٰ" />
+        <Key android:codes="50" android:keyOutputText="​​​​​​​​​​​​​​​​​​​​​ڪنـتـ☻ـࢪوَِٰﯚݪ سِجہ‌‍َِٰݪ دِخَخِوَِٰݪہ‌‍َِٰي˛⁽㋡₎⇣؍.َِ😌 َِ💚 َِ👋ۥَِ،!" android:keyLabel="كنترول" />
+        <Key android:codes="50" android:keyOutputText="...ڪـَِﻧـَِتـَِࢪوَِٰꪆݪ طـَِݪــَِﻗـَِـﺗــَِيـَِن بـَِأإݪـَِﺟـٍَﮯَـٍَوَِٰꪆ َﯛَِ َِ أإ؏ـݪـٍَﮯَـٍَن حـَِﺿـٍَﮯَـٍَوَِٰࢪﯾيَِ..♡َِ 😌🤞!" android:keyLabel="دخولي" />
+        <Key android:codes="50" android:keyOutputText="ۿآـآت رٖﻗـ۾ اﺂﻣـڪك اﺂﺷـڪـࢪهـهـاﺂ لاﺂﻧـهـهـاﺂ ﺟـاﺂﺑـﺗـڪك⁽⇣̀😞😹💗،!)  ۽" android:keyLabel="رقم" />
+        <Key android:codes="50" android:keyOutputText="أبشـ͕ـــ͕ـــــ͠ـ͕ـــ͕ـــر بعـ͕ـــ͕ـــــ͠ـ͕ـــ͕ـــزك يأحـ͕ـــ͕ـــــ͠ـ͕ـــ͕ـــيدي" android:keyLabel="ابشر" />
+        <Key android:codes="50" android:keyOutputText="ههههههههههههههههههههههههههههههههههههههههه هههههههههههههههههههههههههههههههههه)ه̊ۃة⇦,,,,♫︾ه̊ۃةه̊ۃة❥" android:keyLabel="😂😂" />
+    </Row>
+</Keyboard>

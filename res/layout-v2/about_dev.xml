@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/vscroll1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/linear2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linear33" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/im3" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/infooo" android:scaleType="fitCenter" android:translationX="25.0dip" />
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear15" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <ImageView android:layout_gravity="center" android:id="@id/im1" android:layout_width="wrap_content" android:layout_height="150.0dip" android:src="@drawable/ahmed" android:scaleType="fitCenter" />
+                            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/textview7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🇾🇪⃤𓆩 Abdullah ١9 𓆪" />
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageview13" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="50.0dip" android:src="@drawable/update" android:scaleType="fitCenter" android:translationX="-25.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear3" android:layout_width="fill_parent" android:layout_height="165.0dip">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/im8" android:layout_width="fill_parent" android:layout_height="95.0dip" android:src="@drawable/al8dar_tele" android:scaleType="fitCenter" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/textview5" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="قنـاة نشر تحديثات الڪيبورد" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/linear18" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear5" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/imageview9" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/insta" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/textview9" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="حسابـي انستا" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear19" android:layout_width="150.0dip" android:layout_height="165.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/imageview10" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/al8dar_tele" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/textview10" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="حسابـي تيليجرام" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear13" android:layout_width="fill_parent" android:layout_height="165.0dip">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear14" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/im9" android:layout_width="fill_parent" android:layout_height="95.0dip" android:src="@drawable/am_team" android:scaleType="fitCenter" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/textview6" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="شڪر 🤍." />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/linear22" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear23" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/imageview11" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/al8dar_chat" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/textview11" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="حسابي واتساب" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear7" android:layout_width="150.0dip" android:layout_height="165.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/imageview12" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/abod" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/textview12" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="حسابي تيليجرام 2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/linear30" android:layout_width="0.0dip" android:layout_height="0.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/linear32" android:layout_width="150.0dip" android:layout_height="165.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lin7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip">
+                            <ImageView android:id="@id/imageview18" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/am_team" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/textview14" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
