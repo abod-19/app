@@ -47,6 +47,10 @@
 
 .method private markCompleteAndOpenMain()V
     .locals 5
+    const-string v0, "StartActivity"
+    const-string v1, "markCompleteAndOpenMain: persisting setup completion and opening MainActivity"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     const-string v0, "start_setup"
     const/4 v1, 0x0
     invoke-virtual {p0, v0, v1}, Lcom/abdullah/ahmed/StartActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
@@ -68,6 +72,10 @@
 
 .method private beginPermissions()V
     .locals 7
+    const-string v0, "StartActivity"
+    const-string v1, "beginPermissions: evaluating runtime permissions"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
     const/16 v1, 0x17
     if-lt v0, v1, :complete
@@ -101,15 +109,9 @@
     :add3
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :notif
-    const/16 v5, 0x21
-    if-lt v0, v5, :request
-    const-string v3, "android.permission.POST_NOTIFICATIONS"
-    invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
-    move-result v4
-    if-nez v4, :add4
-    goto :request
-    :add4
-    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    # POST_NOTIFICATIONS is intentionally skipped here because this legacy
+    # app targets SDK 26; requesting it at startup on Android 13+ can block
+    # the launch flow even though notifications are not needed for startup.
     :request
     invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
     move-result v3
@@ -220,10 +222,32 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 14
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+    const-string v0, "StartActivity"
+    const-string v1, "onCreate: starting safe startup flow"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    const-string v0, "start_setup"
+    const/4 v1, 0x0
+    invoke-virtual {p0, v0, v1}, Lcom/abdullah/ahmed/StartActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    move-result-object v0
+    const-string v1, "completed"
+    const/4 v2, 0x0
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    move-result v0
+    if-eqz v0, :startup_not_complete
+    const-string v0, "StartActivity"
+    const-string v1, "onCreate: setup already completed; opening MainActivity"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->markCompleteAndOpenMain()V
+    return-void
+
+    :startup_not_complete
     const v0, -0x1
-    invoke-virtual {p0, v0}, Lcom/abdullah/ahmed/StartActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getWindow()Landroid/view/Window;
     move-result-object v1
+    if-eqz v1, :window_done
     invoke-virtual {v1, v0}, Landroid/view/Window;->setStatusBarColor(I)V
+    :window_done
     new-instance v2, Landroid/widget/ScrollView;
     invoke-direct {v2, p0}, Landroid/widget/ScrollView;-><init>(Landroid/content/Context;)V
     invoke-virtual {v2, v0}, Landroid/widget/ScrollView;->setBackgroundColor(I)V
