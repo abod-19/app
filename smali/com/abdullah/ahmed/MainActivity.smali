@@ -2169,15 +2169,11 @@
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 2
+    .locals 1
 
     .prologue
     .line 108
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
-
-    const-string v0, "MainActivity"
-    const-string v1, "onCreate: main startup started"
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 109
     sget v0, Lcom/abdullah/ahmed/R$layout;->main:I
