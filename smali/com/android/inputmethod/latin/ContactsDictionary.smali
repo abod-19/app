@@ -53,7 +53,7 @@
 .end method
 
 .method public constructor <init>(Landroid/content/Context;I)V
-    .locals 5
+    .locals 0
     .param p1, "context"    # Landroid/content/Context;
     .param p2, "dicTypeId"    # I
 
@@ -61,33 +61,46 @@
     .line 50
     invoke-direct {p0, p1, p2}, Lcom/android/inputmethod/latin/ExpandableDictionary;-><init>(Landroid/content/Context;I)V
 
-    .line 53
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v0
-
-    .line 56
-    .local v0, "cres":Landroid/content/ContentResolver;
-    sget-object v1, Landroid/provider/ContactsContract$Contacts;->CONTENT_URI:Landroid/net/Uri;
-
-    const/4 v2, 0x1
-
-    new-instance v3, Lcom/android/inputmethod/latin/ContactsDictionary$1;
-
-    const/4 v4, 0x0
-
-    invoke-direct {v3, p0, v4}, Lcom/android/inputmethod/latin/ContactsDictionary$1;-><init>(Lcom/android/inputmethod/latin/ContactsDictionary;Landroid/os/Handler;)V
-
-    iput-object v3, p0, Lcom/android/inputmethod/latin/ContactsDictionary;->mObserver:Landroid/database/ContentObserver;
-
-    .line 55
-    invoke-virtual {v0, v1, v2, v3}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
-
     .line 62
     invoke-virtual {p0}, Lcom/android/inputmethod/latin/ContactsDictionary;->loadDictionary()V
 
     .line 63
     return-void
+.end method
+
+.method private hasContactsPermission()Z
+    .locals 3
+
+    .prologue
+    const/4 v1, 0x0
+
+    :try_start_0
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/ContactsDictionary;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    const-string v2, "android.permission.READ_CONTACTS"
+
+    invoke-virtual {v0, v2}, Landroid/content/Context;->checkCallingOrSelfPermission(Ljava/lang/String;)I
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v1, 0x1
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :cond_0
+    :goto_0
+    return v1
+
+    :catch_0
+    move-exception v0
+
+    goto :goto_0
 .end method
 
 .method private addWords(Landroid/database/Cursor;)V
@@ -166,7 +179,7 @@
     :cond_2
     invoke-interface {p1}, Landroid/database/Cursor;->moveToNext()Z
     :try_end_0
-    .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
@@ -176,7 +189,7 @@
     move-exception v1
 
     .line 149
-    .local v1, "e":Ljava/lang/IllegalStateException;
+    .local v1, "e":Ljava/lang/Exception;
     const-string v10, "ContactsDictionary"
 
     const-string v11, "Contacts DB is having problems"
@@ -282,7 +295,7 @@
     .line 118
     invoke-static {v0}, Ljava/lang/Character;->isLetter(C)Z
     :try_end_1
-    .catch Ljava/lang/IllegalStateException; {:try_start_1 .. :try_end_1} :catch_0
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
     move-result v10
 
@@ -352,6 +365,17 @@
 
     .prologue
     .line 86
+    invoke-direct {p0}, Lcom/android/inputmethod/latin/ContactsDictionary;->hasContactsPermission()Z
+
+    move-result v0
+
+    if-nez v0, :cond_has_permission
+
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/ContactsDictionary;->clearDictionary()V
+
+    return-void
+
+    :cond_has_permission
     :try_start_0
     invoke-virtual {p0}, Lcom/android/inputmethod/latin/ContactsDictionary;->getContext()Landroid/content/Context;
 
@@ -383,7 +407,7 @@
     .line 89
     invoke-direct {p0, v6}, Lcom/android/inputmethod/latin/ContactsDictionary;->addWords(Landroid/database/Cursor;)V
     :try_end_0
-    .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 94
     .end local v6    # "cursor":Landroid/database/Cursor;
@@ -403,12 +427,14 @@
     move-exception v7
 
     .line 92
-    .local v7, "e":Ljava/lang/IllegalStateException;
+    .local v7, "e":Ljava/lang/Exception;
     const-string v0, "ContactsDictionary"
 
     const-string v1, "Contacts DB is having problems"
 
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1, v7}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/ContactsDictionary;->clearDictionary()V
 
     goto :goto_0
 .end method
