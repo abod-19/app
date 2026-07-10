@@ -300,6 +300,15 @@
     new-instance v2, Landroid/widget/ScrollView;
     invoke-direct {v2, p0}, Landroid/widget/ScrollView;-><init>(Landroid/content/Context;)V
     invoke-virtual {v2, v0}, Landroid/widget/ScrollView;->setBackgroundColor(I)V
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getResources()Landroid/content/res/Resources;
+    move-result-object v7
+    const-string v8, "start_premium_background"
+    const-string v9, "drawable"
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getPackageName()Ljava/lang/String;
+    move-result-object v10
+    invoke-virtual {v7, v8, v9, v10}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v7
+    invoke-virtual {v2, v7}, Landroid/widget/ScrollView;->setBackgroundResource(I)V
     new-instance v3, Landroid/widget/LinearLayout;
     invoke-direct {v3, p0}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
     const/4 v4, 0x1
@@ -329,6 +338,17 @@
     invoke-direct {v9, v8, v8}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
     invoke-virtual {v9, v5, v5, v5, v5}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
     invoke-virtual {v3, v7, v9}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getResources()Landroid/content/res/Resources;
+    move-result-object v8
+    const-string v9, "start_fade_scale"
+    const-string v10, "anim"
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getPackageName()Ljava/lang/String;
+    move-result-object v11
+    invoke-virtual {v8, v9, v10, v11}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v8
+    invoke-static {p0, v8}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
+    move-result-object v8
+    invoke-virtual {v7, v8}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
     new-instance v7, Landroid/widget/TextView;
     invoke-direct {v7, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
     const-string v8, "english_ime_name"
@@ -345,7 +365,7 @@
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
     const/high16 v9, 0x41d00000    # 26.0f
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setTextSize(F)V
-    const v9, -0xdededf
+    const/4 v9, -0x1
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setTextColor(I)V
     invoke-virtual {v7, v6}, Landroid/widget/TextView;->setGravity(I)V
     const/4 v10, 0x0
@@ -363,7 +383,7 @@
     invoke-virtual {v7, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
     const/high16 v8, 0x41800000    # 16.0f
     invoke-virtual {v7, v8}, Landroid/widget/TextView;->setTextSize(F)V
-    const v8, -0x7f7f80
+    const v8, -0x241406
     invoke-virtual {v7, v8}, Landroid/widget/TextView;->setTextColor(I)V
     invoke-virtual {v7, v6}, Landroid/widget/TextView;->setGravity(I)V
     new-instance v12, Landroid/widget/LinearLayout$LayoutParams;
@@ -382,7 +402,16 @@
     invoke-virtual {v7, v5, v5, v5, v5}, Landroid/widget/LinearLayout;->setPadding(IIII)V
     const v10, -0x50506
     invoke-virtual {v7, v10}, Landroid/widget/LinearLayout;->setBackgroundColor(I)V
-    const/high16 v10, 0x40c00000    # 6.0f
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getResources()Landroid/content/res/Resources;
+    move-result-object v10
+    const-string v12, "start_premium_card"
+    const-string v11, "drawable"
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getPackageName()Ljava/lang/String;
+    move-result-object v13
+    invoke-virtual {v10, v12, v11, v13}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v10
+    invoke-virtual {v7, v10}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
+    const/high16 v10, 0x41200000    # 10.0f
     invoke-virtual {v7, v10}, Landroid/widget/LinearLayout;->setElevation(F)V
     new-instance v12, Landroid/widget/TextView;
     invoke-direct {v12, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
@@ -405,10 +434,23 @@
     invoke-virtual {v12, v8}, Landroid/widget/TextView;->setTextColor(I)V
     invoke-virtual {v12, v6}, Landroid/widget/TextView;->setGravity(I)V
     invoke-virtual {v7, v12}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    const/4 v13, -0x1
     new-instance v12, Landroid/widget/LinearLayout$LayoutParams;
     invoke-direct {v12, v13, v0}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
     invoke-virtual {v12, v4, v4, v4, v5}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
     invoke-virtual {v3, v7, v12}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getResources()Landroid/content/res/Resources;
+    move-result-object v10
+    const-string v11, "start_slide_up"
+    const-string v12, "anim"
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getPackageName()Ljava/lang/String;
+    move-result-object v13
+    invoke-virtual {v10, v11, v12, v13}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v10
+    invoke-static {p0, v10}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
+    move-result-object v10
+    invoke-virtual {v7, v10}, Landroid/widget/LinearLayout;->startAnimation(Landroid/view/animation/Animation;)V
+    const/4 v13, -0x1
     new-instance v7, Landroid/widget/Button;
     invoke-direct {v7, p0}, Landroid/widget/Button;-><init>(Landroid/content/Context;)V
     const-string v10, "start_allow_permissions"
@@ -417,11 +459,23 @@
     invoke-virtual {v7, v10}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
     const v10, -0xd15a11
     invoke-virtual {v7, v10}, Landroid/widget/Button;->setBackgroundColor(I)V
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getResources()Landroid/content/res/Resources;
+    move-result-object v10
+    const-string v11, "start_premium_button"
+    const-string v12, "drawable"
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getPackageName()Ljava/lang/String;
+    move-result-object v13
+    invoke-virtual {v10, v11, v12, v13}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v10
+    invoke-virtual {v7, v10}, Landroid/widget/Button;->setBackgroundResource(I)V
+    const/high16 v10, 0x41200000    # 10.0f
+    invoke-virtual {v7, v10}, Landroid/widget/Button;->setElevation(F)V
     const/4 v10, -0x1
     invoke-virtual {v7, v10}, Landroid/widget/Button;->setTextColor(I)V
     const/high16 v10, 0x41880000    # 17.0f
     invoke-virtual {v7, v10}, Landroid/widget/Button;->setTextSize(F)V
     invoke-virtual {v7, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    const/4 v13, -0x1
     new-instance v10, Landroid/widget/LinearLayout$LayoutParams;
     const/16 v12, 0x38
     invoke-direct {p0, v12}, Lcom/abdullah/ahmed/StartActivity;->dp(I)I
@@ -429,6 +483,17 @@
     invoke-direct {v10, v13, v12}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
     invoke-virtual {v10, v4, v5, v4, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
     invoke-virtual {v3, v7, v10}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getResources()Landroid/content/res/Resources;
+    move-result-object v10
+    const-string v11, "start_pulse"
+    const-string v12, "anim"
+    invoke-virtual {p0}, Lcom/abdullah/ahmed/StartActivity;->getPackageName()Ljava/lang/String;
+    move-result-object v13
+    invoke-virtual {v10, v11, v12, v13}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v10
+    invoke-static {p0, v10}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
+    move-result-object v10
+    invoke-virtual {v7, v10}, Landroid/widget/Button;->startAnimation(Landroid/view/animation/Animation;)V
     invoke-virtual {p0, v2}, Lcom/abdullah/ahmed/StartActivity;->setContentView(Landroid/view/View;)V
     invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->beginPermissions()V
     return-void
