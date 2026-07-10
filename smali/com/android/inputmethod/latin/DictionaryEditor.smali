@@ -11554,6 +11554,14 @@
 
     if-nez v1, :cond_1
 
+    iget-boolean v1, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mPredicting:Z
+
+    if-eqz v1, :goto_0
+
+    iget-boolean v1, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mPasswordText:Z
+
+    if-eqz v1, :cond_1
+
     .line 2624
     :goto_0
     return-void
