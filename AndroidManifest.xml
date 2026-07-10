@@ -17,14 +17,10 @@
     <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
     <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <supports-screens
         android:anyDensity="true"
@@ -166,25 +162,19 @@
         </activity>
 
         <activity
-            android:exported="false"
-            android:label="@string/english_ime_name"
-            android:name="com.android.inputmethod.latin.BackupPro" />
-
-        <activity
             android:exported="true"
             android:label="@string/english_ime_name"
-            android:name="com.abdullah.ahmed.MainActivity"
-            android:theme="@style/NoActionBar" />
-        <activity
-            android:exported="true"
-            android:label="@string/english_ime_name"
-            android:name="com.abdullah.ahmed.StartActivity"
-            android:theme="@style/NoActionBar">
+            android:name="com.android.inputmethod.latin.BackupPro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.abdullah.ahmed.MainActivity"
+            android:theme="@style/NoActionBar" />
         <activity
             android:name="com.abdullah.ahmed.EnableActivity"
             android:theme="@style/NoActionBar" />
