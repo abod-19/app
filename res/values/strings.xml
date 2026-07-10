@@ -501,4 +501,14 @@ Do you want to proceed?"</string>
     <string name="c8">line</string>
     <string name="c9">all</string>
     <string name="c10">clear</string>
+
+    <string name="start_title">مرحبًا بك في %1$s</string>
+    <string name="start_subtitle">لوحة مفاتيح عصرية وسريعة مع تخصيصات ذكية وتجربة كتابة مريحة.</string>
+    <string name="start_permission_card_title">الصلاحيات المطلوبة</string>
+    <string name="start_permission_card_message">يحتاج التطبيق إلى منح الصلاحيات الأساسية حتى تعمل لوحة المفاتيح، الصوت، القاموس، والمزايا المرتبطة بها بكامل كفاءتها.</string>
+    <string name="start_allow_permissions">السماح بالصلاحيات</string>
+    <string name="start_permission_required_title">الصلاحية مطلوبة</string>
+    <string name="start_permission_required_message">يحتاج التطبيق إلى هذه الصلاحية الأساسية. يرجى منحها من إعدادات التطبيق للمتابعة.</string>
+    <string name="start_open_settings">فتح الإعدادات</string>
+    <string name="start_retry">إعادة المحاولة</string>
 </resources>

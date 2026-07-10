@@ -13,6 +13,7 @@
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -172,6 +173,9 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name="com.abdullah.ahmed.StartActivity"
+            android:theme="@style/NoActionBar" />
         <activity
             android:name="com.abdullah.ahmed.MainActivity"
             android:theme="@style/NoActionBar" />
