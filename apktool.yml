@@ -1,19 +1,19 @@
 version: 2.8.2-TERMUX-SNAPSHOT
-apkFileName: app.apk
+apkFileName: new.apk
 isFrameworkApk: false
 usesFramework:
   ids:
   - 1
   tag: null
 sdkInfo:
-  minSdkVersion: 21
-  targetSdkVersion: 35
+  minSdkVersion: 8
+  targetSdkVersion: 26
 packageInfo:
   forcedPackageId: 127
   renameManifestPackage: null
 versionInfo:
   versionCode: 52
-  versionName: 2.45
+  versionName: 10.0
 resourcesAreCompressed: false
 sharedLibrary: false
 sparseResources: false
