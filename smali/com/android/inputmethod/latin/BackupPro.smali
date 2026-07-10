@@ -74,6 +74,10 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
+    const-string v0, "BackupPro"
+    const-string v1, "onCreate: legacy launcher router started"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     const-string v0, "start_setup"
 
     const/4 v1, 0x0

@@ -167,15 +167,21 @@
             android:label="@string/english_ime_name"
             android:name="com.android.inputmethod.latin.BackupPro">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity
+            android:exported="true"
+            android:label="@string/english_ime_name"
             android:name="com.abdullah.ahmed.StartActivity"
-            android:theme="@style/NoActionBar" />
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.abdullah.ahmed.MainActivity"
             android:theme="@style/NoActionBar" />
