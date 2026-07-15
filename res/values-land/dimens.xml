@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_height">42.329987dip</dimen>
-    <dimen name="key_bottom_gap">2.0dip</dimen>
-    <dimen name="popup_key_height">43.19998dip</dimen>
-    <dimen name="keyboard_bottom_padding">0.0dip</dimen>
-    <dimen name="candidate_strip_height">38.0dip</dimen>
+    <!-- Keep the IME compact in landscape so it does not cover the focused app/search field. -->
+    <dimen name="key_height">40.0dip</dimen>
+    <dimen name="key_height_iphone">40.0dip</dimen>
+    <dimen name="key_bottom_gap">3.0dip</dimen>
+    <dimen name="key_bottom_gap_iphone">3.0dip</dimen>
+    <dimen name="popup_key_height">40.0dip</dimen>
+    <dimen name="keyboard_bottom_padding">4.0dip</dimen>
+    <dimen name="keyboard_bottom_padding_iphone">4.0dip</dimen>
+    <dimen name="candidate_strip_height">34.0dip</dimen>
     <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
     <dimen name="spacebar_vertical_correction">2.0dip</dimen>
     <dimen name="mini_keyboard_slide_allowance">73.44dip</dimen>
-    <dimen name="mini_keyboard_vertical_correction">-43.19998dip</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-40.0dip</dimen>
+    <dimen name="key_text_size">20.0sp</dimen>
+    <dimen name="key_label_text_size">13.0sp</dimen>
+    <dimen name="max_height_for_fullscreen">320.0dip</dimen>
 </resources>
