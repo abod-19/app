@@ -18189,7 +18189,125 @@
 
     move-result-object v0
 
+    invoke-direct {p0, v0}, Lcom/android/inputmethod/latin/DictionaryEditor;->applyLandscapeSystemBarInsets(Lcom/android/inputmethod/latin/LatinKeyboardView;)V
+
     return-object v0
+.end method
+
+.method private applyLandscapeSystemBarInsets(Lcom/android/inputmethod/latin/LatinKeyboardView;)V
+    .locals 7
+    .param p1, "inputView"    # Lcom/android/inputmethod/latin/LatinKeyboardView;
+
+    .prologue
+    const/4 v6, 0x2
+    const/4 v5, 0x0
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/DictionaryEditor;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+
+    move-result-object v1
+
+    iget v1, v1, Landroid/content/res/Configuration;->orientation:I
+
+    if-ne v1, v6, :cond_3
+
+    const-string v1, "status_bar_height"
+
+    invoke-direct {p0, v1}, Lcom/android/inputmethod/latin/DictionaryEditor;->getAndroidDimenPx(Ljava/lang/String;)I
+
+    move-result v1
+
+    const-string v2, "navigation_bar_width"
+
+    invoke-direct {p0, v2}, Lcom/android/inputmethod/latin/DictionaryEditor;->getAndroidDimenPx(Ljava/lang/String;)I
+
+    move-result v2
+
+    if-ge v1, v2, :cond_1
+
+    move v1, v2
+
+    :cond_1
+    if-lez v1, :cond_3
+
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getPaddingTop()I
+
+    move-result v2
+
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getPaddingBottom()I
+
+    move-result v3
+
+    invoke-virtual {p1, v5, v2, v1, v3}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
+
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v6, -0x1
+
+    iput v6, v4, Landroid/view/ViewGroup$LayoutParams;->width:I
+
+    invoke-virtual {p1, v4}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    :cond_2
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->requestLayout()V
+
+    return-void
+
+    :cond_3
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getPaddingTop()I
+
+    move-result v1
+
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getPaddingBottom()I
+
+    move-result v2
+
+    invoke-virtual {p1, v5, v1, v5, v2}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
+
+    return-void
+.end method
+
+.method private getAndroidDimenPx(Ljava/lang/String;)I
+    .locals 4
+    .param p1, "name"    # Ljava/lang/String;
+
+    .prologue
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/DictionaryEditor;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const-string v1, "dimen"
+
+    const-string v2, "android"
+
+    invoke-virtual {v0, p1, v1, v2}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v1
+
+    if-lez v1, :cond_0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
+    move-result v2
+
+    return v2
+
+    :cond_0
+    const/4 v2, 0x0
+
+    return v2
 .end method
 
 .method public onDestroy()V
