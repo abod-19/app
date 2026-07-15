@@ -18246,7 +18246,7 @@
 
     move-result v3
 
-    invoke-virtual {p1, v1, v2, v1, v3}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
+    invoke-virtual {p1, v5, v2, v1, v3}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
 
     invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -18258,6 +18258,19 @@
 
     iput v6, v4, Landroid/view/ViewGroup$LayoutParams;->width:I
 
+    instance-of v6, v4, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v6, :cond_4
+
+    move-object v6, v4
+
+    check-cast v6, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    iput v5, v6, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    iput v1, v6, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+
+    :cond_4
     invoke-virtual {p1, v4}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_2
@@ -18276,6 +18289,26 @@
 
     invoke-virtual {p1, v5, v1, v5, v2}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
 
+    invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v3
+
+    if-eqz v3, :cond_6
+
+    instance-of v4, v3, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v4, :cond_5
+
+    check-cast v3, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    iput v5, v3, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    iput v5, v3, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+
+    :cond_5
+    invoke-virtual {p1, v3}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    :cond_6
     return-void
 .end method
 
