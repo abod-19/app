@@ -18246,7 +18246,7 @@
 
     move-result v3
 
-    invoke-virtual {p1, v5, v2, v1, v3}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
+    invoke-virtual {p1, v1, v2, v1, v3}, Lcom/android/inputmethod/latin/LatinKeyboardView;->setPadding(IIII)V
 
     invoke-virtual {p1}, Lcom/android/inputmethod/latin/LatinKeyboardView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
