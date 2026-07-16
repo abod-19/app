@@ -5,7 +5,7 @@
     <dimen name="popup_key_height">43.19998dip</dimen>
     <dimen name="keyboard_bottom_padding">0.0dip</dimen>
     <dimen name="candidate_strip_height">38.0dip</dimen>
-    <dimen name="candidate_strip_fading_edge_length">50.0dip</dimen>
+    <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
     <dimen name="spacebar_vertical_correction">2.0dip</dimen>
     <dimen name="mini_keyboard_slide_allowance">73.44dip</dimen>
     <dimen name="mini_keyboard_vertical_correction">-43.19998dip</dimen>
