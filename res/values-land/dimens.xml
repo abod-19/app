@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_height">42.329987dip</dimen>
+    <dimen name="key_height">35.329987dip</dimen>
     <dimen name="key_bottom_gap">2.0dip</dimen>
     <dimen name="popup_key_height">43.19998dip</dimen>
     <dimen name="keyboard_bottom_padding">0.0dip</dimen>
