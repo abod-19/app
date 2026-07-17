@@ -12,14 +12,14 @@
         <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  ِ˼﮼مِـڪُتـفِـﮧيُ بّـنفِـسّـِﮧيُ ؛ 🖤Ꮺ.." android:keyLabel="مكتفي" />
     </Row>
     <Row>
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" ࢦـِـﮧيُ ۽ أࢦـِشـرّرفِ ؛ ♡゙Ꮺ.." android:keyLabel="الشرف" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  أوْ̲୭مِـييّـجآدُدِ ؛🦉🌹ٌ. ." android:keyLabel="اوميجاد" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" أإحَحـمِ ، ⧣ 😎😂 ؛" android:keyLabel="احم" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ڪّـفِــوْ̲୭ ، ⧣ 😌🖖🏻ً . ." android:keyLabel="كفو" />
-        <Key android:keyWidth="12.399996%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" تـمّـآِإمُـِۦࢬ ، ⧣🦉🤎̣؍ً̣؍ ." android:keyLabel="تمام" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" يّـﻶِ دّقِـيُـقِـﮭﮭُـِۃ ، ⧣ 🙁 ٌ. ." android:keyLabel="دقيقه" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـوْ̲୭يُ و̲୭بّـرجِـﻊّﻊ ؛🚶‍♂ . ." android:keyLabel="برجع" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـࢦـوْ̲୭نِـڪُـمِ يّـاࢦـِربّـِﻊﻊ ؛ 🤎🤞🏻ً̣؍̣؍ ." android:keyLabel="شلونكم" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" ࢦـِـﮧيُ ۽ أࢦـِشـرّرفِ ؛ ♡゙Ꮺ.." android:keyLabel="الشرف" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  أوْ̲୭مِـييّـجآدُدِ ؛🦉🌹ٌ. ." android:keyLabel="اوميجاد" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" أإحَحـمِ ، ⧣ 😎😂 ؛" android:keyLabel="احم" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ڪّـفِــوْ̲୭ ، ⧣ 😌🖖🏻ً . ." android:keyLabel="كفو" />
+        <Key android:keyWidth="12.199996%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" تـمّـآِإمُـِۦࢬ ، ⧣🦉🤎̣؍ً̣؍ ." android:keyLabel="تمام" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" يّـﻶِ دّقِـيُـقِـﮭﮭُـِۃ ، ⧣ 🙁 ٌ. ." android:keyLabel="دقيقه" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـوْ̲୭يُ و̲୭بّـرجِـﻊّﻊ ؛🚶‍♂ . ." android:keyLabel="برجع" />
+        <Key android:keyWidth="12.3%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـࢦـوْ̲୭نِـڪُـمِ يّـاࢦـِربّـِﻊﻊ ؛ 🤎🤞🏻ً̣؍̣؍ ." android:keyLabel="شلونكم" />
     </Row>
     <Row>
         <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" و໑َعٓݪيٚڪِٕ‌‍ݦٚ الـﺴِﺴّـﻶِ۾۾ّ ، ⧣ 👋🏻ً . ." android:keyLabel="وعليكم" />
