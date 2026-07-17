@@ -195,7 +195,7 @@
         <Preference android:layout="@layout/ah_bannertop" android:selectable="false" />
         <Preference android:layout="@layout/about_developer" android:selectable="false" />
         <Preference android:layout="@layout/ah_kb" android:selectable="false" />
-        <Preference android:icon="@drawable/al8dar_fo2" android:enabled="true" android:title="🇾🇪⃤𓆩 كيبورد ؏ـبود الفخم 𓆪" android:selectable="true" android:key="name_version" android:summary=" V9.0" />
+        <Preference android:icon="@drawable/al8dar_fo2" android:enabled="true" android:title="🇾🇪⃤𓆩 ڪيبورد عبود الفخم 𓆪" android:selectable="true" android:key="name_version" android:summary=" V10.0" />
         <PreferenceCategory android:title="ـ 𓆪 حول المطٖور 𓆩" />
         <Preference android:icon="@drawable/al8dar_tele" android:enabled="true" android:title="Telegram Channel" android:selectable="true" android:key="go_website" android:summary="تابع قناتي علي التيليجرام للمزيد من التطبيقات" />
         <Preference android:icon="@drawable/version" android:enabled="true" android:title="device version" android:selectable="true" android:key="send_feedback" android:summary="اصدار الجهاز" />
