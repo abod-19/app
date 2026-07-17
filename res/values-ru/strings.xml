@@ -274,9 +274,9 @@
     <string name="punctuation_editor_summmary">Настройка пунктуации в всплывающем окне, связанное с клавишей запятая. Только по одному символу разрешено.</string>
     <string name="backup_settings_title">Сохранение/Восстановление</string>
     <string name="backup_title">Сохранение на SD карту</string>
-    <string name="backupt_summary">Резервное копирование настроек и пользовательских словарей на SD карту (/SDCARD/pkeyboard)</string>
+    <string name="backupt_summary">Резервное копирование настроек и пользовательских словарей на SD карту (/SDCARD/ڪيبورد عبود)</string>
     <string name="restore_title">Восстановление с SD карты</string>
-    <string name="restore_summary">Восстановление настроек и пользовательских словарей с SD карты (/sdcard/ڪيبورد ـ 〄ї؏ـبود|~الفخم١9)</string>
+    <string name="restore_summary">Восстановление настроек и пользовательских словарей с SD карты (/sdcard/ڪيبورد عبود)</string>
     <string name="warning_will_erase_backup">Ваши настройки и словари будут сохранены</string>
     <string name="warning_will_erase_backup_two">"Это действие сотрет предыдущую резервную копию.
 Вы хотите продолжить?"</string>
