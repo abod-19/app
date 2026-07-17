@@ -255,7 +255,7 @@
     <string name="text_size">Text size</string>
     <string name="bottom_padding">Bottom padding</string>
     <string name="help_screen">About</string>
-    <string name="version_string">V9.0</string>
+    <string name="version_string">V10.0</string>
     <string name="go_website">Visit Website</string>
     <string name="gesture_sensitivity">Swipe sensitivity</string>
     <string name="gesture_sensitivity_summary">control the sensitivity of swipe</string>
