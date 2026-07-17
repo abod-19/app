@@ -364,9 +364,9 @@
     <string name="punctuation_editor_summmary">تعديل رموز الترقيم المنبثقة</string>
     <string name="backup_settings_title">النسخ الاحتياطي والاستعادة</string>
     <string name="backup_title">نسخ احتياطي الى الذاكرة</string>
-    <string name="backupt_summary">النسخ الاحتياطي للاعدادات والاختصارات الى الذاكرة (/sdcard/ڪيبورد ـ 〄ї؏ـبود|~الفخم١9)</string>
+    <string name="backupt_summary">النسخ الاحتياطي للاعدادات والاختصارات الى الذاكرة (/sdcard/ڪيبورد عبود)</string>
     <string name="restore_title">الاستعادة من الذاكرة</string>
-    <string name="restore_summary">استعادة الاعدادات والاختصارات من الذاكرة (/sdcard/ڪيبورد ـ 〄ї؏ـبود|~الفخم١9)</string>
+    <string name="restore_summary">استعادة الاعدادات والاختصارات من الذاكرة (/sdcard/ڪيبورد عبود)</string>
     <string name="warning_will_erase_backup">الاعدادات وكلمات القاموس سيتم نسخها الى</string>
     <string name="warning_will_erase_backup_two">هذه العملية ستمسح النسخ القديم، هل انت متاكد</string>
     <string name="backup_succeed">تم النسخ بنجاح</string>
