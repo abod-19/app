@@ -1920,7 +1920,7 @@
     .line 422
     iget-object v0, p0, Lcom/abdullah/ahmed/AboutDevActivity;->im1:Landroid/widget/ImageView;
 
-    const-string v1, "    \u06aa\u064a\u0628\u0648\u0631\u062f \u060f\u0640\u0628\u0648\u062f \u0627\u0644\u0641\u062e\u0645\u06619.\n\u0627\u0641\u062e\u0645 \u0643\u064a\u0628\u0648\u0631\u062f \u0628\u0627\u0644\u0645\u062c\u0627\u0644 \u263b\ud83e\udd42."
+    const-string v1, "ڪيبورد عبود الفخم\nافضل ڪيبورد حالياً"
 
     const-string v2, ""
 
