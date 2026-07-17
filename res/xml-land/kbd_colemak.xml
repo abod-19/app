@@ -2,24 +2,24 @@
 <Keyboard android:keyWidth="7.200002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <Row android:keyHeight="7.0000052%p" android:rowEdgeFlags="top" android:keyboardMode="@id/mode_arrows">
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText="يـﯿﺂإ ريّـت مّـآِإ عّـرفِـتڪُـمِ ، ⧣ 🤌🏻ً . ." android:keyLabel="عرفتكم" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="عِـژبّـنـآِإ ۽ أࢦـبّـﻊـِآإدُ ، ⧣ 💔😿̣؍ٌ̣؍ ." android:keyLabel="البعاد" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="وْ̲୭نِـمّـۦـتِ ، ⧣ 😞🤍 ؛" android:keyLabel="ونمت" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="نِـﻊّـسِـآنَ ، ⧣ 😴💙 ؛" android:keyLabel="نعسان" />
-        <Key android:keyWidth="12.399996%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="˛⁽💔🌚₎⇣ᴐɹ̤ȷɹ̈ɹɹ̈̇ɹ" android:keyLabel="شتريد" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="💗✊ ⇣ ɑ̈gᓆɺl ɑ̈gᓆ" android:keyLabel="قوة" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="فِـآقِـدّ ࢦـِڪّ ؛ 🖤💯̣؍ٌ̣؍ ." android:keyLabel="فاقد" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  ِ˼﮼مِـڪُتـفِـﮧيُ بّـنفِـسّـِﮧيُ ؛ 🖤Ꮺ.." android:keyLabel="مكتفي" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText="يـﯿﺂإ ريّـت مّـآِإ عّـرفِـتڪُـمِ ، ⧣ 🤌🏻ً . ." android:keyLabel="عرفتكم" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="عِـژبّـنـآِإ ۽ أࢦـبّـﻊـِآإدُ ، ⧣ 💔😿̣؍ٌ̣؍ ." android:keyLabel="البعاد" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="وْ̲୭نِـمّـۦـتِ ، ⧣ 😞🤍 ؛" android:keyLabel="ونمت" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="نِـﻊّـسِـآنَ ، ⧣ 😴💙 ؛" android:keyLabel="نعسان" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="˛⁽💔🌚₎⇣ᴐɹ̤ȷɹ̈ɹɹ̈̇ɹ" android:keyLabel="شتريد" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="💗✊ ⇣ ɑ̈gᓆɺl ɑ̈gᓆ" android:keyLabel="قوة" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="فِـآقِـدّ ࢦـِڪّ ؛ 🖤💯̣؍ٌ̣؍ ." android:keyLabel="فاقد" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  ِ˼﮼مِـڪُتـفِـﮧيُ بّـنفِـسّـِﮧيُ ؛ 🖤Ꮺ.." android:keyLabel="مكتفي" />
     </Row>
     <Row>
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" ࢦـِـﮧيُ ۽ أࢦـِشـرّرفِ ؛ ♡゙Ꮺ.." android:keyLabel="الشرف" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  أوْ̲୭مِـييّـجآدُدِ ؛🦉🌹ٌ. ." android:keyLabel="اوميجاد" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" أإحَحـمِ ، ⧣ 😎😂 ؛" android:keyLabel="احم" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ڪّـفِــوْ̲୭ ، ⧣ 😌🖖🏻ً . ." android:keyLabel="كفو" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" تـمّـآِإمُـِۦࢬ ، ⧣🦉🤎̣؍ً̣؍ ." android:keyLabel="تمام" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" يّـﻶِ دّقِـيُـقِـﮭﮭُـِۃ ، ⧣ 🙁 ٌ. ." android:keyLabel="دقيقه" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـوْ̲୭يُ و̲୭بّـرجِـﻊّﻊ ؛🚶‍♂ . ." android:keyLabel="برجع" />
-        <Key android:keyWidth="12.0%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـࢦـوْ̲୭نِـڪُـمِ يّـاࢦـِربّـِﻊﻊ ؛ 🤎🤞🏻ً̣؍̣؍ ." android:keyLabel="شلونكم" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" ࢦـِـﮧيُ ۽ أࢦـِشـرّرفِ ؛ ♡゙Ꮺ.." android:keyLabel="الشرف" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="  أوْ̲୭مِـييّـجآدُدِ ؛🦉🌹ٌ. ." android:keyLabel="اوميجاد" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" أإحَحـمِ ، ⧣ 😎😂 ؛" android:keyLabel="احم" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ڪّـفِــوْ̲୭ ، ⧣ 😌🖖🏻ً . ." android:keyLabel="كفو" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" تـمّـآِإمُـِۦࢬ ، ⧣🦉🤎̣؍ً̣؍ ." android:keyLabel="تمام" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" يّـﻶِ دّقِـيُـقِـﮭﮭُـِۃ ، ⧣ 🙁 ٌ. ." android:keyLabel="دقيقه" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـوْ̲୭يُ و̲୭بّـرجِـﻊّﻊ ؛🚶‍♂ . ." android:keyLabel="برجع" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـࢦـوْ̲୭نِـڪُـمِ يّـاࢦـِربّـِﻊﻊ ؛ 🤎🤞🏻ً̣؍̣؍ ." android:keyLabel="شلونكم" />
     </Row>
     <Row>
         <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" و໑َعٓݪيٚڪِٕ‌‍ݦٚ الـﺴِﺴّـﻶِ۾۾ّ ، ⧣ 👋🏻ً . ." android:keyLabel="وعليكم" />
