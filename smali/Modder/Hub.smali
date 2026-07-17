@@ -516,7 +516,7 @@
 
     move-object/from16 v21, v30
 
-    const-string v22, "<font color= #FF1C1C1E>\u0645\u0631\u062d\u0628\u0627\u064b \u0628\u0643 \u0641\u064a \u0643\u064a\u0628\u0648\u0631\u062f \u0639\u0628\u0648\u062f</font><br><br><font color= #FF3A3A3C>\u062a\u0627\u0628\u0639 \u0642\u0646\u0627\u062a\u064a \u0644\u0645\u0632\u064a\u062f \u0645\u0646 \u0627\u0644\u062a\u062d\u062f\u064a\u062b\u0627\u062a</font><br><a href=\"https://t.me/jnssghb/2842\"><font color= #FF007AFF>\u0627\u0644\u062b\u064a\u0645\u0627\u062a</font></a>"
+    const-string v22, "<font color= #FF1C1C1E>مرحباً بك في ڪيبورد عبود</font><br><br><font color= #FF3A3A3C>تابع قناتي لمزيد من التحديثات</font><br><a href=\"https://t.me/jnssghb/2842\"><font color= #FF007AFF>الثيمات</font></a>"
 
     invoke-static/range {v22 .. v22}, Landroid/text/Html;->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
 
