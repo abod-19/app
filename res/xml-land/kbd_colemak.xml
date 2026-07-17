@@ -22,40 +22,40 @@
         <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شِـࢦـوْ̲୭نِـڪُـمِ يّـاࢦـِربّـِﻊﻊ ؛ 🤎🤞🏻ً̣؍̣؍ ." android:keyLabel="شلونكم" />
     </Row>
     <Row>
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" و໑َعٓݪيٚڪِٕ‌‍ݦٚ الـﺴِﺴّـﻶِ۾۾ّ ، ⧣ 👋🏻ً . ." android:keyLabel="وعليكم" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" سـﺴّـﻶِ۾۾ّ ، ⧣ 🤎👋🏻ً . ." android:keyLabel="سلام" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ٳيَ لـو̲୭ڤ يُـوِ໑ سّـِو مّـتِـشِ 🥺🫀 ؛" android:keyLabel="لافيو" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" هـآِيّ قـآيّـزِز ، ⧣ 😁🖤 ؛" android:keyLabel="هاي" />
-        <Key android:keyWidth="12.399996%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" قِـࢦـبّـِﮧيُ فِـﮧيُ حِـبَـگِ تِـوْ̲୭رطِ ؛ 🤍🫀 ٌ. ." android:keyLabel="تورط" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" فِـﮧ‌ُددِآإگگِ ، ⧣ 🤎🫀ٌ. ." android:keyLabel="فداك" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" رريّـﻶڪِـسّ ، ⧣ 🤫 ؛" android:keyLabel="ريلاكس" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ثـﻨُـڪِيّـوِ໑ ؛ ❤🫀 ٌ. ." android:keyLabel="ثنكيو" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" و໑َعٓݪيٚڪِٕ‌‍ݦٚ الـﺴِﺴّـﻶِ۾۾ّ ، ⧣ 👋🏻ً . ." android:keyLabel="وعليكم" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" سـﺴّـﻶِ۾۾ّ ، ⧣ 🤎👋🏻ً . ." android:keyLabel="سلام" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ٳيَ لـو̲୭ڤ يُـوِ໑ سّـِو مّـتِـشِ 🥺🫀 ؛" android:keyLabel="لافيو" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" هـآِيّ قـآيّـزِز ، ⧣ 😁🖤 ؛" android:keyLabel="هاي" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" قِـࢦـبّـِﮧيُ فِـﮧيُ حِـبَـگِ تِـوْ̲୭رطِ ؛ 🤍🫀 ٌ. ." android:keyLabel="تورط" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" فِـﮧ‌ُددِآإگگِ ، ⧣ 🤎🫀ٌ. ." android:keyLabel="فداك" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" رريّـﻶڪِـسّ ، ⧣ 🤫 ؛" android:keyLabel="ريلاكس" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" ثـﻨُـڪِيّـوِ໑ ؛ ❤🫀 ٌ. ." android:keyLabel="ثنكيو" />
     </Row>
     <Row>
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" دِوْ̲୭مِـمّ ، ⧣ 🤍؍ً̣؍ ." android:keyLabel="دوم" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" دِوْ̲୭مِـمّ سّع‌‍‌‍آدتڪكِ ؛ ⧣ 🤍 ؍ً̣؍ . " android:keyLabel="سعادتك" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="أجِـٰـيُيـ̷ّــت ، ⧣ ♥️🫰 ً. ." android:keyLabel="اجيت" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شـّڪِـࢪّراًاً ؛ 🧸 . ." android:keyLabel="شكراً" />
-        <Key android:keyWidth="12.399996%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" مِـلّـِࢦ ، ⧣ 🦦 ٌ. ." android:keyLabel="ملل" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" تِـ؏ـبّـٺِ ، ⧣ 😩💗 ؛" android:keyLabel="تعبت" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" أࢦـو̲୭ضـِعﻊَ ۦـﻤِـْﺂ يّـطِـمُـِن ؛ 🧐😂👋🏻ً . ." android:keyLabel="الوضع" />
-        <Key android:keyWidth="12.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="هِـﮭُـډِوْ̲୭۽۽ ، ⧣ 🍂ٌ . ." android:keyLabel="هدوء" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyEdgeFlags="left" android:keyOutputText=" دِوْ̲୭مِـمّ ، ⧣ 🤍؍ً̣؍ ." android:keyLabel="دوم" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" دِوْ̲୭مِـمّ سّع‌‍‌‍آدتڪكِ ؛ ⧣ 🤍 ؍ً̣؍ . " android:keyLabel="سعادتك" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="أجِـٰـيُيـ̷ّــت ، ⧣ ♥️🫰 ً. ." android:keyLabel="اجيت" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" شـّڪِـࢪّراًاً ؛ 🧸 . ." android:keyLabel="شكراً" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" مِـلّـِࢦ ، ⧣ 🦦 ٌ. ." android:keyLabel="ملل" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" تِـ؏ـبّـٺِ ، ⧣ 😩💗 ؛" android:keyLabel="تعبت" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText=" أࢦـو̲୭ضـِعﻊَ ۦـﻤِـْﺂ يّـطِـمُـِن ؛ 🧐😂👋🏻ً . ." android:keyLabel="الوضع" />
+        <Key android:keyWidth="11.5%p" android:popupKeyboard="@xml/kbd_popup_template" android:keyOutputText="هِـﮭُـډِوْ̲୭۽۽ ، ⧣ 🍂ٌ . ." android:keyLabel="هدوء" />
     </Row>
     <Row>
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_01" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مشڪل¹" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_02" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مـشڪـل²" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_03" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل¹" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/abod_04" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="غزل²" />
-        <Key android:keyWidth="17.198002%p" android:popupKeyboard="@xml/eng" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="اجنبي" />
-        <Key android:keyWidth="14.999998%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
+        <Key android:keyWidth="16.198002%p" android:popupKeyboard="@xml/abod_01" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مشڪل¹" />
+        <Key android:keyWidth="16.198002%p" android:popupKeyboard="@xml/abod_02" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="مـشڪـل²" />
+        <Key android:keyWidth="16.198002%p" android:popupKeyboard="@xml/abod_03" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="ﻏﺰل¹" />
+        <Key android:keyWidth="16.198002%p" android:popupKeyboard="@xml/abod_04" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="غزل²" />
+        <Key android:keyWidth="16.198002%p" android:popupKeyboard="@xml/eng" android:keyOutputText="إضغط ضغطه مطوله 💕،" android:keyLabel="اجنبي" />
+        <Key android:keyWidth="13.999998%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
-        <Key android:keyWidth="12.0%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key" />
-        <Key android:keyWidth="13.0%p" android:codes="1" android:isModifier="true" android:keyIcon="@drawable/clip" />
+        <Key android:keyWidth="11.0%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key" />
+        <Key android:keyWidth="12.0%p" android:codes="1" android:isModifier="true" android:keyIcon="@drawable/clip" />
         <Key android:isModifier="true" android:keyOutputText="- افضل كيبورد تم تطويره لسنة 2024 🔥. \n- يحتوي هذا الكيبورد على خيار إضافي مخصص لاختيار واجهة خاص بك بالشكل اللذي يناسبك  ⤸  😍❤‍🔥. \n\n - تم إضافة الكثير من الرموز والايموجي الثنائي 🫀.  \n\n - تم اضافة الكثير من الاختصارات داخل هذا الكيبورد وتم اضافة اكثر من زخرفة جديدة 💕.  \n\n  - شـارڪـو مـع اصـدقـائڪـم لـحتـى انشـر اصـدارات اڪـثـر 😍❤️.   \n \n - للتواصل + تابعني لتحميل احدث الاصدارات ❤‍🩹.  \n\n - تيليجرام : \n https://t.me/Abode774 \n-       &amp;&amp;\nhttps://t.me/A_19_b\n\n - قـنـاة ڪيبوردات \n https://t.me/jnssghb \n\n - بـتشـرف بـالجـمـييـع 😌🤎." android:keyLabel="شير" />
-        <Key android:keyWidth="39.999996%p" android:codes="@integer/key_space" android:isModifier="true" android:keyOutputText=" " android:keyLabel="الاختصـآرآتـﺖ " />
+        <Key android:keyWidth="38.999996%p" android:codes="@integer/key_space" android:isModifier="true" android:keyOutputText=" " android:keyLabel="الاختصـآرآتـﺖ " />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:isModifier="true" android:keyOutputText="نِنِـّنِنِن ؛ 😝😂ً . ." android:keyLabel="ننن" />
-        <Key android:keyWidth="15.00001%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_keyboard_return" />
+        <Key android:keyWidth="14.00001%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:isSticky="true" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_keyboard_return" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_url">
         <Key android:keyWidth="18.000078%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key" />
