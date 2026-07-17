@@ -1615,7 +1615,7 @@
 
     invoke-direct {v13, v14}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string v14, "/\u06aa\u064a\u0628\u0648\u0631\u062f \u0640\u060f\u0640\u0627\u0634\u0642 \u0627\u0644\u06aa\u0628\u0631\u064a\u0627\u06fd/"
+    const-string v14, "/ڪيبورد عبود/"
 
     invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1980,7 +1980,7 @@
 
     invoke-direct {v10, v11}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string v11, "/\u06aa\u064a\u0628\u0648\u0631\u062f \u0640\u060f\u0640\u0627\u0634\u0642 \u0627\u0644\u06aa\u0628\u0631\u064a\u0627\u06fd/"
+    const-string v11, "/ڪيبورد عبود/"
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2148,7 +2148,7 @@
 
     invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string v6, "/\u06aa\u064a\u0628\u0648\u0631\u062f \u0640\u060f\u0640\u0627\u0634\u0642 \u0627\u0644\u06aa\u0628\u0631\u064a\u0627\u06fd/"
+    const-string v6, "/ڪيبورد عبود/"
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
