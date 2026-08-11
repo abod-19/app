@@ -3985,6 +3985,13 @@
 
     .prologue
     .line 4018
+    sget v0, Lcom/android/inputmethod/latin/DictionaryEditor;->mButtonColor:I
+
+    if-eqz v0, :cond_0
+
+    return v0
+
+    :cond_0
     sget v0, Lcom/android/inputmethod/latin/DictionaryEditor;->mSuggestionBarColor:I
 
     return v0
@@ -18126,7 +18133,9 @@
 
     move-result-object v0
 
-    const/high16 v1, -0x1000000
+    invoke-static {}, Lcom/android/inputmethod/latin/DictionaryEditor;->getSuggestionBarColor()I
+
+    move-result v1
 
     sget-object v2, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
 
