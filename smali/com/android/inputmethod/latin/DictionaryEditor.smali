@@ -6827,8 +6827,22 @@
 
     .prologue
     .line 2326
+    iget-boolean v0, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mPasswordText:Z
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_0
     iget-boolean v0, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mPredictionOn:Z
 
+    if-nez v0, :cond_1
+
+    iget-boolean v0, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mAlwaysSuggest:Z
+
+    :cond_1
     return v0
 .end method
 
