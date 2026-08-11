@@ -9710,22 +9710,6 @@
     if-eqz v0, :cond_2
 
     .line 1320
-    if-eqz p2, :cond_0
-
-    iget-object v0, p0, Lcom/android/inputmethod/latin/DictionaryEditor;->mCalibration:Lcom/android/inputmethod/latin/Calibration;
-
-    invoke-virtual {v0}, Lcom/android/inputmethod/latin/Calibration;->getInputView()Lcom/android/inputmethod/latin/LatinKeyboardView;
-
-    move-result-object v0
-
-    .line 1321
-    invoke-virtual {v0}, Lcom/android/inputmethod/latin/LatinKeyboardView;->isShown()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    :cond_0
     const/4 v0, 0x1
 
     .line 1318
