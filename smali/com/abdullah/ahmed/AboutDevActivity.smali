@@ -1920,7 +1920,11 @@
     .line 422
     iget-object v0, p0, Lcom/abdullah/ahmed/AboutDevActivity;->im1:Landroid/widget/ImageView;
 
-    const-string v1, "ڪيبورد عبود الفخم\nافضل ڪيبورد حالياً"
+    const-string v1, "m5O7xa3s9Lrog+7uGbr2rez0uuidFpmeu8usxfWc6bc8mZ67zq3y9LYQ6JyYs7rnrMz1g+idFpmUuuiswPS46JXvyg=="
+
+    invoke-static {v1}, LModder/StringCipher;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
 
     const-string v2, ""
 
