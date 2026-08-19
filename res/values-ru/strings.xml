@@ -274,9 +274,9 @@
     <string name="punctuation_editor_summmary">Настройка пунктуации в всплывающем окне, связанное с клавишей запятая. Только по одному символу разрешено.</string>
     <string name="backup_settings_title">Сохранение/Восстановление</string>
     <string name="backup_title">Сохранение на SD карту</string>
-    <string name="backupt_summary">Резервное копирование настроек и пользовательских словарей на SD карту (/SDCARD/ڪيبورد عبود)</string>
+    <string name="backupt_summary">kZmy+qXz/Yfhsubz6d+fy5SYEuCI5v/p3Z/Nla3ijuKEkYmy8qX8/YcQ4ouRibPOpMb8suCM5vTp2G+l/A3ij+KIkYKzw6Xz/YzggObx6OCfwJSW47zjt5GDsvekwQ3jseKNkYey/aX0/LLgh+b4GbLypfQNYXQS5vvp0p71la/jsxIebmomDDQWaR3qmO/L4cqW/Zyc6p8S7vjhypb9nIIb</string>
     <string name="restore_title">Восстановление с SD карты</string>
-    <string name="restore_summary">Восстановление настроек и пользовательских словарей с SD карты (/sdcard/ڪيبورد عبود)</string>
+    <string name="restore_summary">kauy8aTF/LPhsObx6d+fy5Sf4ovig5GEsvel8Q3ijeKGkLizzaTE/Yzgh+b7GbL3VZSS4o7ijZC1svil+v2A4ILnw+nXn86VoeOx4oyRgbPKVZWs4oviiJGLsv+kxP2H4IsWkLhCHDFk/YjggufB6OCe/mQFHUNWVSBLBmCv7vS46JrvyeHTl9pk9Yvomu/J4c1m</string>
     <string name="warning_will_erase_backup">Ваши настройки и словари будут сохранены</string>
     <string name="warning_will_erase_backup_two">"Это действие сотрет предыдущую резервную копию.
 Вы хотите продолжить?"</string>

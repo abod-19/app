@@ -364,9 +364,9 @@
     <string name="punctuation_editor_summmary">تعديل رموز الترقيم المنبثقة</string>
     <string name="backup_settings_title">النسخ الاحتياطي والاستعادة</string>
     <string name="backup_title">نسخ احتياطي الى الذاكرة</string>
-    <string name="backupt_summary">النسخ الاحتياطي للاعدادات والاختصارات الى الذاكرة (/sdcard/ڪيبورد عبود)</string>
+    <string name="backupt_summary">mZ67y6zC9YHonBaZnrvLreP1n+iY78vhxZfCnacS6bbvxeHFl8ycguqX6pmZnrrlVZ2l6pfrspmeuuGt7vWH6JXu8OHFl99k9ZXptu/IGbrorMD1guiV78Lh05fcZAUdQ1ZVIEsGYK/u9Ljomu/J4dOX2mT1i+ia78nhzWY=</string>
     <string name="restore_title">الاستعادة من الذاكرة</string>
-    <string name="restore_summary">استعادة الاعدادات والاختصارات من الذاكرة (/sdcard/ڪيبورد عبود)</string>
+    <string name="restore_summary">mZ66/K3u9Yvole7u4ctvreP0tuiV7vjhzZfSnILql+qcYeDql9KdqeqX6piZk7r6reP1g+iV7usZu8qswg3ql+uymYm66KzH9YPomxZpFhErFiVfVh/onJizuueszPWD6J0WmYC656zM9Z0Z</string>
     <string name="warning_will_erase_backup">الاعدادات وكلمات القاموس سيتم نسخها الى</string>
     <string name="warning_will_erase_backup_two">هذه العملية ستمسح النسخ القديم، هل انت متاكد</string>
     <string name="backup_succeed">تم النسخ بنجاح</string>

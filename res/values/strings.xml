@@ -428,9 +428,9 @@
     <string name="punctuation_editor_summmary">Customize the punctuation pop-up associated with the comma key. Only one character allowed per field.</string>
     <string name="backup_settings_title">Backup/Restore</string>
     <string name="backup_title">Backup to SD card</string>
-    <string name="backupt_summary">Backup settings and user dictionaries to sdcard (/sdcard/ڪيبورد عبود)</string>
+    <string name="backupt_summary">A1gBJAA0DUFVRkIoVwU8VSVDVhBHRSRLQiscJ1lbX1xXM1AHPFUwQhJDVlUgSwZvXWteVlNTRCUWuOWszvWa6bru8OHNb6399Zrpuu7uEA==</string>
     <string name="restore_title">Restore from SD card</string>
-    <string name="restore_summary">Restore settings and user dictionaries from sdcard (/sdcard/ڪيبورد عبود)</string>
+    <string name="restore_summary">E1wROxo2SBJDV0I1UAwoBmRMXFQSQzJcEG8RLU5GWV1YIEsLKgZkS0BfXxYyXQEuByANGh9BUiJYECtanofruuqemLG6/q3rDeqJ6p6YsbrgXA==</string>
     <string name="warning_will_erase_backup">Your setting and dictionaries will be backup to</string>
     <string name="warning_will_erase_backup_two">"This action will erase the previous backup. 
 Do you want to proceed?"</string>
