@@ -54,7 +54,7 @@
     goto :goto_0
 
     :cond_2
-    const-string v0, ""
+    move-object v0, p0
 
     :goto_0
     const/4 v1, 0x0

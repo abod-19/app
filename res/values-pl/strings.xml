@@ -373,9 +373,9 @@
     <string name="punctuation_editor_summmary">Ustaw własne znaki interpunkcyjne związane z klawiszem przecinka. Dozwolony jest tylko jeden znak na pole.</string>
     <string name="backup_settings_title">Kopia zapasowa</string>
     <string name="backup_title">Utwórz kopię na karcie SD</string>
-    <string name="backupt_summary">Utwórz kopię ustawień i słowników użytkownika na karcie SD (/sdcard/ڪيبورد عبود)</string>
+    <string name="backupt_summary">FE0VjMY2VxJbXUYo/ftvADdZU0dbU4S9QiZVN+iwX0VYKFKh/AJkWPeMS0IqVhUhHC9MEl5TFipYECwcIQ1hdBIebkoGLBQ2SR3qmO/L4cqW/Zyc6p8S7vjhypb9nIIb</string>
     <string name="restore_title">Przywróć kopię z karty SD</string>
-    <string name="restore_summary">Przywróć sustawienia i słowniki użytkownika z karty SD (/sdcard/ڪيبورد عبود)</string>
+    <string name="restore_summary">EUsYNgI27oH0tRYyTBE7FDNEV15bV2FQQjywxkJFXltdKBkXisk9WVlfRVgoUgNvD2RGU0JGT2FqJm9da15WU1NEJRa45azO9Zrpuu7w4c1vrf31mum67u4Q</string>
     <string name="warning_will_erase_backup">Twoje ustawienia i słowniki użytkownika zostaną skopiowane do</string>
     <string name="warning_will_erase_backup_two">"Ta akcja usunie poprzednią kopię zapasową. 
 Chcesz kontynuować?"</string>
