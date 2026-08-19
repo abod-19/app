@@ -66,6 +66,8 @@
 
 .field private mOkClicked:Z
 
+.field private mPendingStorageAction:I
+
 .field private mQuickFixes:Landroid/preference/SwitchPreference;
 
 .field private mSettingsKeyPreference:Landroid/preference/ListPreference;
@@ -597,6 +599,98 @@
     .end array-data
 .end method
 
+.method private ensureStoragePermission(I)Z
+    .locals 6
+    .param p1, "action"    # I
+
+    .prologue
+    const/4 v5, 0x1
+    const/4 v4, 0x0
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x17
+
+    if-lt v0, v1, :cond_granted
+
+    const-string v0, "android.permission.WRITE_EXTERNAL_STORAGE"
+
+    invoke-virtual {p0, v0}, Lcom/android/inputmethod/latin/DomainEditor;->checkSelfPermission(Ljava/lang/String;)I
+
+    move-result v0
+
+    if-nez v0, :cond_request
+
+    const-string v0, "android.permission.READ_EXTERNAL_STORAGE"
+
+    invoke-virtual {p0, v0}, Lcom/android/inputmethod/latin/DomainEditor;->checkSelfPermission(Ljava/lang/String;)I
+
+    move-result v0
+
+    if-nez v0, :cond_request
+
+    :cond_granted
+    return v5
+
+    :cond_request
+    iput p1, p0, Lcom/android/inputmethod/latin/DomainEditor;->mPendingStorageAction:I
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
+
+    aput-object v1, v0, v4
+
+    const-string v1, "android.permission.READ_EXTERNAL_STORAGE"
+
+    aput-object v1, v0, v5
+
+    const/16 v1, 0x7b
+
+    invoke-virtual {p0, v0, v1}, Lcom/android/inputmethod/latin/DomainEditor;->requestPermissions([Ljava/lang/String;I)V
+
+    return v4
+.end method
+
+.method public backupDbFilesWithStoragePermission()V
+    .locals 1
+
+    .prologue
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lcom/android/inputmethod/latin/DomainEditor;->ensureStoragePermission(I)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/DomainEditor;->doBackup()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public restoreDbFilesWithStoragePermission()V
+    .locals 1
+
+    .prologue
+    const/4 v0, 0x2
+
+    invoke-direct {p0, v0}, Lcom/android/inputmethod/latin/DomainEditor;->ensureStoragePermission(I)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/DomainEditor;->RestoreDbFiles()V
+
+    :cond_0
+    return-void
+.end method
+
+
 .method public constructor <init>()V
     .locals 1
 
@@ -616,6 +710,8 @@
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/inputmethod/latin/DomainEditor;->mOkClicked:Z
+
+    iput v0, p0, Lcom/android/inputmethod/latin/DomainEditor;->mPendingStorageAction:I
 
     .line 68
     return-void
@@ -3291,6 +3387,75 @@
     :cond_0
     return-void
 .end method
+
+.method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+    .locals 5
+    .param p1, "requestCode"    # I
+    .param p2, "permissions"    # [Ljava/lang/String;
+    .param p3, "grantResults"    # [I
+
+    .prologue
+    invoke-super {p0, p1, p2, p3}, Landroid/preference/PreferenceActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+
+    const/16 v0, 0x7b
+
+    if-ne p1, v0, :cond_return
+
+    const/4 v1, 0x0
+
+    array-length v2, p3
+
+    if-lez v2, :cond_denied
+
+    :goto_0
+    if-lt v1, v2, :cond_loop
+
+    iget v0, p0, Lcom/android/inputmethod/latin/DomainEditor;->mPendingStorageAction:I
+
+    const/4 v3, 0x0
+
+    iput v3, p0, Lcom/android/inputmethod/latin/DomainEditor;->mPendingStorageAction:I
+
+    const/4 v3, 0x1
+
+    if-ne v0, v3, :cond_restore
+
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/DomainEditor;->doBackup()V
+
+    goto :goto_return
+
+    :cond_restore
+    const/4 v3, 0x2
+
+    if-ne v0, v3, :goto_return
+
+    invoke-virtual {p0}, Lcom/android/inputmethod/latin/DomainEditor;->RestoreDbFiles()V
+
+    goto :goto_return
+
+    :cond_loop
+    aget v4, p3, v1
+
+    if-nez v4, :cond_denied
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_denied
+    const/4 v3, 0x0
+
+    iput v3, p0, Lcom/android/inputmethod/latin/DomainEditor;->mPendingStorageAction:I
+
+    goto :goto_return
+
+    :cond_return
+    return-void
+
+    :goto_return
+    return-void
+.end method
+
 
 .method protected onResume()V
     .locals 3
