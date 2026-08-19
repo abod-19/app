@@ -1022,6 +1022,16 @@
     .line 201
     move-object/from16 v20, v18
 
+    invoke-virtual/range {v20 .. v20}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v20
+
+    const v21, 0x7f0e0006
+
+    invoke-virtual/range {v20 .. v21}, Landroid/view/Window;->setWindowAnimations(I)V
+
+    move-object/from16 v20, v18
+
     invoke-virtual/range {v20 .. v20}, Landroid/app/AlertDialog;->show()V
 
     goto/16 :goto_0

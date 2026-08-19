@@ -2169,7 +2169,7 @@
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 1
+    .locals 4
 
     .prologue
     .line 108
@@ -2187,7 +2187,17 @@
     invoke-direct {p0}, Lcom/abdullah/ahmed/MainActivity;->initializeLogic()V
 
     .line 112
-    invoke-static {p0}, LModder/Hub;->Mod(Landroid/content/Context;)V
+    new-instance v0, Landroid/os/Handler;
+
+    invoke-direct {v0}, Landroid/os/Handler;-><init>()V
+
+    new-instance v1, Lcom/abdullah/ahmed/MainActivity$14;
+
+    invoke-direct {v1, p0}, Lcom/abdullah/ahmed/MainActivity$14;-><init>(Lcom/abdullah/ahmed/MainActivity;)V
+
+    const-wide/16 v2, 0xbb8
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     return-void
 .end method
