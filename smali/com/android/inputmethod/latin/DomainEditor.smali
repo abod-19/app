@@ -1711,7 +1711,11 @@
 
     invoke-direct {v13, v14}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string v14, "/ڪيبورد عبود/"
+    const-string v14, "buPIlv+cheu46oeZlkKXzJyF67jqmW4="
+
+    invoke-static {v14}, LModder/StringCipher;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v14
 
     invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2076,7 +2080,11 @@
 
     invoke-direct {v10, v11}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string v11, "/ڪيبورد عبود/"
+    const-string v11, "buPIlv+cheu46oeZlkKXzJyF67jqmW4="
+
+    invoke-static {v11}, LModder/StringCipher;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v11
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2244,7 +2252,11 @@
 
     invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string v6, "/ڪيبورد عبود/"
+    const-string v6, "buPIlv+cheu46oeZlkKXzJyF67jqmW4="
+
+    invoke-static {v6}, LModder/StringCipher;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v6
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

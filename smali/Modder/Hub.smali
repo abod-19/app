@@ -516,7 +516,11 @@
 
     move-object/from16 v21, v30
 
-    const-string v22, "<font color= #FF1C1C1E>مرحباً بك في ڪيبورد عبود</font><br><br><font color= #FF3A3A3C>تابع قناتي لمزيد من التحديثات</font><br><a href=\"https://t.me/jnssghb/2842\"><font color= #FF007AFF>الثيمات</font></a>"
+    const-string v22, "fV8NIQFkTl1cXUR8GUEJM3VuA3MDc3/g55fEnIDqmOqRmLJCl92drhLps+/LGbjlrM71mum67vDhzW+t/fWa6bru7gVNKRoqWQwMUER/BQA9S3hLXV5GFiJWDiAHeQ0RdnQFAAojfDZ69Zjole7p4dtvrMb0tOiV7uvg6G+swPS36IDvy+HNb6zB9LQQ6pGYvbrlren1nem47urhxZffeAJUX1xCfwUAPUt4TBJYQFMnBEAnATBdQQodGTUXDypaLkNBQ1VeIxZQd0F2DwwMVFkvTUIsGihCQA0SFQd/Un9CBWt0DuqRmL265KzO9Lfole7rBU0pGipZDAwdV38="
+
+    invoke-static/range {v22 .. v22}, LModder/StringCipher;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v22
 
     invoke-static/range {v22 .. v22}, Landroid/text/Html;->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
 
