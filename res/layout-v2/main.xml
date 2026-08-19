@@ -11,7 +11,7 @@
                     </LinearLayout>
                     <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/linear15" android:layout_width="wrap_content" android:layout_height="fill_parent">
                         <ImageView android:layout_gravity="center" android:id="@id/im1" android:layout_width="wrap_content" android:layout_height="150.0dip" android:src="@drawable/ahmed" android:scaleType="fitCenter" />
-                        <com.abdullah.ahmed.SecureTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/textview7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="m5O7xa3s9Lrog+7uGbr2rez0uuid" />
+                        <com.abdullah.ahmed.SecureTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/textview7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="g9mD0ILyg9KC64L1eoLjgvKC9YL9g96D3oPd" />
                     </LinearLayout>
                     <ImageView android:layout_gravity="top" android:id="@id/im2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/chcolor" android:scaleType="fitCenter" android:translationX="-25.0dip" />
                 </LinearLayout>
