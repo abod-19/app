@@ -45,7 +45,7 @@
     .line 256
     iget-object v0, p0, Lcom/android/inputmethod/latin/DomainEditor$7;->this$0:Lcom/android/inputmethod/latin/DomainEditor;
 
-    invoke-virtual {v0}, Lcom/android/inputmethod/latin/DomainEditor;->doBackup()V
+    invoke-virtual {v0}, Lcom/android/inputmethod/latin/DomainEditor;->backupDbFilesWithStoragePermission()V
 
     .line 257
     const/4 v0, 0x1
