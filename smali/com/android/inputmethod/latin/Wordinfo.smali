@@ -451,9 +451,21 @@
 
     .line 71
     .local v0, "r":Ljava/lang/String;
-    const-string v2, "Abdullah"
+    const-string v2, "8J+HvvCfh6rig6Twk4apIEFiZHVsbGFoINmhOSDwk4aq"
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    const/4 v3, 0x0
+
+    invoke-static {v2, v3}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+
+    move-result-object v2
+
+    new-instance v3, Ljava/lang/String;
+
+    const-string v4, "UTF-8"
+
+    invoke-direct {v3, v2, v4}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
+
+    invoke-virtual {v0, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
 
