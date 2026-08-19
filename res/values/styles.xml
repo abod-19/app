@@ -29,4 +29,9 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+    <style name="ProfessionalDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_professional_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_professional_exit</item>
+    </style>
 </resources>

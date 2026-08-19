@@ -1069,6 +1069,8 @@
     <public type="anim" name="silde_right_adpt" id="0x7f040009" />
     <public type="anim" name="slide_up" id="0x7f04000a" />
     <public type="anim" name="slide_up_l1" id="0x7f04000b" />
+    <public type="anim" name="dialog_professional_enter" id="0x7f04000c" />
+    <public type="anim" name="dialog_professional_exit" id="0x7f04000d" />
     <public type="xml" name="color_layout" id="0x7f050000" />
     <public type="xml" name="dictionaries" id="0x7f050001" />
     <public type="xml" name="dictionary" id="0x7f050002" />
@@ -1957,6 +1959,7 @@
     <public type="style" name="TextSmall" id="0x7f0e0003" />
     <public type="style" name="AHTheme" id="0x7f0e0004" />
     <public type="style" name="NoActionBar" id="0x7f0e0005" />
+    <public type="style" name="ProfessionalDialogAnimation" id="0x7f0e0006" />
     <public type="font" name="al8dar_font" id="0x7f0f0000" />
     <public type="font" name="al8dar_font2" id="0x7f0f0001" />
     <public type="font" name="al8dar_font3" id="0x7f0f0002" />
