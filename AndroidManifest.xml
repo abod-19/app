@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:compileSdkVersion="33"
-    android:compileSdkVersionCodename="13"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
     package="inputmethod.latin.perfectkeyboard"
-    platformBuildVersionCode="33"
-    platformBuildVersionName="13">
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12">
 
     <original-package android:name="com.android.inputmethod.latin" />
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="33" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-
-    <!-- Storage permissions: deprecated on Android 13+, use media-specific permissions for API 33+ -->
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
     <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <supports-screens
         android:anyDensity="true"
